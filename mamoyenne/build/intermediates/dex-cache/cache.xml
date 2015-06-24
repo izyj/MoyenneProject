@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\ESGI\semestre2\Android\mamoyenne1\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ecf2d37e99d6af86305b22ed39c8a29b4446990b.jar" />
+    </item>
+    <item
+        jar="D:\ESGI\semestre2\Android\mamoyenne1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\ESGI\semestre2\Android\mamoyenne1\app\build\intermediates\pre-dexed\debug\classes-ce6213e713754517e4af6e98d46faa9c72137c07.jar" />
+    </item>
+    <item
+        jar="D:\ESGI\semestre2\Android\mamoyenne1\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\ESGI\semestre2\Android\mamoyenne1\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-e74c63e70b8b56969b9008e680a763bdb986ab99.jar" />
+    </item>
+    <item
+        jar="D:\ESGI\semestre2\Android\mamoyenne1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\ESGI\semestre2\Android\mamoyenne1\app\build\intermediates\pre-dexed\debug\classes-0fb33c8b9c5a141cd00ef8764fe036886e05c13e.jar" />
+    </item>
+
+</items>
