@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- CHAINE DE CONFIGURATION VITALE -->
     <string name="app_name">mamoyenne</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <!-- PRESENTATION FRAGMENT -->
+    <string name="title_Application">Direct Moyenne</string>
+
+    <!-- FORMULAIRE MATIERES FRAGMENT -->
+
+    <!-- FORMULAIRE NOTES FRAGMENT -->
+
+    <!-- ... FRAGMENT -->
 
 </resources>
