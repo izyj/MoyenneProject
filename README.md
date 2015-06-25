@@ -40,4 +40,7 @@ Vérifier que l'ajout de note fonctionne : [logo]:https://github.com/izyj/Moyenn
 
 Vérifier que la moyenne par matière est correcte : [logo]:https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png "KO"
 
-Vérifier que la moyenne de toutes les matières est correcte : [logo]:https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png "KO"
+Vérifier que la moyenne de toutes les matières est correcte : 
+![alt text][logoko]
+
+[logoko]:https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png "KO"
