@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
 			public void onClick(View v) {
 				manager = getFragmentManager();
 				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,new FirstFragment());
+				transaction.replace(R.id.container,new FormAddMatiereFragment());
 				transaction.commit();
                 /* Ajout en Base de donnees */
 				CharSequence str = "Add new matiere";
@@ -54,6 +54,11 @@ public class MainActivity extends ActionBarActivity {
 		bt_note.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
+				manager = getFragmentManager();
+				transaction = manager.beginTransaction();
+				transaction.replace(R.id.container,new FormAddNoteFragment());
+				transaction.commit();
+
 				/**
 				 * Ajout en Base de donnees
 				 */
@@ -97,6 +102,10 @@ public class MainActivity extends ActionBarActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 			case R.id.consult:
+				manager = getFragmentManager();
+				transaction = manager.beginTransaction();
+				transaction.replace(R.id.container,new FormConsultFragment());
+				transaction.commit();
 				Toast.makeText(this, "Consultation", Toast.LENGTH_SHORT)
 						.show();
 				break;
