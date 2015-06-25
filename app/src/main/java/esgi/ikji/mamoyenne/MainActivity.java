@@ -1,61 +1,132 @@
 package esgi.ikji.mamoyenne;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.os.Build;
+import android.view.Window;
+import android.widget.Button;
+import android.widget.Toast;
+
+
+import java.lang.reflect.Method;
 
 public class MainActivity extends ActionBarActivity {
-
+	FragmentManager manager;
+	FragmentTransaction transaction;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		if (savedInstanceState == null) {
-			getSupportFragmentManager().beginTransaction()
-					.add(R.id.container, new PlaceholderFragment()).commit();
-		}
-	}
+		manager = getFragmentManager();
+		transaction = manager.beginTransaction();
 
+		transaction.replace(R.id.container,new PresentationFragment());
+		transaction.commit();
+
+		getSupportActionBar().setIcon(R.drawable.ic_launcher);
+		getSupportActionBar().setDisplayShowTitleEnabled(false);
+		getSupportActionBar().setHomeButtonEnabled(false);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+
+        /* MENU A DROITE --- CONTROLES DES BOUTONS */
+        /* Traitement Ajout de matiere */
+		Button bt_matiere = (Button) findViewById(R.id.btNewMatiere);
+		bt_matiere.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				manager = getFragmentManager();
+				transaction = manager.beginTransaction();
+				transaction.replace(R.id.container,new FirstFragment());
+				transaction.commit();
+                /* Ajout en Base de donnees */
+				CharSequence str = "Add new matiere";
+				Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+			}
+		});
+
+		/**
+		 * Traitement Ajout de note
+		 */
+		Button bt_note = (Button) findViewById(R.id.btNewNote);
+		bt_note.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				/**
+				 * Ajout en Base de donnees
+				 */
+				CharSequence str = "Add new note";
+				Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+			}
+		});
+
+		/**
+		 * Traitement Suppression données
+		 */
+		Button bt_del = (Button) findViewById(R.id.btDeleteAll);
+		bt_del.setOnClickListener(new View.OnClickListener() {
+
+			public void onClick(View v) {
+				/**
+				 * Suppression en Base de donnees
+				 */
+				CharSequence str = "Delete all data";
+				Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+			}
+		});
+
+
+
+
+
+	}
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+	public boolean onCreateOptionsMenu(android.view.Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.menu_main, menu);
 		return true;
 	}
 
+	/* ACTION BAR ------ CONTROLES DES BOUTONS */
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+		switch (item.getItemId()) {
+			case R.id.consult:
+				Toast.makeText(this, "Consultation", Toast.LENGTH_SHORT)
+						.show();
+				break;
+			case R.id.bymatiere:
+				Toast.makeText(this, "Consultation par matiere", Toast.LENGTH_SHORT)
+						.show();
+				break;
+			case R.id.bynote:
+				Toast.makeText(this, "Consultation par note", Toast.LENGTH_SHORT)
+						.show();
+				break;
+			default:
+				break;
 		}
-		return super.onOptionsItemSelected(item);
+
+		return true;
 	}
+	@Override
+	public boolean onMenuOpened(int featureId, android.view.Menu menu) {
+		if (featureId == Window.FEATURE_ACTION_BAR && menu != null) {
+			if (menu.getClass().getSimpleName().equals("MenuBuilder")) {
+				try {
+					Method m = menu.getClass().getDeclaredMethod(
+							"setOptionalIconsVisible", Boolean.TYPE);
+					m.setAccessible(true);
+					m.invoke(menu, true);
+				} catch (NoSuchMethodException e) {
 
-	/**
-	 * A placeholder fragment containing a simple view.
-	 */
-	public static class PlaceholderFragment extends Fragment {
-
-		public PlaceholderFragment() {
+				} catch (Exception e) {
+					throw new RuntimeException(e);
+				}
+			}
 		}
-
-		@Override
-		public View onCreateView(LayoutInflater inflater, ViewGroup container,
-				Bundle savedInstanceState) {
-			View rootView = inflater.inflate(R.layout.fragment_main, container,
-					false);
-			return rootView;
-		}
+		return super.onMenuOpened(featureId, menu);
 	}
 }

@@ -1,9 +1,62 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="esgi.ikji.mamoyenne.MainActivity"
-    tools:ignore="MergeRootFrame" />
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nouvelle note"
+        android:id="@+id/btNewNote"
+        android:onClick="OC_BT_Add_Note"
+        android:layout_below="@+id/btNewMatiere"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="61dp"
+        android:textSize="9dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nouvelle matiere"
+        android:id="@+id/btNewMatiere"
+        android:onClick="OC_BT_Add_Matiere"
+        android:layout_marginTop="53dp"
+        android:textSize="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btNewNote"
+        android:layout_alignEnd="@+id/btNewNote" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supprimer tout"
+        android:id="@+id/btDeleteAll"
+        android:onClick="OC_BT_Delete_All"
+        android:layout_marginTop="84dp"
+        android:textSize="9dp"
+        android:layout_below="@+id/btNewNote"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btNewNote"
+        android:layout_alignEnd="@+id/btNewNote" />
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:background="#1442ae"
+        android:id="@+id/view"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btNewNote"
+        android:layout_toEndOf="@+id/btNewNote" />
 
-<!-- From: file:/D:/ESGI/semestre2/Android/mamoyenne1/app/src/main/res/layout/activity_main.xml -->
+
+
+</RelativeLayout>
+
+<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/activity_main.xml -->
