@@ -1,7 +1,7 @@
 # MoyenneProject
 Application Android calculant la moyenne de plusieurs matieres
 
-```html
+
 ## Fragments
 
 Mettre en place le système de changement de Fragments sur l'activité principale : OK
@@ -40,5 +40,4 @@ Vérifier que l'ajout de note fonctionne : KO
 
 Vérifier que la moyenne par matière est correcte : KO
 
-Vérifier que la moyenne de toutes les matières est correcte : <span style="color:red">KO</span>
-```
+Vérifier que la moyenne de toutes les matières est correcte : KO
