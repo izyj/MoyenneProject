@@ -69,6 +69,9 @@ public class MainActivity extends ActionBarActivity {
 		bt_del.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
+
+				
+
 				/**
 				 * Suppression en Base de donnees
 				 */
