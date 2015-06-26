@@ -6,9 +6,9 @@ Application Android calculant la moyenne de plusieurs matieres
 
 Mettre en place le système de changement de Fragments sur l'activité principale : ![alt text][logook]
 
-Créer le formulaire statique pour les matières : ![alt text][logokook]
+Créer le formulaire statique pour les matières : ![alt text][logook]
 
-Créer le formulaire statique pour les notes : ![alt text][logokook]
+Créer le formulaire statique pour les notes : ![alt text][logook]
 
 Créer le tableau pour la consultation statique : ![alt text][logokook]
 
@@ -22,7 +22,7 @@ Mettre comme fragment initial, le logo en haut à gauche de l'application : ![al
 
 Créer la base de données : ![alt text][logook]
 
-Créer les requêtes ajout, modification et suppression d'une note et d'une matière : ![alt text][logook]
+Créer les requêtes ajout, modification et suppression d'une note et d'une matière : ![alt text][logokook]
 
 Tester le bon fonctionnement de création de matières et notes : ![alt text][logokook]
 
