@@ -45,7 +45,7 @@ public class MatiereDAO {
      * Ajout d'une matiere dans la BDD
      * @param mat
      */
-    public Matiere CreateMatiere(Matiere mat){
+    public Matiere addMatiere(Matiere mat){
         ContentValues values = new ContentValues();
         values.put(MySQLiteHelper.MATIERE_NAME, mat.getNomMatiere());
         values.put(MySQLiteHelper.MATIERE_COEF, mat.getCoeficient());

@@ -9,9 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import esgi.ikji.mamoyenne.DAO.MatiereDAO;
+import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
+import esgi.ikji.mamoyenne.Modele.Matiere;
+
 public class FormAddMatiereFragment extends Fragment {
     EditText nameMatFromForm,coefMatFromForm;
-
+    final MySQLiteHelper db = new MySQLiteHelper(getActivity());
     public FormAddMatiereFragment() {
     }
     @Override
@@ -26,7 +30,7 @@ public class FormAddMatiereFragment extends Fragment {
 
 
        // EVENEMENT " ENREGISTRER "
-        
+
         Button bt_matiere = (Button) v.findViewById(R.id.btSaveMatiere);
         bt_matiere.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -35,8 +39,12 @@ public class FormAddMatiereFragment extends Fragment {
                     Toast.makeText(getActivity().getApplicationContext(), "Erreur Coefficient", Toast.LENGTH_SHORT).show();
                 }else{
                     /* Ajout en Base de donnees */
-                    CharSequence str = "Ajout de "+ nameMatFromForm.getText() + " Coef "+coefMatFromForm.getText();
-                    Toast.makeText(getActivity().getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+                    final MatiereDAO tbMat = new MatiereDAO(getActivity());
+                    Matiere ma = new Matiere(nameMatFromForm.getText().toString(),Integer.parseInt(coefMatFromForm.getText().toString()));
+                    tbMat.addMatiere(ma);
+
+                    //CharSequence str = tbMat.getMatiere(0).getNomMatiere().toString();
+                    //Toast.makeText(getActivity().getApplicationContext(), str, Toast.LENGTH_SHORT).show();
                 }
             }
         });

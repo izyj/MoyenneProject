@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import java.lang.reflect.Method;
 
+import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
+
 public class MainActivity extends ActionBarActivity {
 	FragmentManager manager;
 	FragmentTransaction transaction;
@@ -21,18 +23,23 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		// INITIALISE DATABASE
+		MySQLiteHelper db = new MySQLiteHelper(this);
+
+		// INSTANCIATE FRAGMENT MANAGER
 		manager = getFragmentManager();
 		transaction = manager.beginTransaction();
-
 		transaction.replace(R.id.container,new PresentationFragment());
 		transaction.commit();
 
+		// CONFIGURE ACTION BAR
 		getSupportActionBar().setIcon(R.drawable.ic_launcher);
 		getSupportActionBar().setDisplayShowTitleEnabled(false);
 		getSupportActionBar().setHomeButtonEnabled(false);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
-        /* MENU A DROITE --- CONTROLES DES BOUTONS */
+        /* RIGHT MENU --- BUTTONS CONTROLS */
         /* Traitement Ajout de matiere */
 		Button bt_matiere = (Button) findViewById(R.id.btNewMatiere);
 		bt_matiere.setOnClickListener(new View.OnClickListener() {

@@ -12,14 +12,16 @@ public class Matiere {
     private int coeficient;
     private ArrayList<Note> notes;
 
-
     public Matiere() {
     }
     public Matiere(int id) {
         this.id = id;
 
     }
-
+    public Matiere(String nom,int coef){
+        this.nomMatiere = nom;
+        this.coeficient = coef;
+    }
     public Matiere(int id, String nomMatiere,int coef, ArrayList<Note> notes) {
         this.id = id;
         this.nomMatiere = nomMatiere;
