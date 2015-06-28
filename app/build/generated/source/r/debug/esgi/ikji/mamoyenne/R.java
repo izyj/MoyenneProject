@@ -1428,11 +1428,17 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int activity_main=0x7f030017;
+<<<<<<< HEAD
+        public static final int fragment_first=0x7f030018;
+        public static final int fragment_presentation=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+=======
         public static final int fragment_formaddmatierefragment=0x7f030018;
         public static final int fragment_formaddnotefragment=0x7f030019;
         public static final int fragment_formconsultfragment=0x7f03001a;
         public static final int fragment_presentation=0x7f03001b;
         public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+>>>>>>> 0ea06e75332e48aa0739e7a76f52caf5762a56db
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
