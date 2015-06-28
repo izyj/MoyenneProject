@@ -34,9 +34,9 @@ Créer et mettre les couleurs dans le fichier "color.xml" : ![alt text][logoko]
 
 ## Fonctionnalités
 
-Vérifier que l'ajout de matière fonctionne : ![alt text][logoko]
+Vérifier que l'ajout de matière fonctionne : ![alt text][logokook]
 
-Vérifier que l'ajout de note fonctionne : ![alt text][logoko]
+Vérifier que l'ajout de note fonctionne : ![alt text][logokook]
 
 Vérifier que la moyenne par matière est correcte : ![alt text][logoko]
 
