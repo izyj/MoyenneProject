@@ -5,6 +5,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
+
+import java.util.List;
+
+import esgi.ikji.mamoyenne.DAO.MatiereDAO;
+import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
+import esgi.ikji.mamoyenne.Modele.Matiere;
 
 
 public class PresentationFragment extends Fragment {

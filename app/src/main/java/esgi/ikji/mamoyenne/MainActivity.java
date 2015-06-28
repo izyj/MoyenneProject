@@ -14,32 +14,38 @@ import android.widget.Toast;
 
 import java.lang.reflect.Method;
 
+import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
+
 public class MainActivity extends ActionBarActivity {
 	FragmentManager manager;
 	FragmentTransaction transaction;
+	// INITIALISE DATABASE
+	final MySQLiteHelper db = new MySQLiteHelper(this);
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		// INSTANCIATE FRAGMENT MANAGER
 		manager = getFragmentManager();
 		transaction = manager.beginTransaction();
-
 		transaction.replace(R.id.container,new PresentationFragment());
 		transaction.commit();
 
+		// CONFIGURE ACTION BAR
 		getSupportActionBar().setIcon(R.drawable.ic_launcher);
 		getSupportActionBar().setDisplayShowTitleEnabled(false);
 		getSupportActionBar().setHomeButtonEnabled(false);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
-        /* MENU A DROITE --- CONTROLES DES BOUTONS */
+        /* RIGHT MENU --- BUTTONS CONTROLS */
         /* Traitement Ajout de matiere */
 		Button bt_matiere = (Button) findViewById(R.id.btNewMatiere);
 		bt_matiere.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				manager = getFragmentManager();
 				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,new FirstFragment());
+				transaction.replace(R.id.container,new FormAddMatiereFragment());
 				transaction.commit();
                 /* Ajout en Base de donnees */
 				CharSequence str = "Add new matiere";
@@ -54,6 +60,11 @@ public class MainActivity extends ActionBarActivity {
 		bt_note.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
+				manager = getFragmentManager();
+				transaction = manager.beginTransaction();
+				transaction.replace(R.id.container,new FormAddNoteFragment());
+				transaction.commit();
+
 				/**
 				 * Ajout en Base de donnees
 				 */
@@ -97,6 +108,10 @@ public class MainActivity extends ActionBarActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 			case R.id.consult:
+				manager = getFragmentManager();
+				transaction = manager.beginTransaction();
+				transaction.replace(R.id.container,new FormConsultFragment());
+				transaction.commit();
 				Toast.makeText(this, "Consultation", Toast.LENGTH_SHORT)
 						.show();
 				break;

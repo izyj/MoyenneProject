@@ -43,7 +43,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
                 NOTE_ID +" INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 NOTE_ID_MATIERE+" INTEGER, "+
                 NOTE_VALUE+" REAL, "+
-                "FOREIGN KEY(id_mat) REFERENCES Matiere(id) )";
+                "FOREIGN KEY(note_id_matiere) REFERENCES Matiere(matiere_id) )";
         // create books table
         db.execSQL(CREATE_MATIERE_TABLE);
         db.execSQL(CREATE_NOTE_TABLE);
