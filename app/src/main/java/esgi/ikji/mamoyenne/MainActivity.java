@@ -19,13 +19,12 @@ import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
 public class MainActivity extends ActionBarActivity {
 	FragmentManager manager;
 	FragmentTransaction transaction;
+	// INITIALISE DATABASE
+	final MySQLiteHelper db = new MySQLiteHelper(this);
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		// INITIALISE DATABASE
-		MySQLiteHelper db = new MySQLiteHelper(this);
 
 		// INSTANCIATE FRAGMENT MANAGER
 		manager = getFragmentManager();

@@ -33,11 +33,11 @@ public class MatiereDAO {
     public MatiereDAO(Context context) {
         dbHelper = new MySQLiteHelper(context);
     }
-    public void open() throws SQLException {
+    public void open() throws SQLException,Exception {
         database = dbHelper.getWritableDatabase();
     }
 
-    public void close() {
+    public void close()throws SQLException,Exception  {
         dbHelper.close();
     }
 
@@ -45,18 +45,19 @@ public class MatiereDAO {
      * Ajout d'une matiere dans la BDD
      * @param mat
      */
-    public Matiere addMatiere(Matiere mat){
+    public Matiere addMatiere(Matiere mat) throws Exception{
+        this.open();
         ContentValues values = new ContentValues();
         values.put(MySQLiteHelper.MATIERE_NAME, mat.getNomMatiere());
         values.put(MySQLiteHelper.MATIERE_COEF, mat.getCoeficient());
-        long insertId = database.insert(MySQLiteHelper.TABLE_MATIERE, null,
-                values);
+        long insertId = database.insert(MySQLiteHelper.TABLE_MATIERE, null, values);
         Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,
                 allColumns, MySQLiteHelper.MATIERE_ID + " = " + insertId, null,
                 null, null, null);
         cursor.moveToFirst();
         Matiere matiere = cursorToMatiere(cursor);
         cursor.close();
+        close();
         return matiere;
     }
 
@@ -72,18 +73,19 @@ public class MatiereDAO {
     }
 
 
-    public void deleteMatiere(Matiere matiere) {
+    public void deleteMatiere(Matiere matiere)  throws Exception {
+        this.open();
         long id = matiere.getId();
         System.out.println("Comment deleted with id: " + id);
         database.delete(MySQLiteHelper.TABLE_MATIERE, MySQLiteHelper.MATIERE_ID
                 + " = " + id, null);
+        close();
     }
 
-    public List<Matiere> getAllMatieres() {
+    public List<Matiere> getAllMatieres()  throws Exception {
         List<Matiere> matieres = new ArrayList<Matiere>();
-
-        Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,
-                allColumns, null, null, null, null, null);
+        this.open();
+        Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,allColumns, null, null, null, null, null);
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
@@ -93,14 +95,16 @@ public class MatiereDAO {
         }
         // assurez-vous de la fermeture du curseur
         cursor.close();
+        close();
         return matieres;
     }
 
-    public Matiere getMatiere(int  id) {
+    public Matiere getMatiere(String nom)  throws Exception {
         Matiere matiere = null;
+        this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,
-                allColumns," id = ?", // c. selections
-                new String[] { String.valueOf(id) }, null, null, null);
+                allColumns,MySQLiteHelper.MATIERE_NAME+" = ?", // c. selections
+                new String[] { nom }, null, null, null);
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
@@ -109,6 +113,7 @@ public class MatiereDAO {
         }
         // assurez-vous de la fermeture du curseur
         cursor.close();
+        close();
         return matiere;
     }
 

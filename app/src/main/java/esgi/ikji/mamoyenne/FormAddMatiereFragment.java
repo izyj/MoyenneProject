@@ -41,7 +41,11 @@ public class FormAddMatiereFragment extends Fragment {
                     /* Ajout en Base de donnees */
                     final MatiereDAO tbMat = new MatiereDAO(getActivity());
                     Matiere ma = new Matiere(nameMatFromForm.getText().toString(),Integer.parseInt(coefMatFromForm.getText().toString()));
-                    tbMat.addMatiere(ma);
+                    try {
+                        tbMat.addMatiere(ma);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
 
                     //CharSequence str = tbMat.getMatiere(0).getNomMatiere().toString();
                     //Toast.makeText(getActivity().getApplicationContext(), str, Toast.LENGTH_SHORT).show();

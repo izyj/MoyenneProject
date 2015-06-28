@@ -27,6 +27,8 @@ public class NoteDAO {
     public NoteDAO(Context context) {
         dbHelper = new MySQLiteHelper(context);
     }
+
+
     public void open() throws SQLException {
         database = dbHelper.getWritableDatabase();
     }
@@ -39,7 +41,8 @@ public class NoteDAO {
      * Ajout d'une matiere dans la BDD
      * @param note
      */
-    public Note CreateNote(Note note){
+    public Note addNote(Note note) throws SQLException{
+        this.open();
         ContentValues values = new ContentValues();
         values.put(MySQLiteHelper.NOTE_VALUE, note.getValue());
         values.put(MySQLiteHelper.NOTE_ID_MATIERE, note.getMatiere().getId());
@@ -52,31 +55,31 @@ public class NoteDAO {
         cursor.moveToFirst();
         Note rep = cursorToNote(cursor);
         cursor.close();
+        close();
         return rep;
     }
-
-
-
 
     private Note cursorToNote(Cursor cursor) {
         Note note = new Note();
         note.setId(cursor.getInt(0));
         note.setMatiere(new Matiere(cursor.getInt(1)));
-        note.setValue(cursor.getInt(2));
+        note.setValue(cursor.getString(2));
         return note;
     }
 
 
-    public void deleteNote(Note note) {
+    public void deleteNote(Note note) throws SQLException{
+        this.open();
         long id = note.getId();
         System.out.println("Comment deleted with id: " + id);
         database.delete(MySQLiteHelper.TABLE_NOTE, MySQLiteHelper.NOTE_ID
                 + " = " + id, null);
+        close();
     }
 
-    public List<Note> getAllNote() {
+    public List<Note> getAllNote() throws SQLException{
         List<Note> notes = new ArrayList<Note>();
-
+        this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_NOTE,
                 allColumns, null, null, null, null, null);
 
@@ -88,10 +91,12 @@ public class NoteDAO {
         }
         // assurez-vous de la fermeture du curseur
         cursor.close();
+        close();
         return notes;
     }
 
-    public Note getNote(int  id) {
+    public Note getNote(int  id) throws SQLException{
+        this.open();
         Note note = null;
         Cursor cursor = database.query(MySQLiteHelper.TABLE_NOTE,
                 allColumns," id = ?", // c. selections
@@ -104,6 +109,7 @@ public class NoteDAO {
         }
         // assurez-vous de la fermeture du curseur
         cursor.close();
+        close();
         return note;
     }
 }

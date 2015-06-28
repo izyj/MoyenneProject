@@ -6,17 +6,18 @@ package esgi.ikji.mamoyenne.Modele;
 public class Note {
 
     private int id;
-    private float value;
+    private String value;
     private Matiere matiere;
+    private int coef;
 
 
     public Note() {
     }
-
-    public Note(int id, float value, Matiere matiere) {
-        this.id = id;
+    public Note(String _value, Matiere _m,int _coef){
         this.value = value;
-        this.matiere = matiere;
+        this.matiere = _m;
+        this.coef = _coef;
+
     }
 
     public int getId() {
@@ -27,11 +28,11 @@ public class Note {
         this.id = id;
     }
 
-    public float getValue() {
+    public String getValue() {
         return value;
     }
 
-    public void setValue(float note) {
+    public void setValue(String note) {
         this.value = note;
     }
 
