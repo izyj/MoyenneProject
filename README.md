@@ -10,15 +10,15 @@ Créer le formulaire statique pour les matières : ![alt text][logook]  IVAN
 
 Créer le formulaire statique pour les notes : ![alt text][logook]  IVAN
 
-Créer le tableau pour la consultation statique : ![alt text][logokook]  IVAN
+Créer le tableau pour la consultation : ![alt text][logokook]  IVAN
 
 Créer le formulaire de modification d'une matière : ![alt text][logokook]  JONATHAN
 
 Créer le formulaire de modification d'une note : ![alt text][logokook]  JONATHAN
 
-Créer le tableau pour la consultation par matière statique : ![alt text][logoko]  IVAN
+Créer le tableau pour la consultation par matière : ![alt text][logoko]  IVAN
 
-Créer le tableau pour la consultation par note statique : ![alt text][logoko]  IVAN
+Créer le tableau pour la consultation par note : ![alt text][logoko]  IVAN
 
 Mettre comme fragment initial, le logo en haut à gauche de l'application : ![alt text][logoko]
 
