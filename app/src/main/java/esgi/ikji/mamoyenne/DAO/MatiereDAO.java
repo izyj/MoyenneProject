@@ -91,15 +91,8 @@ public class MatiereDAO {
         close();
     }
 
-<<<<<<< HEAD
     public ArrayList<Matiere> getAllMatieres()  throws Exception {
         ArrayList<Matiere> matieres = new ArrayList<Matiere>();
-=======
-
-
-    public List<Matiere> getAllMatieres()  throws Exception {
-        List<Matiere> matieres = new ArrayList<Matiere>();
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
         this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,allColumns, null, null, null, null, null);
 
