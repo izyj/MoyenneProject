@@ -40,13 +40,13 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
      */
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        //Création de la vue si elle existe pas
+        //Creation de la vue si elle existe pas
         if (convertView == null) {
             LayoutInflater inflater = LayoutInflater.from(mContext);
             convertView = inflater.inflate(layoutResourceId, parent, false);
         }
 
-        // Récuparation de la matiere
+        // Recuparation de la matiere
         Matiere matiere = data.get(position);
 
         // Remplissage des textView avec les données des matières.

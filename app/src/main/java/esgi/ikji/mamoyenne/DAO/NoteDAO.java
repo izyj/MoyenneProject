@@ -100,12 +100,7 @@ public class NoteDAO {
         ArrayList<Note> notes = new ArrayList<Note>();
         this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_NOTE,
-<<<<<<< HEAD
-                allColumns, MySQLiteHelper.NOTE_ID_MATIERE, new String[]{matiere.getNomMatiere()}, null, null, null);
-=======
-                allColumns,MySQLiteHelper.NOTE_ID +"= ?", // c. selections
-                new String[] { String.valueOf(id) }, null, null, null);
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
+        allColumns, MySQLiteHelper.NOTE_ID_MATIERE, new String[]{matiere.getNomMatiere()}, null, null, null);
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
@@ -126,17 +121,6 @@ public class NoteDAO {
         System.out.println("Comment updated with id: " + note.getId());
         database.update(MySQLiteHelper.TABLE_NOTE, values, MySQLiteHelper.NOTE_ID
                 + " = ?", selectionArgs);
-        close();
-    }
-
-    public void updateNote(Note note)  throws Exception {
-        this.open();
-        ContentValues values = new ContentValues();
-        values.put(MySQLiteHelper.NOTE_ID_MATIERE, note.getValue());
-        String[] selectionArgs = { Integer.toString(note.getId()) };
-        System.out.println("Comment deleted with id: " + note.getId());
-        database.update(MySQLiteHelper.TABLE_NOTE,values, MySQLiteHelper.NOTE_ID
-                + " = ?" , selectionArgs);
         close();
     }
 }
