@@ -14,7 +14,7 @@ public class Note {
     public Note() {
     }
     public Note(String _value, Matiere _m,int _coef){
-        this.value = value;
+        this.value = _value;
         this.matiere = _m;
         this.coef = _coef;
 
@@ -42,5 +42,13 @@ public class Note {
 
     public void setMatiere(Matiere matiere) {
         this.matiere = matiere;
+    }
+
+    public int getCoef(){
+        return coef;
+    }
+
+    public void setNote(Note n) {
+        this.coef = coef;
     }
 }

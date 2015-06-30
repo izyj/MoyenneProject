@@ -62,7 +62,8 @@ public class FormAddNoteFragment extends Fragment {
                     final MatiereDAO handlerMatiere= new MatiereDAO(getActivity());
 
                     try {
-                        Note no = new Note(nameNoteFromForm.getText().toString(),handlerMatiere.getMatiere(listMat.getSelectedItem().toString()),Integer.parseInt(coefNoteFromForm.getText().toString()));
+                        String nameMatiere = listMat.getSelectedItem().toString();
+                        Note no = new Note(nameNoteFromForm.getText().toString(),handlerMatiere.getMatiereByName(nameMatiere),Integer.parseInt(coefNoteFromForm.getText().toString()));
                         tbNote.addNote(no);
                     } catch (Exception e) {
                         e.printStackTrace();

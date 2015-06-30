@@ -23,6 +23,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
     public static  final String NOTE_ID     ="note_id";
     public static  final String NOTE_ID_MATIERE ="note_id_matiere";
     public static  final String NOTE_VALUE ="note_value";
+    public static  final String NOTE_COEF ="note_coef";
     // Version
     private static final int DATABASE_VERSION = 1;
 
@@ -42,7 +43,8 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
         String CREATE_NOTE_TABLE = "CREATE TABLE "+TABLE_NOTE +"( " +
                 NOTE_ID +" INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 NOTE_ID_MATIERE+" INTEGER, "+
-                NOTE_VALUE+" REAL, "+
+                NOTE_VALUE+" TEXT, "+
+                NOTE_COEF+" INTEGER "+
                 "FOREIGN KEY(note_id_matiere) REFERENCES Matiere(matiere_id) )";
         // create books table
         db.execSQL(CREATE_MATIERE_TABLE);
