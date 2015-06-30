@@ -26,12 +26,15 @@ public class MatiereDAO {
     // Champs de la base de données
     private SQLiteDatabase database;
     private MySQLiteHelper dbHelper;
+    private Context context;
+
     private String[] allColumns = { MySQLiteHelper.MATIERE_ID,
             MySQLiteHelper.MATIERE_NAME, MySQLiteHelper.MATIERE_COEF };
 
 
     public MatiereDAO(Context context) {
         dbHelper = new MySQLiteHelper(context);
+        this.context = context;
     }
     public void open() throws SQLException,Exception {
         database = dbHelper.getWritableDatabase();
@@ -66,9 +69,15 @@ public class MatiereDAO {
 
     private Matiere cursorToMatiere(Cursor cursor) {
         Matiere matiere = new Matiere();
+        NoteDAO ndao = new NoteDAO(context);
         matiere.setId(cursor.getInt(0));
         matiere.setNomMatiere(cursor.getString(1));
         matiere.setCoeficient(cursor.getInt(2));
+        try {
+            matiere.setNotes(ndao.getAllNoteByMatiere(matiere));
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
         return matiere;
     }
 
@@ -82,8 +91,8 @@ public class MatiereDAO {
         close();
     }
 
-    public List<Matiere> getAllMatieres()  throws Exception {
-        List<Matiere> matieres = new ArrayList<Matiere>();
+    public ArrayList<Matiere> getAllMatieres()  throws Exception {
+        ArrayList<Matiere> matieres = new ArrayList<Matiere>();
         this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,allColumns, null, null, null, null, null);
 
@@ -99,12 +108,29 @@ public class MatiereDAO {
         return matieres;
     }
 
-    public Matiere getMatiere(String nom)  throws Exception {
+    public Matiere getMatiereByName(String nom)  throws Exception {
         Matiere matiere = null;
         this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,
                 allColumns,MySQLiteHelper.MATIERE_NAME+" = ?", // c. selections
                 new String[] { nom }, null, null, null);
+
+        cursor.moveToFirst();
+        while (!cursor.isAfterLast()) {
+            matiere = cursorToMatiere(cursor);
+            cursor.moveToNext();
+        }
+        // assurez-vous de la fermeture du curseur
+        cursor.close();
+        close();
+        return matiere;
+    }
+    public Matiere getMatiere(int id)  throws Exception {
+        Matiere matiere = null;
+        this.open();
+        Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,
+                allColumns," id = ?", // c. selections
+                new String[] { String.valueOf(id) }, null, null, null);
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {

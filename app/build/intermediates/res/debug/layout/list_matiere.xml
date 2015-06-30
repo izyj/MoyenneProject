@@ -1,0 +1,28 @@
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_matiere_name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            style="@style/txt_value_consult" />
+        <TextView
+            android:id="@+id/txt_matiere_coef"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            style="@style/txt_value_consult" />
+        <TextView
+            android:id="@+id/txt_matiere_notes"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            style="@style/txt_value_consult" />
+        <TextView
+            android:id="@+id/txt_matiere_moy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            style="@style/txt_value_consult" />
+    </LinearLayout>
+<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/list_matiere.xml -->
