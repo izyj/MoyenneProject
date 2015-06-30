@@ -15,6 +15,7 @@ import android.widget.Toast;
 import java.lang.reflect.Method;
 
 import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
+import esgi.ikji.mamoyenne.Modele.FormUpdateNote;
 
 public class MainActivity extends ActionBarActivity {
 	FragmentManager manager;
@@ -74,7 +75,7 @@ public class MainActivity extends ActionBarActivity {
 		});
 
 		/**
-		 * Traitement Suppression données
+		 * Traitement Suppression donnï¿½es
 		 */
 		Button bt_del = (Button) findViewById(R.id.btDeleteAll);
 		bt_del.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +92,25 @@ public class MainActivity extends ActionBarActivity {
 			}
 		});
 
+        /**
+         * Traitement modif de note
+         */
+        Button btmodif = (Button) findViewById(R.id.button2);
+        btmodif.setOnClickListener(new View.OnClickListener() {
 
+            public void onClick(View v) {
+                manager = getFragmentManager();
+                transaction = manager.beginTransaction();
+                transaction.replace(R.id.container,new FormUpdateNote());
+                transaction.commit();
+
+                /**
+                 * Ajout en Base de donnees
+                 */
+                CharSequence str = "Add new note";
+                Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
 

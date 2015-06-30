@@ -163,6 +163,7 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">mamoyenne</string>
+<<<<<<< HEAD
     <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <string name="black">#FFF</string>
@@ -170,6 +171,16 @@
     <eat-comment/>
     <string name="title_Application">Direct Moyenne</string>
     <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/styles.xml -->
+=======
+    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <string name="black">#FFF</string>
+    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_Application">Direct Moyenne</string>
+    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/styles.xml -->
+>>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!--

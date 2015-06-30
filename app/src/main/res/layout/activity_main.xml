@@ -55,6 +55,15 @@
         android:layout_toRightOf="@+id/btNewNote"
         android:layout_toEndOf="@+id/btNewNote" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_below="@+id/btDeleteAll"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_toStartOf="@+id/view"
+        android:layout_marginTop="43dp" />
 
 
 </RelativeLayout>
