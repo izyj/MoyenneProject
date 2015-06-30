@@ -95,22 +95,23 @@ public class NoteDAO {
         return notes;
     }
 
-    public Note getNote(int  id) throws SQLException{
+    public ArrayList<Note> getAllNoteByMatiere(Matiere matiere) throws SQLException{
+
+        ArrayList<Note> notes = new ArrayList<Note>();
         this.open();
-        Note note = null;
         Cursor cursor = database.query(MySQLiteHelper.TABLE_NOTE,
-                allColumns,MySQLiteHelper.NOTE_ID +"= ?", // c. selections
-                new String[] { String.valueOf(id) }, null, null, null);
+                allColumns, MySQLiteHelper.NOTE_ID_MATIERE, new String[]{matiere.getNomMatiere()}, null, null, null);
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
-            note = cursorToNote(cursor);
+            Note note1 = cursorToNote(cursor);
+            notes.add(note1);
             cursor.moveToNext();
         }
         // assurez-vous de la fermeture du curseur
         cursor.close();
         close();
-        return note;
+        return notes;
     }
 
     public void updateNote(Note note)  throws Exception {
