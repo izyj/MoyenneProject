@@ -99,7 +99,7 @@ public class NoteDAO {
         this.open();
         Note note = null;
         Cursor cursor = database.query(MySQLiteHelper.TABLE_NOTE,
-                allColumns," id = ?", // c. selections
+                allColumns,MySQLiteHelper.NOTE_ID +"= ?", // c. selections
                 new String[] { String.valueOf(id) }, null, null, null);
 
         cursor.moveToFirst();
@@ -111,5 +111,16 @@ public class NoteDAO {
         cursor.close();
         close();
         return note;
+    }
+
+    public void updateNote(Note note)  throws Exception {
+        this.open();
+        ContentValues values = new ContentValues();
+        values.put(MySQLiteHelper.NOTE_ID_MATIERE, note.getValue());
+        String[] selectionArgs = { Integer.toString(note.getId()) };
+        System.out.println("Comment deleted with id: " + note.getId());
+        database.update(MySQLiteHelper.TABLE_NOTE,values, MySQLiteHelper.NOTE_ID
+                + " = ?" , selectionArgs);
+        close();
     }
 }

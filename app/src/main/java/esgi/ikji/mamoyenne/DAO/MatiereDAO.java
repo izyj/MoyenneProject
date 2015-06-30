@@ -75,12 +75,14 @@ public class MatiereDAO {
 
     public void deleteMatiere(Matiere matiere)  throws Exception {
         this.open();
-        long id = matiere.getId();
-        System.out.println("Comment deleted with id: " + id);
-        database.delete(MySQLiteHelper.TABLE_MATIERE, MySQLiteHelper.MATIERE_ID
-                + " = " + id, null);
+
+        System.out.println("Comment deleted with id: " + matiere.getNomMatiere());
+        database.delete(MySQLiteHelper.TABLE_MATIERE, MySQLiteHelper.MATIERE_NAME
+                + " = " + matiere.getNomMatiere(), null);
         close();
     }
+
+
 
     public List<Matiere> getAllMatieres()  throws Exception {
         List<Matiere> matieres = new ArrayList<Matiere>();
