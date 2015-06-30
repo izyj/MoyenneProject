@@ -21,7 +21,7 @@ public class NoteDAO {
     private SQLiteDatabase database;
     private MySQLiteHelper dbHelper;
     private String[] allColumns = { MySQLiteHelper.NOTE_ID,
-            MySQLiteHelper.NOTE_VALUE, MySQLiteHelper.NOTE_ID_MATIERE };
+            MySQLiteHelper.NOTE_VALUE, MySQLiteHelper.NOTE_ID_MATIERE,MySQLiteHelper.NOTE_COEF };
 
 
     public NoteDAO(Context context) {
@@ -46,6 +46,7 @@ public class NoteDAO {
         ContentValues values = new ContentValues();
         values.put(MySQLiteHelper.NOTE_VALUE, note.getValue());
         values.put(MySQLiteHelper.NOTE_ID_MATIERE, note.getMatiere().getId());
+        values.put(MySQLiteHelper.NOTE_COEF, note.getCoef());
 
         long insertId = database.insert(MySQLiteHelper.TABLE_NOTE, null,
                 values);
@@ -64,6 +65,7 @@ public class NoteDAO {
         note.setId(cursor.getInt(0));
         note.setMatiere(new Matiere(cursor.getInt(1)));
         note.setValue(cursor.getString(2));
+        note.setCoef(cursor.getInt(3));
         return note;
     }
 
@@ -99,12 +101,8 @@ public class NoteDAO {
 
         ArrayList<Note> notes = new ArrayList<Note>();
         this.open();
-        Cursor cursor = database.query(MySQLiteHelper.TABLE_NOTE,
-<<<<<<< HEAD
-                allColumns, MySQLiteHelper.NOTE_ID_MATIERE, new String[]{matiere.getNomMatiere()}, null, null, null);
-=======
-        allColumns, MySQLiteHelper.NOTE_ID_MATIERE, new String[]{matiere.getNomMatiere()}, null, null, null);
->>>>>>> d0cfa9c81ac7b609b994cbe4b0f8ee033665de85
+        Cursor cursor = database.query(MySQLiteHelper.TABLE_NOTE, allColumns, MySQLiteHelper.NOTE_ID_MATIERE+" =?", new String[]{Integer.toString(matiere.getId())}, null, null, null);
+
 
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
