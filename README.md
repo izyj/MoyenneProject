@@ -12,9 +12,7 @@ Créer le formulaire statique pour les notes : ![alt text][logook]  IVAN
 
 Créer le tableau pour la consultation : ![alt text][logokook]  IVAN
 
-Créer le formulaire de modification d'une matière : ![alt text][logokook]  JONATHAN
-
-Créer le formulaire de modification d'une note : ![alt text][logokook]  JONATHAN
+Créer le formulaire de modification d'une matière et des notes : ![alt text][logokook]  JONATHAN
 
 Créer le tableau pour la consultation par matière : ![alt text][logoko]  IVAN
 
@@ -26,7 +24,11 @@ Mettre comme fragment initial, le logo en haut à gauche de l'application : ![al
 
 Créer la base de données : ![alt text][logook]  JONATHAN
 
-Créer les requêtes ajout, modification et suppression d'une note et d'une matière : ![alt text][logokook]  JONATHAN
+Créer les requêtes ajout et suppression d'une note et d'une matière : ![alt text][logokook]  JONATHAN
+
+Créer les requêtes de modification d'une matière : ![alt text][logoko]   JONATHAN
+
+Créer les requêtes de modification d'une note a partir d'une matière : ![alt text][logoko]   JONATHAN
 
 Tester le bon fonctionnement de création de matières et notes : ![alt text][logokook]   JONATHAN
 
