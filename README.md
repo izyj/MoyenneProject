@@ -26,9 +26,9 @@ Créer la base de données : ![alt text][logook]  JONATHAN
 
 Créer les requêtes ajout et suppression d'une note et d'une matière : ![alt text][logook]  JONATHAN
 
-Créer les requêtes de modification d'une matière : ![alt text][logoko]   JONATHAN
+Créer les requêtes de modification d'une matière : ![alt text][logokook]   JONATHAN
 
-Créer les requêtes de modification d'une note a partir d'une matière : ![alt text][logoko]   JONATHAN
+Créer les requêtes de modification d'une note a partir d'une matière : ![alt text][logokook]   JONATHAN
 
 Tester le bon fonctionnement de création de matières et notes : ![alt text][logook]   JONATHAN
 
