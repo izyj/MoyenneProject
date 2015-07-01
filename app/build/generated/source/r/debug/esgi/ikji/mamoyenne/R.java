@@ -11,24 +11,28 @@ public final class R {
     public static final class anim {
         public static final int abc_fade_in=0x7f040000;
         public static final int abc_fade_out=0x7f040001;
-        public static final int abc_slide_in_bottom=0x7f040002;
-        public static final int abc_slide_in_top=0x7f040003;
-        public static final int abc_slide_out_bottom=0x7f040004;
-        public static final int abc_slide_out_top=0x7f040005;
+        public static final int abc_grow_fade_in_from_bottom=0x7f040002;
+        public static final int abc_popup_enter=0x7f040003;
+        public static final int abc_popup_exit=0x7f040004;
+        public static final int abc_shrink_fade_out_from_bottom=0x7f040005;
+        public static final int abc_slide_in_bottom=0x7f040006;
+        public static final int abc_slide_in_top=0x7f040007;
+        public static final int abc_slide_out_bottom=0x7f040008;
+        public static final int abc_slide_out_top=0x7f040009;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f01005a;
+        public static final int actionBarDivider=0x7f010064;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f01005b;
+        public static final int actionBarItemBackground=0x7f010065;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f010054;
+        public static final int actionBarPopupTheme=0x7f01005e;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -46,117 +50,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f010059;
+        public static final int actionBarSize=0x7f010063;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f010056;
+        public static final int actionBarSplitStyle=0x7f010060;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f010055;
+        public static final int actionBarStyle=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f010050;
+        public static final int actionBarTabBarStyle=0x7f01005a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f01004f;
+        public static final int actionBarTabStyle=0x7f010059;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f010051;
+        public static final int actionBarTabTextStyle=0x7f01005b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f010057;
+        public static final int actionBarTheme=0x7f010061;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f010058;
+        public static final int actionBarWidgetTheme=0x7f010062;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f010072;
+        public static final int actionButtonStyle=0x7f01007e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f01006d;
+        public static final int actionDropDownStyle=0x7f01007a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f01002c;
+        public static final int actionLayout=0x7f010031;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f01005c;
+        public static final int actionMenuTextAppearance=0x7f010066;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f01005d;
+        public static final int actionMenuTextColor=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f010060;
+        public static final int actionModeBackground=0x7f01006a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f01005f;
+        public static final int actionModeCloseButtonStyle=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f010062;
+        public static final int actionModeCloseDrawable=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f010064;
+        public static final int actionModeCopyDrawable=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f010063;
+        public static final int actionModeCutDrawable=0x7f01006d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f010068;
+        public static final int actionModeFindDrawable=0x7f010072;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f010065;
+        public static final int actionModePasteDrawable=0x7f01006f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f01006a;
+        public static final int actionModePopupWindowStyle=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f010066;
+        public static final int actionModeSelectAllDrawable=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f010067;
+        public static final int actionModeShareDrawable=0x7f010071;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f010061;
+        public static final int actionModeSplitBackground=0x7f01006b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f01005e;
+        public static final int actionModeStyle=0x7f010068;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f010069;
+        public static final int actionModeWebSearchDrawable=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f010052;
+        public static final int actionOverflowButtonStyle=0x7f01005c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f010053;
+        public static final int actionOverflowMenuStyle=0x7f01005d;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -164,7 +168,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f01002e;
+        public static final int actionProviderClass=0x7f010033;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -172,11 +176,35 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f01002d;
+        public static final int actionViewClass=0x7f010032;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010079;
+        public static final int activityChooserViewStyle=0x7f010086;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogButtonGroupStyle=0x7f0100a7;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int alertDialogCenterButtons=0x7f0100a8;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogStyle=0x7f0100a6;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int alertDialogTheme=0x7f0100a9;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int autoCompleteTextViewStyle=0x7f0100ae;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -193,6 +221,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int backgroundStacked=0x7f01000d;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int backgroundTint=0x7f0100c7;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+         */
+        public static final int backgroundTintMode=0x7f0100c8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -202,19 +253,55 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barSize=0x7f010026;
+        public static final int barSize=0x7f01002b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f010074;
+        public static final int borderlessButtonStyle=0x7f010083;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f010073;
+        public static final int buttonBarButtonStyle=0x7f010080;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f010035;
+        public static final int buttonBarNegativeButtonStyle=0x7f0100ac;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarNeutralButtonStyle=0x7f0100ad;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarPositiveButtonStyle=0x7f0100ab;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarStyle=0x7f01007f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonPanelSideLayout=0x7f01001f;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyle=0x7f0100af;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonStyleSmall=0x7f0100b0;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkboxStyle=0x7f0100b1;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int checkedTextViewStyle=0x7f0100b2;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int closeIcon=0x7f01003b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -226,11 +313,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f0100a4;
+        public static final int collapseContentDescription=0x7f0100c1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f0100a3;
+        public static final int collapseIcon=0x7f0100c0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -239,7 +326,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f010020;
+        public static final int color=0x7f010025;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -248,7 +335,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorAccent=0x7f010094;
+        public static final int colorAccent=0x7f0100a0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -257,7 +344,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorButtonNormal=0x7f010098;
+        public static final int colorButtonNormal=0x7f0100a4;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -266,7 +353,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlActivated=0x7f010096;
+        public static final int colorControlActivated=0x7f0100a2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -275,7 +362,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlHighlight=0x7f010097;
+        public static final int colorControlHighlight=0x7f0100a3;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -284,7 +371,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlNormal=0x7f010095;
+        public static final int colorControlNormal=0x7f0100a1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -293,7 +380,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimary=0x7f010092;
+        public static final int colorPrimary=0x7f01009e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -302,7 +389,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimaryDark=0x7f010093;
+        public static final int colorPrimaryDark=0x7f01009f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -311,11 +398,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorSwitchThumbNormal=0x7f010099;
+        public static final int colorSwitchThumbNormal=0x7f0100a5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f010039;
+        public static final int commitIcon=0x7f010040;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -360,6 +447,28 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int customNavigationLayout=0x7f01000f;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int defaultQueryHint=0x7f01003a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dialogPreferredPadding=0x7f010078;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int dialogTheme=0x7f010077;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -367,7 +476,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int disableChildrenWhenDisabled=0x7f010040;
+        public static final int disableChildrenWhenDisabled=0x7f010047;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -391,7 +500,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f010078;
+        public static final int dividerHorizontal=0x7f010085;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -401,11 +510,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f01002a;
+        public static final int dividerPadding=0x7f01002f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010077;
+        public static final int dividerVertical=0x7f010084;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -415,7 +524,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f010022;
+        public static final int drawableSize=0x7f010027;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -423,7 +532,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f01008a;
+        public static final int dropDownListViewStyle=0x7f010096;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -433,17 +542,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f01006e;
+        public static final int dropdownListPreferredItemHeight=0x7f01007b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f01007f;
+        public static final int editTextBackground=0x7f01008c;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f01007e;
+        public static final int editTextColor=0x7f01008b;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int editTextStyle=0x7f0100b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -467,11 +580,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f010023;
+        public static final int gapBetweenBars=0x7f010028;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f010036;
+        public static final int goIcon=0x7f01003c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -493,7 +606,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f010071;
+        public static final int homeAsUpIndicator=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -509,7 +622,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f010033;
+        public static final int iconifiedByDefault=0x7f010038;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -543,15 +656,27 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f010032;
+        public static final int layout=0x7f010037;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f010091;
+        public static final int listChoiceBackgroundIndicator=0x7f01009d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f01008b;
+        public static final int listDividerAlertDialog=0x7f010079;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listItemLayout=0x7f010023;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listLayout=0x7f010020;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int listPopupWindowStyle=0x7f010097;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -561,7 +686,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f010085;
+        public static final int listPreferredItemHeight=0x7f010091;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -571,7 +696,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f010087;
+        public static final int listPreferredItemHeightLarge=0x7f010093;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -581,7 +706,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f010086;
+        public static final int listPreferredItemHeightSmall=0x7f010092;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -591,7 +716,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f010088;
+        public static final int listPreferredItemPaddingLeft=0x7f010094;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -601,7 +726,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f010089;
+        public static final int listPreferredItemPaddingRight=0x7f010095;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -615,7 +740,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f0100a1;
+        public static final int maxButtonHeight=0x7f0100bf;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -623,7 +748,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f010028;
+        public static final int measureWithLargestChild=0x7f01002d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -633,7 +758,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int middleBarArrowSize=0x7f010025;
+        public static final int middleBarArrowSize=0x7f01002a;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int multiChoiceItemLayout=0x7f010021;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -641,11 +770,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f0100a6;
+        public static final int navigationContentDescription=0x7f0100c3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f0100a5;
+        public static final int navigationIcon=0x7f0100c2;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -665,7 +794,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f010030;
+        public static final int overlapAnchor=0x7f010035;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -675,7 +804,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f0100a8;
+        public static final int paddingEnd=0x7f0100c5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -685,15 +814,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f0100a7;
+        public static final int paddingStart=0x7f0100c4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelBackground=0x7f01008e;
+        public static final int panelBackground=0x7f01009a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f010090;
+        public static final int panelMenuListTheme=0x7f01009c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -703,15 +832,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f01008f;
+        public static final int panelMenuListWidth=0x7f01009b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f01007c;
+        public static final int popupMenuStyle=0x7f010089;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupPromptView=0x7f01003f;
+        public static final int popupPromptView=0x7f010046;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -719,7 +848,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupWindowStyle=0x7f01007d;
+        public static final int popupWindowStyle=0x7f01008a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -727,7 +856,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f01002f;
+        public static final int preserveIconSpacing=0x7f010034;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -745,11 +874,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int prompt=0x7f01003d;
+        public static final int prompt=0x7f010044;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f01003b;
+        public static final int queryBackground=0x7f010042;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -757,23 +886,35 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int queryHint=0x7f010034;
+        public static final int queryHint=0x7f010039;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f010037;
+        public static final int radioButtonStyle=0x7f0100b4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewStyle=0x7f010084;
+        public static final int ratingBarStyle=0x7f0100b5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f010075;
+        public static final int searchHintIcon=0x7f01003e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackgroundBorderless=0x7f010076;
+        public static final int searchIcon=0x7f01003d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int searchViewStyle=0x7f010090;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackground=0x7f010081;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectableItemBackgroundBorderless=0x7f010082;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -787,7 +928,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f01002b;
+        public static final int showAsAction=0x7f010030;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -800,7 +941,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f010029;
+        public static final int showDividers=0x7f01002e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -808,19 +949,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f010047;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spinBars=0x7f010021;
+        public static final int showText=0x7f01004e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f010070;
+        public static final int singleChoiceItemLayout=0x7f010022;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int spinBars=0x7f010026;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int spinnerDropDownItemStyle=0x7f01007c;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -831,11 +976,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int spinnerMode=0x7f01003e;
+        public static final int spinnerMode=0x7f010045;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f01006f;
+        public static final int spinnerStyle=0x7f0100b6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -843,7 +988,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f010046;
+        public static final int splitTrack=0x7f01004d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -851,11 +996,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f010031;
+        public static final int state_above_anchor=0x7f010036;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int submitBackground=0x7f01003c;
+        public static final int submitBackground=0x7f010043;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -867,7 +1012,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int subtitleTextAppearance=0x7f01009b;
+        public static final int subtitleTextAppearance=0x7f0100b9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -875,7 +1020,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int suggestionRowLayout=0x7f01003a;
+        public static final int suggestionRowLayout=0x7f010041;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -885,7 +1030,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f010044;
+        public static final int switchMinWidth=0x7f01004b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -895,54 +1040,60 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f010045;
+        public static final int switchPadding=0x7f01004c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchStyle=0x7f010080;
+        public static final int switchStyle=0x7f0100b7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int switchTextAppearance=0x7f010043;
+        public static final int switchTextAppearance=0x7f01004a;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f01001f;
+        public static final int textAllCaps=0x7f010024;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f01006b;
+        public static final int textAppearanceLargePopupMenu=0x7f010075;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f01008c;
+        public static final int textAppearanceListItem=0x7f010098;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f01008d;
+        public static final int textAppearanceListItemSmall=0x7f010099;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f010082;
+        public static final int textAppearanceSearchResultSubtitle=0x7f01008e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f010081;
+        public static final int textAppearanceSearchResultTitle=0x7f01008d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f01006c;
+        public static final int textAppearanceSmallPopupMenu=0x7f010076;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f010083;
+        public static final int textColorAlertDialogListItem=0x7f0100aa;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int textColorSearchUrl=0x7f01008f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f0100a2;
+        public static final int theme=0x7f0100c6;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -952,7 +1103,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thickness=0x7f010027;
+        public static final int thickness=0x7f01002c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -962,7 +1113,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f010042;
+        public static final int thumbTextPadding=0x7f010049;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -980,7 +1131,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f0100a0;
+        public static final int titleMarginBottom=0x7f0100be;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -990,7 +1141,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f01009e;
+        public static final int titleMarginEnd=0x7f0100bc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1000,7 +1151,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f01009d;
+        public static final int titleMarginStart=0x7f0100bb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1010,7 +1161,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f01009f;
+        public static final int titleMarginTop=0x7f0100bd;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1020,11 +1171,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f01009c;
+        public static final int titleMargins=0x7f0100ba;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f01009a;
+        public static final int titleTextAppearance=0x7f0100b8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1032,11 +1183,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarNavigationButtonStyle=0x7f01007b;
+        public static final int toolbarNavigationButtonStyle=0x7f010088;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarStyle=0x7f01007a;
+        public static final int toolbarStyle=0x7f010087;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1046,15 +1197,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int topBottomBarArrowSize=0x7f010024;
+        public static final int topBottomBarArrowSize=0x7f010029;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f010041;
+        public static final int track=0x7f010048;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int voiceIcon=0x7f010038;
+        public static final int voiceIcon=0x7f01003f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1062,7 +1213,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f010048;
+        public static final int windowActionBar=0x7f01004f;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1070,7 +1221,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f010049;
+        public static final int windowActionBarOverlay=0x7f010051;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1078,7 +1229,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionModeOverlay=0x7f01004a;
+        public static final int windowActionModeOverlay=0x7f010052;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1091,7 +1242,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMajor=0x7f01004e;
+        public static final int windowFixedHeightMajor=0x7f010056;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1104,7 +1255,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedHeightMinor=0x7f01004c;
+        public static final int windowFixedHeightMinor=0x7f010054;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1117,7 +1268,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMajor=0x7f01004b;
+        public static final int windowFixedWidthMajor=0x7f010053;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1130,334 +1281,388 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowFixedWidthMinor=0x7f01004d;
+        public static final int windowFixedWidthMinor=0x7f010055;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMajor=0x7f010057;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMinor=0x7f010058;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowNoTitle=0x7f010050;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f050000;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f050001;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f050002;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f050003;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f050004;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f050005;
+        public static final int abc_action_bar_embed_tabs=0x7f080002;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f080000;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f080003;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f080004;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f080001;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f080005;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f080006;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f060031;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f060032;
-        public static final int abc_input_method_navigation_guard=0x7f060000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f060033;
-        public static final int abc_primary_text_disable_only_material_light=0x7f060034;
-        public static final int abc_primary_text_material_dark=0x7f060035;
-        public static final int abc_primary_text_material_light=0x7f060036;
-        public static final int abc_search_url_text=0x7f060037;
-        public static final int abc_search_url_text_normal=0x7f060001;
-        public static final int abc_search_url_text_pressed=0x7f060002;
-        public static final int abc_search_url_text_selected=0x7f060003;
-        public static final int abc_secondary_text_material_dark=0x7f060038;
-        public static final int abc_secondary_text_material_light=0x7f060039;
-        public static final int accent_material_dark=0x7f060004;
-        public static final int accent_material_light=0x7f060005;
-        public static final int background_floating_material_dark=0x7f060006;
-        public static final int background_floating_material_light=0x7f060007;
-        public static final int background_material_dark=0x7f060008;
-        public static final int background_material_light=0x7f060009;
-        public static final int bright_foreground_disabled_material_dark=0x7f06000a;
-        public static final int bright_foreground_disabled_material_light=0x7f06000b;
-        public static final int bright_foreground_inverse_material_dark=0x7f06000c;
-        public static final int bright_foreground_inverse_material_light=0x7f06000d;
-        public static final int bright_foreground_material_dark=0x7f06000e;
-        public static final int bright_foreground_material_light=0x7f06000f;
-        public static final int button_material_dark=0x7f060010;
-        public static final int button_material_light=0x7f060011;
-        public static final int dim_foreground_disabled_material_dark=0x7f060012;
-        public static final int dim_foreground_disabled_material_light=0x7f060013;
-        public static final int dim_foreground_material_dark=0x7f060014;
-        public static final int dim_foreground_material_light=0x7f060015;
-        public static final int highlighted_text_material_dark=0x7f060016;
-        public static final int highlighted_text_material_light=0x7f060017;
-        public static final int hint_foreground_material_dark=0x7f060018;
-        public static final int hint_foreground_material_light=0x7f060019;
-        public static final int link_text_material_dark=0x7f06001a;
-        public static final int link_text_material_light=0x7f06001b;
-        public static final int material_blue_grey_800=0x7f06001c;
-        public static final int material_blue_grey_900=0x7f06001d;
-        public static final int material_blue_grey_950=0x7f06001e;
-        public static final int material_deep_teal_200=0x7f06001f;
-        public static final int material_deep_teal_500=0x7f060020;
-        public static final int primary_dark_material_dark=0x7f060021;
-        public static final int primary_dark_material_light=0x7f060022;
-        public static final int primary_material_dark=0x7f060023;
-        public static final int primary_material_light=0x7f060024;
-        public static final int primary_text_default_material_dark=0x7f060025;
-        public static final int primary_text_default_material_light=0x7f060026;
-        public static final int primary_text_disabled_material_dark=0x7f060027;
-        public static final int primary_text_disabled_material_light=0x7f060028;
-        public static final int ripple_material_dark=0x7f060029;
-        public static final int ripple_material_light=0x7f06002a;
-        public static final int secondary_text_default_material_dark=0x7f06002b;
-        public static final int secondary_text_default_material_light=0x7f06002c;
-        public static final int secondary_text_disabled_material_dark=0x7f06002d;
-        public static final int secondary_text_disabled_material_light=0x7f06002e;
-        public static final int switch_thumb_normal_material_dark=0x7f06002f;
-        public static final int switch_thumb_normal_material_light=0x7f060030;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a0033;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a0034;
+        public static final int abc_input_method_navigation_guard=0x7f0a0000;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a0035;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a0036;
+        public static final int abc_primary_text_material_dark=0x7f0a0037;
+        public static final int abc_primary_text_material_light=0x7f0a0038;
+        public static final int abc_search_url_text=0x7f0a0039;
+        public static final int abc_search_url_text_normal=0x7f0a0001;
+        public static final int abc_search_url_text_pressed=0x7f0a0002;
+        public static final int abc_search_url_text_selected=0x7f0a0003;
+        public static final int abc_secondary_text_material_dark=0x7f0a003a;
+        public static final int abc_secondary_text_material_light=0x7f0a003b;
+        public static final int accent_material_dark=0x7f0a0004;
+        public static final int accent_material_light=0x7f0a0005;
+        public static final int background_floating_material_dark=0x7f0a0006;
+        public static final int background_floating_material_light=0x7f0a0007;
+        public static final int background_material_dark=0x7f0a0008;
+        public static final int background_material_light=0x7f0a0009;
+        public static final int bright_foreground_disabled_material_dark=0x7f0a000a;
+        public static final int bright_foreground_disabled_material_light=0x7f0a000b;
+        public static final int bright_foreground_inverse_material_dark=0x7f0a000c;
+        public static final int bright_foreground_inverse_material_light=0x7f0a000d;
+        public static final int bright_foreground_material_dark=0x7f0a000e;
+        public static final int bright_foreground_material_light=0x7f0a000f;
+        public static final int button_material_dark=0x7f0a0010;
+        public static final int button_material_light=0x7f0a0011;
+        public static final int dim_foreground_disabled_material_dark=0x7f0a0012;
+        public static final int dim_foreground_disabled_material_light=0x7f0a0013;
+        public static final int dim_foreground_material_dark=0x7f0a0014;
+        public static final int dim_foreground_material_light=0x7f0a0015;
+        public static final int highlighted_text_material_dark=0x7f0a0016;
+        public static final int highlighted_text_material_light=0x7f0a0017;
+        public static final int hint_foreground_material_dark=0x7f0a0018;
+        public static final int hint_foreground_material_light=0x7f0a0019;
+        public static final int link_text_material_dark=0x7f0a001a;
+        public static final int link_text_material_light=0x7f0a001b;
+        public static final int material_blue_grey_800=0x7f0a001c;
+        public static final int material_blue_grey_900=0x7f0a001d;
+        public static final int material_blue_grey_950=0x7f0a001e;
+        public static final int material_deep_teal_200=0x7f0a001f;
+        public static final int material_deep_teal_500=0x7f0a0020;
+        public static final int primary_dark_material_dark=0x7f0a0021;
+        public static final int primary_dark_material_light=0x7f0a0022;
+        public static final int primary_material_dark=0x7f0a0023;
+        public static final int primary_material_light=0x7f0a0024;
+        public static final int primary_text_default_material_dark=0x7f0a0025;
+        public static final int primary_text_default_material_light=0x7f0a0026;
+        public static final int primary_text_disabled_material_dark=0x7f0a0027;
+        public static final int primary_text_disabled_material_light=0x7f0a0028;
+        public static final int ripple_material_dark=0x7f0a0029;
+        public static final int ripple_material_light=0x7f0a002a;
+        public static final int secondary_text_default_material_dark=0x7f0a002b;
+        public static final int secondary_text_default_material_light=0x7f0a002c;
+        public static final int secondary_text_disabled_material_dark=0x7f0a002d;
+        public static final int secondary_text_disabled_material_light=0x7f0a002e;
+        public static final int switch_thumb_disabled_material_dark=0x7f0a002f;
+        public static final int switch_thumb_disabled_material_light=0x7f0a0030;
+        public static final int switch_thumb_material_dark=0x7f0a003c;
+        public static final int switch_thumb_material_light=0x7f0a003d;
+        public static final int switch_thumb_normal_material_dark=0x7f0a0031;
+        public static final int switch_thumb_normal_material_light=0x7f0a0032;
     }
     public static final class dimen {
-        public static final int abc_action_bar_default_height_material=0x7f070000;
-        public static final int abc_action_bar_default_padding_material=0x7f070001;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f070002;
-        public static final int abc_action_bar_progress_bar_size=0x7f070003;
-        public static final int abc_action_bar_stacked_max_height=0x7f070004;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f070005;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f070006;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f070007;
-        public static final int abc_action_button_min_height_material=0x7f070008;
-        public static final int abc_action_button_min_width_material=0x7f070009;
-        public static final int abc_action_button_min_width_overflow_material=0x7f07000a;
-        public static final int abc_config_prefDialogWidth=0x7f07000b;
-        public static final int abc_control_inset_material=0x7f07000c;
-        public static final int abc_control_padding_material=0x7f07000d;
-        public static final int abc_dropdownitem_icon_width=0x7f07000e;
-        public static final int abc_dropdownitem_text_padding_left=0x7f07000f;
-        public static final int abc_dropdownitem_text_padding_right=0x7f070010;
-        public static final int abc_panel_menu_list_width=0x7f070011;
-        public static final int abc_search_view_preferred_width=0x7f070012;
-        public static final int abc_search_view_text_min_width=0x7f070013;
-        public static final int abc_text_size_body_1_material=0x7f070014;
-        public static final int abc_text_size_body_2_material=0x7f070015;
-        public static final int abc_text_size_button_material=0x7f070016;
-        public static final int abc_text_size_caption_material=0x7f070017;
-        public static final int abc_text_size_display_1_material=0x7f070018;
-        public static final int abc_text_size_display_2_material=0x7f070019;
-        public static final int abc_text_size_display_3_material=0x7f07001a;
-        public static final int abc_text_size_display_4_material=0x7f07001b;
-        public static final int abc_text_size_headline_material=0x7f07001c;
-        public static final int abc_text_size_large_material=0x7f07001d;
-        public static final int abc_text_size_medium_material=0x7f07001e;
-        public static final int abc_text_size_menu_material=0x7f07001f;
-        public static final int abc_text_size_small_material=0x7f070020;
-        public static final int abc_text_size_subhead_material=0x7f070021;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f070022;
-        public static final int abc_text_size_title_material=0x7f070023;
-        public static final int abc_text_size_title_material_toolbar=0x7f070024;
-        public static final int activity_horizontal_margin=0x7f070025;
-        public static final int activity_vertical_margin=0x7f070026;
-        public static final int dialog_fixed_height_major=0x7f070027;
-        public static final int dialog_fixed_height_minor=0x7f070028;
-        public static final int dialog_fixed_width_major=0x7f070029;
-        public static final int dialog_fixed_width_minor=0x7f07002a;
-        public static final int disabled_alpha_material_dark=0x7f07002b;
-        public static final int disabled_alpha_material_light=0x7f07002c;
+        public static final int abc_action_bar_content_inset_material=0x7f06000c;
+        public static final int abc_action_bar_default_height_material=0x7f060001;
+        public static final int abc_action_bar_default_padding_material=0x7f060002;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f060011;
+        public static final int abc_action_bar_navigation_padding_start_material=0x7f06000d;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f06000e;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f060012;
+        public static final int abc_action_bar_progress_bar_size=0x7f060003;
+        public static final int abc_action_bar_stacked_max_height=0x7f060013;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f060014;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f060015;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f060016;
+        public static final int abc_action_button_min_height_material=0x7f060017;
+        public static final int abc_action_button_min_width_material=0x7f060018;
+        public static final int abc_action_button_min_width_overflow_material=0x7f060019;
+        public static final int abc_alert_dialog_button_bar_height=0x7f060000;
+        public static final int abc_button_inset_horizontal_material=0x7f06001a;
+        public static final int abc_button_inset_vertical_material=0x7f06001b;
+        public static final int abc_button_padding_horizontal_material=0x7f06001c;
+        public static final int abc_button_padding_vertical_material=0x7f06001d;
+        public static final int abc_config_prefDialogWidth=0x7f060006;
+        public static final int abc_control_corner_material=0x7f06001e;
+        public static final int abc_control_inset_material=0x7f06001f;
+        public static final int abc_control_padding_material=0x7f060020;
+        public static final int abc_dialog_list_padding_vertical_material=0x7f060021;
+        public static final int abc_dialog_min_width_major=0x7f060022;
+        public static final int abc_dialog_min_width_minor=0x7f060023;
+        public static final int abc_dialog_padding_material=0x7f060024;
+        public static final int abc_dialog_padding_top_material=0x7f060025;
+        public static final int abc_disabled_alpha_material_dark=0x7f060026;
+        public static final int abc_disabled_alpha_material_light=0x7f060027;
+        public static final int abc_dropdownitem_icon_width=0x7f060028;
+        public static final int abc_dropdownitem_text_padding_left=0x7f060029;
+        public static final int abc_dropdownitem_text_padding_right=0x7f06002a;
+        public static final int abc_edit_text_inset_bottom_material=0x7f06002b;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f06002c;
+        public static final int abc_edit_text_inset_top_material=0x7f06002d;
+        public static final int abc_floating_window_z=0x7f06002e;
+        public static final int abc_list_item_padding_horizontal_material=0x7f06002f;
+        public static final int abc_panel_menu_list_width=0x7f060030;
+        public static final int abc_search_view_preferred_width=0x7f060031;
+        public static final int abc_search_view_text_min_width=0x7f060007;
+        public static final int abc_switch_padding=0x7f06000f;
+        public static final int abc_text_size_body_1_material=0x7f060032;
+        public static final int abc_text_size_body_2_material=0x7f060033;
+        public static final int abc_text_size_button_material=0x7f060034;
+        public static final int abc_text_size_caption_material=0x7f060035;
+        public static final int abc_text_size_display_1_material=0x7f060036;
+        public static final int abc_text_size_display_2_material=0x7f060037;
+        public static final int abc_text_size_display_3_material=0x7f060038;
+        public static final int abc_text_size_display_4_material=0x7f060039;
+        public static final int abc_text_size_headline_material=0x7f06003a;
+        public static final int abc_text_size_large_material=0x7f06003b;
+        public static final int abc_text_size_medium_material=0x7f06003c;
+        public static final int abc_text_size_menu_material=0x7f06003d;
+        public static final int abc_text_size_small_material=0x7f06003e;
+        public static final int abc_text_size_subhead_material=0x7f06003f;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f060004;
+        public static final int abc_text_size_title_material=0x7f060040;
+        public static final int abc_text_size_title_material_toolbar=0x7f060005;
+        public static final int activity_horizontal_margin=0x7f060010;
+        public static final int activity_vertical_margin=0x7f060041;
+        public static final int dialog_fixed_height_major=0x7f060008;
+        public static final int dialog_fixed_height_minor=0x7f060009;
+        public static final int dialog_fixed_width_major=0x7f06000a;
+        public static final int dialog_fixed_width_minor=0x7f06000b;
+        public static final int disabled_alpha_material_dark=0x7f060042;
+        public static final int disabled_alpha_material_light=0x7f060043;
+        public static final int notification_large_icon_height=0x7f060044;
+        public static final int notification_large_icon_width=0x7f060045;
+        public static final int notification_subtext_size=0x7f060046;
     }
     public static final class drawable {
-        public static final int abc_ab_share_pack_holo_dark=0x7f020000;
-        public static final int abc_ab_share_pack_holo_light=0x7f020001;
+        public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
+        public static final int abc_btn_borderless_material=0x7f020001;
         public static final int abc_btn_check_material=0x7f020002;
         public static final int abc_btn_check_to_on_mtrl_000=0x7f020003;
         public static final int abc_btn_check_to_on_mtrl_015=0x7f020004;
-        public static final int abc_btn_radio_material=0x7f020005;
-        public static final int abc_btn_radio_to_on_mtrl_000=0x7f020006;
-        public static final int abc_btn_radio_to_on_mtrl_015=0x7f020007;
-        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f020008;
-        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f020009;
-        public static final int abc_cab_background_internal_bg=0x7f02000a;
-        public static final int abc_cab_background_top_material=0x7f02000b;
-        public static final int abc_cab_background_top_mtrl_alpha=0x7f02000c;
-        public static final int abc_edit_text_material=0x7f02000d;
-        public static final int abc_ic_ab_back_mtrl_am_alpha=0x7f02000e;
-        public static final int abc_ic_clear_mtrl_alpha=0x7f02000f;
-        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020010;
-        public static final int abc_ic_go_search_api_mtrl_alpha=0x7f020011;
-        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f020012;
-        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f020013;
-        public static final int abc_ic_menu_moreoverflow_mtrl_alpha=0x7f020014;
-        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f020015;
-        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f020016;
-        public static final int abc_ic_menu_share_mtrl_alpha=0x7f020017;
-        public static final int abc_ic_search_api_mtrl_alpha=0x7f020018;
-        public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f020019;
-        public static final int abc_item_background_holo_dark=0x7f02001a;
-        public static final int abc_item_background_holo_light=0x7f02001b;
-        public static final int abc_list_divider_mtrl_alpha=0x7f02001c;
-        public static final int abc_list_focused_holo=0x7f02001d;
-        public static final int abc_list_longpressed_holo=0x7f02001e;
-        public static final int abc_list_pressed_holo_dark=0x7f02001f;
-        public static final int abc_list_pressed_holo_light=0x7f020020;
-        public static final int abc_list_selector_background_transition_holo_dark=0x7f020021;
-        public static final int abc_list_selector_background_transition_holo_light=0x7f020022;
-        public static final int abc_list_selector_disabled_holo_dark=0x7f020023;
-        public static final int abc_list_selector_disabled_holo_light=0x7f020024;
-        public static final int abc_list_selector_holo_dark=0x7f020025;
-        public static final int abc_list_selector_holo_light=0x7f020026;
-        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f020027;
-        public static final int abc_popup_background_mtrl_mult=0x7f020028;
-        public static final int abc_spinner_mtrl_am_alpha=0x7f020029;
-        public static final int abc_switch_thumb_material=0x7f02002a;
-        public static final int abc_switch_track_mtrl_alpha=0x7f02002b;
-        public static final int abc_tab_indicator_material=0x7f02002c;
-        public static final int abc_tab_indicator_mtrl_alpha=0x7f02002d;
-        public static final int abc_textfield_activated_mtrl_alpha=0x7f02002e;
-        public static final int abc_textfield_default_mtrl_alpha=0x7f02002f;
-        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
-        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
-        public static final int abc_textfield_search_material=0x7f020032;
-        public static final int ic_launcher=0x7f020033;
+        public static final int abc_btn_default_mtrl_shape=0x7f020005;
+        public static final int abc_btn_radio_material=0x7f020006;
+        public static final int abc_btn_radio_to_on_mtrl_000=0x7f020007;
+        public static final int abc_btn_radio_to_on_mtrl_015=0x7f020008;
+        public static final int abc_btn_rating_star_off_mtrl_alpha=0x7f020009;
+        public static final int abc_btn_rating_star_on_mtrl_alpha=0x7f02000a;
+        public static final int abc_btn_switch_to_on_mtrl_00001=0x7f02000b;
+        public static final int abc_btn_switch_to_on_mtrl_00012=0x7f02000c;
+        public static final int abc_cab_background_internal_bg=0x7f02000d;
+        public static final int abc_cab_background_top_material=0x7f02000e;
+        public static final int abc_cab_background_top_mtrl_alpha=0x7f02000f;
+        public static final int abc_dialog_material_background_dark=0x7f020010;
+        public static final int abc_dialog_material_background_light=0x7f020011;
+        public static final int abc_edit_text_material=0x7f020012;
+        public static final int abc_ic_ab_back_mtrl_am_alpha=0x7f020013;
+        public static final int abc_ic_clear_mtrl_alpha=0x7f020014;
+        public static final int abc_ic_commit_search_api_mtrl_alpha=0x7f020015;
+        public static final int abc_ic_go_search_api_mtrl_alpha=0x7f020016;
+        public static final int abc_ic_menu_copy_mtrl_am_alpha=0x7f020017;
+        public static final int abc_ic_menu_cut_mtrl_alpha=0x7f020018;
+        public static final int abc_ic_menu_moreoverflow_mtrl_alpha=0x7f020019;
+        public static final int abc_ic_menu_paste_mtrl_am_alpha=0x7f02001a;
+        public static final int abc_ic_menu_selectall_mtrl_alpha=0x7f02001b;
+        public static final int abc_ic_menu_share_mtrl_alpha=0x7f02001c;
+        public static final int abc_ic_search_api_mtrl_alpha=0x7f02001d;
+        public static final int abc_ic_voice_search_api_mtrl_alpha=0x7f02001e;
+        public static final int abc_item_background_holo_dark=0x7f02001f;
+        public static final int abc_item_background_holo_light=0x7f020020;
+        public static final int abc_list_divider_mtrl_alpha=0x7f020021;
+        public static final int abc_list_focused_holo=0x7f020022;
+        public static final int abc_list_longpressed_holo=0x7f020023;
+        public static final int abc_list_pressed_holo_dark=0x7f020024;
+        public static final int abc_list_pressed_holo_light=0x7f020025;
+        public static final int abc_list_selector_background_transition_holo_dark=0x7f020026;
+        public static final int abc_list_selector_background_transition_holo_light=0x7f020027;
+        public static final int abc_list_selector_disabled_holo_dark=0x7f020028;
+        public static final int abc_list_selector_disabled_holo_light=0x7f020029;
+        public static final int abc_list_selector_holo_dark=0x7f02002a;
+        public static final int abc_list_selector_holo_light=0x7f02002b;
+        public static final int abc_menu_hardkey_panel_mtrl_mult=0x7f02002c;
+        public static final int abc_popup_background_mtrl_mult=0x7f02002d;
+        public static final int abc_ratingbar_full_material=0x7f02002e;
+        public static final int abc_spinner_mtrl_am_alpha=0x7f02002f;
+        public static final int abc_spinner_textfield_background_material=0x7f020030;
+        public static final int abc_switch_thumb_material=0x7f020031;
+        public static final int abc_switch_track_mtrl_alpha=0x7f020032;
+        public static final int abc_tab_indicator_material=0x7f020033;
+        public static final int abc_tab_indicator_mtrl_alpha=0x7f020034;
+        public static final int abc_text_cursor_mtrl_alpha=0x7f020035;
+        public static final int abc_textfield_activated_mtrl_alpha=0x7f020036;
+        public static final int abc_textfield_default_mtrl_alpha=0x7f020037;
+        public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020038;
+        public static final int abc_textfield_search_default_mtrl_alpha=0x7f020039;
+        public static final int abc_textfield_search_material=0x7f02003a;
+        public static final int ic_launcher=0x7f02003b;
+        public static final int notification_template_icon_bg=0x7f02003c;
     }
     public static final class id {
-<<<<<<< HEAD
-=======
-        public static final int NomCoef=0x7f080054;
-        public static final int NomMatiere=0x7f080053;
-        public static final int NomMoyenne=0x7f080056;
-        public static final int NomNotes=0x7f080055;
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
-        public static final int action_bar=0x7f080031;
-        public static final int action_bar_activity_content=0x7f080000;
-        public static final int action_bar_container=0x7f080030;
-        public static final int action_bar_root=0x7f08002c;
-        public static final int action_bar_spinner=0x7f080001;
-        public static final int action_bar_subtitle=0x7f08001f;
-        public static final int action_bar_title=0x7f08001e;
-        public static final int action_context_bar=0x7f080032;
-        public static final int action_menu_divider=0x7f080002;
-        public static final int action_menu_presenter=0x7f080003;
-        public static final int action_mode_bar=0x7f08002e;
-        public static final int action_mode_bar_stub=0x7f08002d;
-        public static final int action_mode_close_button=0x7f080020;
-<<<<<<< HEAD
-        public static final int action_settings=0x7f08005d;
-=======
-        public static final int action_settings=0x7f08005f;
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
-        public static final int activity_chooser_view_content=0x7f080021;
-        public static final int always=0x7f080016;
-        public static final int beginning=0x7f080013;
-        public static final int btDeleteAll=0x7f080042;
-        public static final int btNewMatiere=0x7f080041;
-        public static final int btNewNote=0x7f080040;
-<<<<<<< HEAD
-        public static final int btSaveMatiere=0x7f080047;
-        public static final int btSaveNote=0x7f08004c;
-        public static final int bymatiere=0x7f080060;
-        public static final int bynote=0x7f080061;
-        public static final int checkbox=0x7f080029;
-        public static final int collapseActionView=0x7f080017;
-        public static final int consult=0x7f08005f;
-=======
-        public static final int btSaveMatiere=0x7f08004a;
-        public static final int btSaveNote=0x7f08004f;
-        public static final int button=0x7f080046;
-        public static final int button2=0x7f080044;
-        public static final int bymatiere=0x7f080062;
-        public static final int bynote=0x7f080063;
-        public static final int checkbox=0x7f080029;
-        public static final int collapseActionView=0x7f080017;
-        public static final int consult=0x7f080061;
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
-        public static final int container=0x7f08003f;
-        public static final int decor_content_parent=0x7f08002f;
-        public static final int default_activity_button=0x7f080024;
-        public static final int dialog=0x7f08001b;
-        public static final int disableHome=0x7f08000c;
-        public static final int dropdown=0x7f08001c;
-        public static final int editText=0x7f080045;
-        public static final int edit_query=0x7f080033;
-        public static final int end=0x7f080014;
-        public static final int et_coefMat=0x7f080049;
-        public static final int et_coefNot=0x7f08004e;
-        public static final int et_nameMat=0x7f080048;
-        public static final int et_nameNot=0x7f08004d;
-        public static final int expand_activities_button=0x7f080022;
-        public static final int expanded_menu=0x7f080028;
-<<<<<<< HEAD
-        public static final int fragment_formaddnotefragment=0x7f080049;
-        public static final int fragmentformaddmatierefragment=0x7f080044;
-=======
-        public static final int footer=0x7f080057;
-        public static final int fragment_formaddnotefragment=0x7f08004c;
-        public static final int fragmentformaddmatierefragment=0x7f080047;
-        public static final int header=0x7f080052;
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
-        public static final int home=0x7f080004;
-        public static final int homeAsUp=0x7f08000d;
-        public static final int icon=0x7f080026;
-        public static final int ifRoom=0x7f080018;
-        public static final int image=0x7f080023;
-        public static final int layout_matiere_title=0x7f080053;
-        public static final int lbl_matiere_coef=0x7f080055;
-        public static final int lbl_matiere_moy=0x7f080057;
-        public static final int lbl_matiere_name=0x7f080054;
-        public static final int lbl_matiere_notes=0x7f080056;
-        public static final int listMode=0x7f080009;
-        public static final int list_item=0x7f080025;
-<<<<<<< HEAD
-        public static final int listmatiere=0x7f08004d;
-        public static final int logo=0x7f08005e;
-        public static final int lv_matiere=0x7f080058;
-        public static final int middle=0x7f080015;
-        public static final int never=0x7f080019;
-        public static final int none=0x7f08000e;
-        public static final int normal=0x7f08000a;
-        public static final int presentationFragments=0x7f08004f;
-        public static final int progress_circular=0x7f080005;
-        public static final int progress_horizontal=0x7f080006;
-        public static final int radio=0x7f08002b;
-        public static final int scrollView=0x7f080051;
-=======
-        public static final int listmatiere=0x7f080050;
-        public static final int logo=0x7f080060;
-        public static final int middle=0x7f080015;
-        public static final int moyenneGenerale=0x7f080058;
-        public static final int moyenneGeneraleNote=0x7f080059;
-        public static final int never=0x7f080019;
-        public static final int none=0x7f08000e;
-        public static final int normal=0x7f08000a;
-        public static final int presentationFragments=0x7f08005b;
-        public static final int progress_circular=0x7f080005;
-        public static final int progress_horizontal=0x7f080006;
-        public static final int radio=0x7f08002b;
-        public static final int scrollView=0x7f08005d;
-        public static final int scrollView2=0x7f08005a;
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
-        public static final int search_badge=0x7f080035;
-        public static final int search_bar=0x7f080034;
-        public static final int search_button=0x7f080036;
-        public static final int search_close_btn=0x7f08003b;
-        public static final int search_edit_frame=0x7f080037;
-        public static final int search_go_btn=0x7f08003d;
-        public static final int search_mag_icon=0x7f080038;
-        public static final int search_plate=0x7f080039;
-        public static final int search_src_text=0x7f08003a;
-        public static final int search_voice_btn=0x7f08003e;
-        public static final int shortcut=0x7f08002a;
-        public static final int showCustom=0x7f08000f;
-        public static final int showHome=0x7f080010;
-        public static final int showTitle=0x7f080011;
-        public static final int split_action_bar=0x7f080007;
-        public static final int submit_area=0x7f08003c;
-        public static final int tabMode=0x7f08000b;
-<<<<<<< HEAD
-        public static final int textView=0x7f080050;
-        public static final int textView2=0x7f080052;
-        public static final int textView3=0x7f080048;
-        public static final int textView4=0x7f08004e;
-=======
-        public static final int textView=0x7f08005c;
-        public static final int textView2=0x7f08005e;
-        public static final int textView3=0x7f08004b;
-        public static final int textView4=0x7f080051;
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
-        public static final int title=0x7f080027;
-        public static final int txt_matiere_coef=0x7f08005a;
-        public static final int txt_matiere_moy=0x7f08005c;
-        public static final int txt_matiere_name=0x7f080059;
-        public static final int txt_matiere_notes=0x7f08005b;
-        public static final int up=0x7f080008;
-        public static final int useLogo=0x7f080012;
-        public static final int view=0x7f080043;
-        public static final int withText=0x7f08001a;
-        public static final int wrap_content=0x7f08001d;
+        public static final int action0=0x7f0b006f;
+        public static final int action_bar=0x7f0b0040;
+        public static final int action_bar_activity_content=0x7f0b0000;
+        public static final int action_bar_container=0x7f0b003f;
+        public static final int action_bar_root=0x7f0b003b;
+        public static final int action_bar_spinner=0x7f0b0001;
+        public static final int action_bar_subtitle=0x7f0b0024;
+        public static final int action_bar_title=0x7f0b0023;
+        public static final int action_context_bar=0x7f0b0041;
+        public static final int action_divider=0x7f0b0073;
+        public static final int action_menu_divider=0x7f0b0002;
+        public static final int action_menu_presenter=0x7f0b0003;
+        public static final int action_mode_bar=0x7f0b003d;
+        public static final int action_mode_bar_stub=0x7f0b003c;
+        public static final int action_mode_close_button=0x7f0b0025;
+        public static final int action_settings=0x7f0b007c;
+        public static final int activity_chooser_view_content=0x7f0b0026;
+        public static final int alertTitle=0x7f0b0030;
+        public static final int always=0x7f0b0016;
+        public static final int beginning=0x7f0b0013;
+        public static final int btDeleteAll=0x7f0b0052;
+        public static final int btNewMatiere=0x7f0b0051;
+        public static final int btNewNote=0x7f0b0050;
+        public static final int btSaveMatiere=0x7f0b005a;
+        public static final int btSaveNote=0x7f0b005f;
+        public static final int button=0x7f0b0056;
+        public static final int button2=0x7f0b0054;
+        public static final int buttonPanel=0x7f0b0036;
+        public static final int bymatiere=0x7f0b007f;
+        public static final int bynote=0x7f0b0080;
+        public static final int cancel_action=0x7f0b0070;
+        public static final int checkbox=0x7f0b0038;
+        public static final int chronometer=0x7f0b0076;
+        public static final int collapseActionView=0x7f0b0017;
+        public static final int consult=0x7f0b007e;
+        public static final int container=0x7f0b004f;
+        public static final int contentPanel=0x7f0b0031;
+        public static final int custom=0x7f0b0035;
+        public static final int customPanel=0x7f0b0034;
+        public static final int decor_content_parent=0x7f0b003e;
+        public static final int default_activity_button=0x7f0b0029;
+        public static final int dialog=0x7f0b001b;
+        public static final int disableHome=0x7f0b000c;
+        public static final int dropdown=0x7f0b001c;
+        public static final int editText=0x7f0b0055;
+        public static final int edit_query=0x7f0b0042;
+        public static final int end=0x7f0b0014;
+        public static final int end_padder=0x7f0b007b;
+        public static final int et_coefMat=0x7f0b0059;
+        public static final int et_coefNot=0x7f0b005e;
+        public static final int et_nameMat=0x7f0b0058;
+        public static final int et_nameNot=0x7f0b005d;
+        public static final int expand_activities_button=0x7f0b0027;
+        public static final int expanded_menu=0x7f0b0037;
+        public static final int fragment_formaddnotefragment=0x7f0b005c;
+        public static final int fragmentformaddmatierefragment=0x7f0b0057;
+        public static final int home=0x7f0b0004;
+        public static final int homeAsUp=0x7f0b000d;
+        public static final int icon=0x7f0b002b;
+        public static final int ifRoom=0x7f0b0018;
+        public static final int image=0x7f0b0028;
+        public static final int info=0x7f0b007a;
+        public static final int layout_matiere_title=0x7f0b0065;
+        public static final int lbl_matiere_coef=0x7f0b0067;
+        public static final int lbl_matiere_moy=0x7f0b0069;
+        public static final int lbl_matiere_name=0x7f0b0066;
+        public static final int lbl_matiere_notes=0x7f0b0068;
+        public static final int line1=0x7f0b0074;
+        public static final int line3=0x7f0b0078;
+        public static final int listMode=0x7f0b0009;
+        public static final int list_item=0x7f0b002a;
+        public static final int listmatiere=0x7f0b0060;
+        public static final int logo=0x7f0b007d;
+        public static final int lv_matiere=0x7f0b006a;
+        public static final int media_actions=0x7f0b0072;
+        public static final int middle=0x7f0b0015;
+        public static final int multiply=0x7f0b001e;
+        public static final int never=0x7f0b0019;
+        public static final int none=0x7f0b000e;
+        public static final int normal=0x7f0b000a;
+        public static final int parentPanel=0x7f0b002d;
+        public static final int presentationFragments=0x7f0b0062;
+        public static final int progress_circular=0x7f0b0005;
+        public static final int progress_horizontal=0x7f0b0006;
+        public static final int radio=0x7f0b003a;
+        public static final int screen=0x7f0b001f;
+        public static final int scrollView=0x7f0b0032;
+        public static final int search_badge=0x7f0b0044;
+        public static final int search_bar=0x7f0b0043;
+        public static final int search_button=0x7f0b0045;
+        public static final int search_close_btn=0x7f0b004a;
+        public static final int search_edit_frame=0x7f0b0046;
+        public static final int search_go_btn=0x7f0b004c;
+        public static final int search_mag_icon=0x7f0b0047;
+        public static final int search_plate=0x7f0b0048;
+        public static final int search_src_text=0x7f0b0049;
+        public static final int search_voice_btn=0x7f0b004d;
+        public static final int select_dialog_listview=0x7f0b004e;
+        public static final int shortcut=0x7f0b0039;
+        public static final int showCustom=0x7f0b000f;
+        public static final int showHome=0x7f0b0010;
+        public static final int showTitle=0x7f0b0011;
+        public static final int split_action_bar=0x7f0b0007;
+        public static final int src_atop=0x7f0b0020;
+        public static final int src_in=0x7f0b0021;
+        public static final int src_over=0x7f0b0022;
+        public static final int status_bar_latest_event_content=0x7f0b0071;
+        public static final int submit_area=0x7f0b004b;
+        public static final int tabMode=0x7f0b000b;
+        public static final int text=0x7f0b0079;
+        public static final int text2=0x7f0b0077;
+        public static final int textSpacerNoButtons=0x7f0b0033;
+        public static final int textView=0x7f0b0063;
+        public static final int textView2=0x7f0b0064;
+        public static final int textView3=0x7f0b005b;
+        public static final int textView4=0x7f0b0061;
+        public static final int time=0x7f0b0075;
+        public static final int title=0x7f0b002c;
+        public static final int title_template=0x7f0b002f;
+        public static final int topPanel=0x7f0b002e;
+        public static final int txt_matiere_coef=0x7f0b006c;
+        public static final int txt_matiere_moy=0x7f0b006e;
+        public static final int txt_matiere_name=0x7f0b006b;
+        public static final int txt_matiere_notes=0x7f0b006d;
+        public static final int up=0x7f0b0008;
+        public static final int useLogo=0x7f0b0012;
+        public static final int view=0x7f0b0053;
+        public static final int withText=0x7f0b001a;
+        public static final int wrap_content=0x7f0b001d;
     }
     public static final class integer {
+        public static final int abc_config_activityDefaultDur=0x7f090001;
+        public static final int abc_config_activityShortDur=0x7f090002;
         public static final int abc_max_action_buttons=0x7f090000;
+        public static final int cancel_button_image_alpha=0x7f090003;
+        public static final int status_bar_notification_info_maxnum=0x7f090004;
     }
     public static final class layout {
         public static final int abc_action_bar_title_item=0x7f030000;
@@ -1468,314 +1673,379 @@ containing a value of this type.
         public static final int abc_action_mode_bar=0x7f030005;
         public static final int abc_action_mode_close_item_material=0x7f030006;
         public static final int abc_activity_chooser_view=0x7f030007;
-        public static final int abc_activity_chooser_view_include=0x7f030008;
-        public static final int abc_activity_chooser_view_list_item=0x7f030009;
-        public static final int abc_expanded_menu_layout=0x7f03000a;
-        public static final int abc_list_menu_item_checkbox=0x7f03000b;
-        public static final int abc_list_menu_item_icon=0x7f03000c;
-        public static final int abc_list_menu_item_layout=0x7f03000d;
-        public static final int abc_list_menu_item_radio=0x7f03000e;
-        public static final int abc_popup_menu_item_layout=0x7f03000f;
-        public static final int abc_screen_content_include=0x7f030010;
-        public static final int abc_screen_simple=0x7f030011;
-        public static final int abc_screen_simple_overlay_action_mode=0x7f030012;
-        public static final int abc_screen_toolbar=0x7f030013;
-        public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
-        public static final int abc_search_view=0x7f030015;
-        public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_main=0x7f030017;
-<<<<<<< HEAD
-        public static final int fragment_formaddmatierefragment=0x7f030018;
-        public static final int fragment_formaddnotefragment=0x7f030019;
-        public static final int fragment_presentation=0x7f03001a;
-        public static final int layout_list_item=0x7f03001b;
-        public static final int list_matiere=0x7f03001c;
-=======
-        public static final int fragment_form_update_note=0x7f030018;
-        public static final int fragment_formaddmatierefragment=0x7f030019;
-        public static final int fragment_formaddnotefragment=0x7f03001a;
-        public static final int fragment_formconsultfragment=0x7f03001b;
-        public static final int fragment_presentation=0x7f03001c;
->>>>>>> 2579fade9a35503fbcbf9f3482a55ecfc528b17c
-        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int abc_activity_chooser_view_list_item=0x7f030008;
+        public static final int abc_alert_dialog_material=0x7f030009;
+        public static final int abc_dialog_title_material=0x7f03000a;
+        public static final int abc_expanded_menu_layout=0x7f03000b;
+        public static final int abc_list_menu_item_checkbox=0x7f03000c;
+        public static final int abc_list_menu_item_icon=0x7f03000d;
+        public static final int abc_list_menu_item_layout=0x7f03000e;
+        public static final int abc_list_menu_item_radio=0x7f03000f;
+        public static final int abc_popup_menu_item_layout=0x7f030010;
+        public static final int abc_screen_content_include=0x7f030011;
+        public static final int abc_screen_simple=0x7f030012;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f030013;
+        public static final int abc_screen_toolbar=0x7f030014;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
+        public static final int abc_search_view=0x7f030016;
+        public static final int abc_select_dialog_material=0x7f030017;
+        public static final int abc_simple_dropdown_hint=0x7f030018;
+        public static final int activity_main=0x7f030019;
+        public static final int fragment_form_update_note=0x7f03001a;
+        public static final int fragment_formaddmatierefragment=0x7f03001b;
+        public static final int fragment_formaddnotefragment=0x7f03001c;
+        public static final int fragment_presentation=0x7f03001d;
+        public static final int layout_list_item=0x7f03001e;
+        public static final int list_matiere=0x7f03001f;
+        public static final int notification_media_action=0x7f030020;
+        public static final int notification_media_cancel_action=0x7f030021;
+        public static final int notification_template_big_media=0x7f030022;
+        public static final int notification_template_big_media_narrow=0x7f030023;
+        public static final int notification_template_lines=0x7f030024;
+        public static final int notification_template_media=0x7f030025;
+        public static final int notification_template_part_chronometer=0x7f030026;
+        public static final int notification_template_part_time=0x7f030027;
+        public static final int select_dialog_item_material=0x7f030028;
+        public static final int select_dialog_multichoice_material=0x7f030029;
+        public static final int select_dialog_singlechoice_material=0x7f03002a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002b;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
         public static final int menu_main=0x7f0c0001;
     }
     public static final class string {
-        public static final int abc_action_bar_home_description=0x7f0a0000;
-        public static final int abc_action_bar_home_description_format=0x7f0a0001;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f0a0002;
-        public static final int abc_action_bar_up_description=0x7f0a0003;
-        public static final int abc_action_menu_overflow_description=0x7f0a0004;
-        public static final int abc_action_mode_done=0x7f0a0005;
-        public static final int abc_activity_chooser_view_see_all=0x7f0a0006;
-        public static final int abc_activitychooserview_choose_application=0x7f0a0007;
-        public static final int abc_searchview_description_clear=0x7f0a0008;
-        public static final int abc_searchview_description_query=0x7f0a0009;
-        public static final int abc_searchview_description_search=0x7f0a000a;
-        public static final int abc_searchview_description_submit=0x7f0a000b;
-        public static final int abc_searchview_description_voice=0x7f0a000c;
-        public static final int abc_shareactionprovider_share_with=0x7f0a000d;
-        public static final int abc_shareactionprovider_share_with_application=0x7f0a000e;
-        public static final int abc_toolbar_collapse_description=0x7f0a000f;
-        public static final int action_settings=0x7f0a0010;
-        public static final int app_name=0x7f0a0011;
-        public static final int black=0x7f0a0012;
-        public static final int hello_blank_fragment=0x7f0a0013;
-        public static final int title_Application=0x7f0a0014;
+        public static final int abc_action_bar_home_description=0x7f050000;
+        public static final int abc_action_bar_home_description_format=0x7f05000d;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f05000e;
+        public static final int abc_action_bar_up_description=0x7f050001;
+        public static final int abc_action_menu_overflow_description=0x7f050002;
+        public static final int abc_action_mode_done=0x7f050003;
+        public static final int abc_activity_chooser_view_see_all=0x7f050004;
+        public static final int abc_activitychooserview_choose_application=0x7f050005;
+        public static final int abc_search_hint=0x7f05000f;
+        public static final int abc_searchview_description_clear=0x7f050006;
+        public static final int abc_searchview_description_query=0x7f050007;
+        public static final int abc_searchview_description_search=0x7f050008;
+        public static final int abc_searchview_description_submit=0x7f050009;
+        public static final int abc_searchview_description_voice=0x7f05000a;
+        public static final int abc_shareactionprovider_share_with=0x7f05000b;
+        public static final int abc_shareactionprovider_share_with_application=0x7f05000c;
+        public static final int abc_toolbar_collapse_description=0x7f050010;
+        public static final int action_settings=0x7f050011;
+        public static final int app_name=0x7f050012;
+        public static final int black=0x7f050013;
+        public static final int hello_blank_fragment=0x7f050014;
+        public static final int status_bar_notification_info_overflow=0x7f050015;
+        public static final int title_Application=0x7f050016;
     }
     public static final class style {
-        /** 
+        public static final int AlertDialog_AppCompat=0x7f070074;
+        public static final int AlertDialog_AppCompat_Light=0x7f070075;
+        public static final int Animation_AppCompat_Dialog=0x7f070076;
+        public static final int Animation_AppCompat_DropDownUp=0x7f070077;
+        /**  API 11 theme customizations can go here. 
+ API 14 theme customizations can go here. 
+
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- API 11 theme customizations can go here. 
- API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0b0000;
+        public static final int AppBaseTheme=0x7f070003;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0b0001;
-        public static final int Base_TextAppearance_AppCompat=0x7f0b0002;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0003;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b0004;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b0005;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b0006;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b0007;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b0008;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b0009;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b000a;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b000b;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b000c;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b000d;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b000e;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b000f;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0010;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b0011;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b0012;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b0013;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b0014;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0015;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0016;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0017;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0018;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0019;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b001a;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b001b;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b001c;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b001d;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b001e;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b001f;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0020;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0021;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0022;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0023;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0024;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0025;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0026;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b0027;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0028;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0029;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b002a;
-        public static final int Base_Theme_AppCompat=0x7f0b002b;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b002c;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0b002d;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b002e;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b002f;
-        public static final int Base_Theme_AppCompat_Light=0x7f0b0030;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b0031;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0032;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b0033;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0034;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0b0035;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b0036;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b0037;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0038;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b0039;
-        public static final int Base_V11_Theme_AppCompat=0x7f0b00e3;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b00e4;
-        public static final int Base_V11_Theme_AppCompat_Light=0x7f0b00e5;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b00e6;
-        public static final int Base_V14_Theme_AppCompat=0x7f0b00e7;
-        public static final int Base_V14_Theme_AppCompat_Dialog=0x7f0b00e8;
-        public static final int Base_V14_Theme_AppCompat_Light=0x7f0b00e9;
-        public static final int Base_V14_Theme_AppCompat_Light_Dialog=0x7f0b00ea;
-        public static final int Base_V21_Theme_AppCompat=0x7f0b00eb;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b00ec;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b00ed;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b00ee;
-        public static final int Base_V7_Theme_AppCompat=0x7f0b003a;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b003b;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b003c;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b003d;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b003e;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b003f;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0040;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0041;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b0042;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0043;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b0044;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b0045;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b0046;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0047;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b0048;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0049;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b004a;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0b004b;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b004c;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b004d;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b004e;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b004f;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0050;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0051;
-        public static final int Base_Widget_AppCompat_Light_ActivityChooserView=0x7f0b0052;
-        public static final int Base_Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0053;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0054;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0055;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0056;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b0057;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b0058;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b0059;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b005a;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b005b;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b005c;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b005d;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0b005e;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0b005f;
-        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0060;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b0061;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0062;
-        public static final int Platform_AppCompat=0x7f0b0063;
-        public static final int Platform_AppCompat_Dialog=0x7f0b0064;
-        public static final int Platform_AppCompat_Light=0x7f0b0065;
-        public static final int Platform_AppCompat_Light_Dialog=0x7f0b0066;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0067;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0068;
-        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0069;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b006a;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b006b;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b006c;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b006d;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b006e;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b006f;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0070;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b0071;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b0072;
-        public static final int TextAppearance_AppCompat=0x7f0b0073;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0b0074;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0b0075;
-        public static final int TextAppearance_AppCompat_Button=0x7f0b0076;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0b0077;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0b0078;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0b0079;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0b007a;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0b007b;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0b007c;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0b007d;
-        public static final int TextAppearance_AppCompat_Large=0x7f0b007e;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b007f;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b0080;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b0081;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0082;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0083;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0b0084;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b0085;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0b0086;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0087;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b0088;
-        public static final int TextAppearance_AppCompat_Small=0x7f0b0089;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b008a;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0b008b;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b008c;
-        public static final int TextAppearance_AppCompat_Title=0x7f0b008d;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b008e;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b008f;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0090;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0091;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0092;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0093;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0094;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b0095;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0096;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b0097;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0098;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0099;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b009a;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b009b;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b009c;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b009d;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b009e;
-        public static final int Theme_AppCompat=0x7f0b009f;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0b00a0;
-        public static final int Theme_AppCompat_Dialog=0x7f0b00a1;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b00a2;
-        public static final int Theme_AppCompat_Light=0x7f0b00a3;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b00a4;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0b00a5;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b00a6;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b00a7;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0b00a8;
-        public static final int ThemeOverlay_AppCompat=0x7f0b00a9;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b00aa;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b00ab;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00ac;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0b00ad;
-        public static final int Widget_AppCompat_ActionBar=0x7f0b00ae;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b00af;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b00b0;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b00b1;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b00b2;
-        public static final int Widget_AppCompat_ActionButton=0x7f0b00b3;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b00b4;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b00b5;
-        public static final int Widget_AppCompat_ActionMode=0x7f0b00b6;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b00b7;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b00b8;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b00b9;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b00ba;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b00bb;
-        public static final int Widget_AppCompat_EditText=0x7f0b00bc;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b00bd;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00be;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b00bf;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00c0;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b00c1;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b00c2;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b00c3;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b00c4;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b00c5;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b00c6;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b00c7;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b00c8;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b00c9;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b00ca;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b00cb;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b00cc;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b00cd;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b00ce;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b00cf;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b00d0;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0b00d1;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b00d2;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b00d3;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b00d4;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0b00d5;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0b00d6;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b00d7;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0b00d8;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0b00d9;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b00da;
-        public static final int Widget_AppCompat_SearchView=0x7f0b00db;
-        public static final int Widget_AppCompat_Spinner=0x7f0b00dc;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b00dd;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b00de;
-        public static final int Widget_AppCompat_Toolbar=0x7f0b00df;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b00e0;
-        public static final int lbl_value_consult=0x7f0b00e1;
-        public static final int txt_value_consult=0x7f0b00e2;
+        public static final int AppTheme=0x7f070078;
+        public static final int Base_AlertDialog_AppCompat=0x7f070079;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f07007a;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f07007b;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f07007c;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f07007d;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f07007e;
+        public static final int Base_TextAppearance_AppCompat=0x7f07002f;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f070030;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f070031;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f070019;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f070032;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f070033;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f070034;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f070035;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f070036;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f070037;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f070004;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f070038;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f070005;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f070039;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f07003a;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f07003b;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f070006;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f07003c;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f07007f;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f07003d;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f07003e;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f07003f;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f070007;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f070040;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f070008;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f070041;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f070009;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f070042;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f070043;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f070044;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f070045;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f070046;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f070047;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f070048;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f070080;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f070049;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f07004a;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f07004b;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f07004c;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f070081;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f07004d;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f07004e;
+        public static final int Base_Theme_AppCompat=0x7f07004f;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f070082;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f07000a;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f070083;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f070084;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f070085;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f070001;
+        public static final int Base_Theme_AppCompat_Light=0x7f070050;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f070086;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f07000b;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f070087;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f070088;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f070089;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f070002;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f07008a;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f07008b;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f07008c;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f07008d;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f07008e;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f07000c;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f07000d;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f070015;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f070016;
+        public static final int Base_V21_Theme_AppCompat=0x7f070051;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f070052;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f070053;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f070054;
+        public static final int Base_V7_Theme_AppCompat=0x7f07008f;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f070090;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f070091;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f070092;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f070093;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f070094;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f070095;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f070096;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f070097;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f070055;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f070056;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f070057;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f070058;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f070059;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f070098;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f070099;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f070017;
+        public static final int Base_Widget_AppCompat_Button=0x7f07005a;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f07005b;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f07005c;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f07009a;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f07005d;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f07005e;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f07009b;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f07005f;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f070060;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f07009c;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f070000;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f07009d;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f070061;
+        public static final int Base_Widget_AppCompat_EditText=0x7f070018;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f07009e;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f07009f;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0700a0;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f070062;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f070063;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f070064;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f070065;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f070066;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f070067;
+        public static final int Base_Widget_AppCompat_ListView=0x7f070068;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f070069;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f07006a;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f07006b;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f07006c;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0700a1;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f07000e;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f07000f;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f07006d;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0700a2;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0700a3;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f070010;
+        public static final int Base_Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f07006e;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f07006f;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f070070;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0700a4;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f070071;
+        public static final int Platform_AppCompat=0x7f070011;
+        public static final int Platform_AppCompat_Light=0x7f070012;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f070072;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f070073;
+        public static final int Platform_V11_AppCompat=0x7f070013;
+        public static final int Platform_V11_AppCompat_Light=0x7f070014;
+        public static final int Platform_V14_AppCompat=0x7f07001a;
+        public static final int Platform_V14_AppCompat_Light=0x7f07001b;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f070021;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f070022;
+        public static final int RtlOverlay_Widget_AppCompat_ActionButton_Overflow=0x7f070023;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f070024;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f070025;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f070026;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f070027;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f070028;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f070029;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f07002a;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f07002b;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f07002c;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f07002d;
+        public static final int RtlOverlay_Widget_AppCompat_Toolbar_Button_Navigation=0x7f07002e;
+        public static final int TextAppearance_AppCompat=0x7f0700a5;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0700a6;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0700a7;
+        public static final int TextAppearance_AppCompat_Button=0x7f0700a8;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0700a9;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0700aa;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0700ab;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0700ac;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0700ad;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0700ae;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0700af;
+        public static final int TextAppearance_AppCompat_Large=0x7f0700b0;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0700b1;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0700b2;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0700b3;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0700b4;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0700b5;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0700b6;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0700b7;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0700b8;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0700b9;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0700ba;
+        public static final int TextAppearance_AppCompat_Small=0x7f0700bb;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0700bc;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0700bd;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0700be;
+        public static final int TextAppearance_AppCompat_Title=0x7f0700bf;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0700c0;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0700c1;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0700c2;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0700c3;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0700c4;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0700c5;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0700c6;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0700c7;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0700c8;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0700c9;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0700ca;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0700cb;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0700cc;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0700cd;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0700ce;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f07001c;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f07001d;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f07001e;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f07001f;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f070020;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0700cf;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0700d0;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0700d1;
+        public static final int Theme_AppCompat=0x7f0700d2;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0700d3;
+        public static final int Theme_AppCompat_Dialog=0x7f0700d4;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0700d5;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0700d6;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0700d7;
+        public static final int Theme_AppCompat_Light=0x7f0700d8;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0700d9;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0700da;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0700db;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0700dc;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0700dd;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0700de;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0700df;
+        public static final int ThemeOverlay_AppCompat=0x7f0700e0;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0700e1;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0700e2;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0700e3;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0700e4;
+        public static final int Widget_AppCompat_ActionBar=0x7f0700e5;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0700e6;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0700e7;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0700e8;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0700e9;
+        public static final int Widget_AppCompat_ActionButton=0x7f0700ea;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0700eb;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0700ec;
+        public static final int Widget_AppCompat_ActionMode=0x7f0700ed;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0700ee;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0700ef;
+        public static final int Widget_AppCompat_Button=0x7f0700f0;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0700f1;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0700f2;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0700f3;
+        public static final int Widget_AppCompat_Button_Small=0x7f0700f4;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0700f5;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0700f6;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0700f7;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0700f8;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0700f9;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0700fa;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0700fb;
+        public static final int Widget_AppCompat_EditText=0x7f0700fc;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0700fd;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0700fe;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0700ff;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f070100;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f070101;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f070102;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f070103;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f070104;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f070105;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f070106;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f070107;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f070108;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f070109;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f07010a;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f07010b;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f07010c;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f07010d;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f07010e;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f07010f;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f070110;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f070111;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f070112;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f070113;
+        public static final int Widget_AppCompat_ListView=0x7f070114;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f070115;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f070116;
+        public static final int Widget_AppCompat_PopupMenu=0x7f070117;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f070118;
+        public static final int Widget_AppCompat_PopupWindow=0x7f070119;
+        public static final int Widget_AppCompat_ProgressBar=0x7f07011a;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f07011b;
+        public static final int Widget_AppCompat_RatingBar=0x7f07011c;
+        public static final int Widget_AppCompat_SearchView=0x7f07011d;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f07011e;
+        public static final int Widget_AppCompat_Spinner=0x7f07011f;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f070120;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f070121;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f070122;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f070123;
+        public static final int Widget_AppCompat_Toolbar=0x7f070124;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f070125;
+        public static final int lbl_value_consult=0x7f070126;
+        public static final int txt_value_consult=0x7f070127;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -1784,33 +2054,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background esgi.ikji.mamoyenne:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit esgi.ikji.mamoyenne:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked esgi.ikji.mamoyenne:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd esgi.ikji.mamoyenne:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft esgi.ikji.mamoyenne:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight esgi.ikji.mamoyenne:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart esgi.ikji.mamoyenne:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout esgi.ikji.mamoyenne:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions esgi.ikji.mamoyenne:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider esgi.ikji.mamoyenne:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation esgi.ikji.mamoyenne:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height esgi.ikji.mamoyenne:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll esgi.ikji.mamoyenne:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator esgi.ikji.mamoyenne:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout esgi.ikji.mamoyenne:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon esgi.ikji.mamoyenne:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle esgi.ikji.mamoyenne:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding esgi.ikji.mamoyenne:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo esgi.ikji.mamoyenne:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode esgi.ikji.mamoyenne:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme esgi.ikji.mamoyenne:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding esgi.ikji.mamoyenne:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle esgi.ikji.mamoyenne:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle esgi.ikji.mamoyenne:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle esgi.ikji.mamoyenne:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title esgi.ikji.mamoyenne:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle esgi.ikji.mamoyenne:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background navi.moyenneproject:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit navi.moyenneproject:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked navi.moyenneproject:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd navi.moyenneproject:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft navi.moyenneproject:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight navi.moyenneproject:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart navi.moyenneproject:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout navi.moyenneproject:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions navi.moyenneproject:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider navi.moyenneproject:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation navi.moyenneproject:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height navi.moyenneproject:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll navi.moyenneproject:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator navi.moyenneproject:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout navi.moyenneproject:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon navi.moyenneproject:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle navi.moyenneproject:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding navi.moyenneproject:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo navi.moyenneproject:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode navi.moyenneproject:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme navi.moyenneproject:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding navi.moyenneproject:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle navi.moyenneproject:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle navi.moyenneproject:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle navi.moyenneproject:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title navi.moyenneproject:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle navi.moyenneproject:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -1847,20 +2117,20 @@ containing a value of this type.
             0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
             0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
             0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
-            0x7f01001a, 0x7f01001b, 0x7f010071
+            0x7f01001a, 0x7f01001b, 0x7f01007d
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#background}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:background
+          @attr name navi.moyenneproject:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1868,11 +2138,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name esgi.ikji.mamoyenne:backgroundSplit
+          @attr name navi.moyenneproject:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1880,11 +2150,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name esgi.ikji.mamoyenne:backgroundStacked
+          @attr name navi.moyenneproject:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1896,11 +2166,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetEnd
+          @attr name navi.moyenneproject:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1912,11 +2182,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetLeft
+          @attr name navi.moyenneproject:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1928,11 +2198,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetRight
+          @attr name navi.moyenneproject:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1944,21 +2214,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetStart
+          @attr name navi.moyenneproject:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:customNavigationLayout
+          @attr name navi.moyenneproject:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -1976,21 +2246,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name esgi.ikji.mamoyenne:displayOptions
+          @attr name navi.moyenneproject:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#divider}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:divider
+          @attr name navi.moyenneproject:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#elevation}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2002,11 +2272,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:elevation
+          @attr name navi.moyenneproject:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#height}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2018,11 +2288,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:height
+          @attr name navi.moyenneproject:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2032,51 +2302,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:hideOnContentScroll
+          @attr name navi.moyenneproject:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:homeAsUpIndicator
+          @attr name navi.moyenneproject:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:homeLayout
+          @attr name navi.moyenneproject:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#icon}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:icon
+          @attr name navi.moyenneproject:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:indeterminateProgressStyle
+          @attr name navi.moyenneproject:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2088,21 +2358,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:itemPadding
+          @attr name navi.moyenneproject:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#logo}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:logo
+          @attr name navi.moyenneproject:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2116,21 +2386,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name esgi.ikji.mamoyenne:navigationMode
+          @attr name navi.moyenneproject:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:popupTheme
+          @attr name navi.moyenneproject:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2142,21 +2412,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:progressBarPadding
+          @attr name navi.moyenneproject:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:progressBarStyle
+          @attr name navi.moyenneproject:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2166,21 +2436,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:subtitle
+          @attr name navi.moyenneproject:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:subtitleTextStyle
+          @attr name navi.moyenneproject:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#title}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2190,17 +2460,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:title
+          @attr name navi.moyenneproject:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:titleTextStyle
+          @attr name navi.moyenneproject:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2252,12 +2522,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background esgi.ikji.mamoyenne:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit esgi.ikji.mamoyenne:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout esgi.ikji.mamoyenne:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height esgi.ikji.mamoyenne:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle esgi.ikji.mamoyenne:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle esgi.ikji.mamoyenne:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background navi.moyenneproject:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit navi.moyenneproject:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout navi.moyenneproject:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height navi.moyenneproject:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle navi.moyenneproject:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle navi.moyenneproject:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2271,17 +2541,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#background}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:background
+          @attr name navi.moyenneproject:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2289,21 +2559,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name esgi.ikji.mamoyenne:backgroundSplit
+          @attr name navi.moyenneproject:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:closeItemLayout
+          @attr name navi.moyenneproject:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#height}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2315,27 +2585,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:height
+          @attr name navi.moyenneproject:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:subtitleTextStyle
+          @attr name navi.moyenneproject:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:titleTextStyle
+          @attr name navi.moyenneproject:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2344,8 +2614,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable esgi.ikji.mamoyenne:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount esgi.ikji.mamoyenne:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable navi.moyenneproject:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount navi.moyenneproject:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2354,17 +2624,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:expandActivityOverflowButtonDrawable
+          @attr name navi.moyenneproject:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2374,47 +2644,135 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:initialActivityCount
+          @attr name navi.moyenneproject:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
-        /** Attributes that can be used with a CompatTextView.
+        /** Attributes that can be used with a AlertDialog.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps esgi.ikji.mamoyenne:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout navi.moyenneproject:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout navi.moyenneproject:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout navi.moyenneproject:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout navi.moyenneproject:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout navi.moyenneproject:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
-           @see #CompatTextView_textAllCaps
+           @see #AlertDialog_android_layout
+           @see #AlertDialog_buttonPanelSideLayout
+           @see #AlertDialog_listItemLayout
+           @see #AlertDialog_listLayout
+           @see #AlertDialog_multiChoiceItemLayout
+           @see #AlertDialog_singleChoiceItemLayout
          */
-        public static final int[] CompatTextView = {
-            0x7f01001f
+        public static final int[] AlertDialog = {
+            0x010100f2, 0x7f01001f, 0x7f010020, 0x7f010021,
+            0x7f010022, 0x7f010023
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textAllCaps}
-          attribute's value can be found in the {@link #CompatTextView} array.
+          <p>This symbol is the offset where the {@link android.R.attr#layout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+          @attr name android:layout
+        */
+        public static final int AlertDialog_android_layout = 0;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonPanelSideLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:buttonPanelSideLayout
+        */
+        public static final int AlertDialog_buttonPanelSideLayout = 1;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:listItemLayout
+        */
+        public static final int AlertDialog_listItemLayout = 5;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:listLayout
+        */
+        public static final int AlertDialog_listLayout = 2;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#multiChoiceItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:multiChoiceItemLayout
+        */
+        public static final int AlertDialog_multiChoiceItemLayout = 3;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#singleChoiceItemLayout}
+          attribute's value can be found in the {@link #AlertDialog} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:singleChoiceItemLayout
+        */
+        public static final int AlertDialog_singleChoiceItemLayout = 4;
+        /** Attributes that can be used with a AppCompatTextView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps navi.moyenneproject:textAllCaps}</code></td><td></td></tr>
+           </table>
+           @see #AppCompatTextView_android_textAppearance
+           @see #AppCompatTextView_textAllCaps
+         */
+        public static final int[] AppCompatTextView = {
+            0x01010034, 0x7f010024
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
+          @attr name android:textAppearance
+        */
+        public static final int AppCompatTextView_android_textAppearance = 0;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAllCaps}
+          attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name esgi.ikji.mamoyenne:textAllCaps
+          @attr name navi.moyenneproject:textAllCaps
         */
-        public static final int CompatTextView_textAllCaps = 0;
+        public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a DrawerArrowToggle.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize esgi.ikji.mamoyenne:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color esgi.ikji.mamoyenne:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize esgi.ikji.mamoyenne:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars esgi.ikji.mamoyenne:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize esgi.ikji.mamoyenne:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars esgi.ikji.mamoyenne:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness esgi.ikji.mamoyenne:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize esgi.ikji.mamoyenne:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize navi.moyenneproject:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color navi.moyenneproject:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize navi.moyenneproject:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars navi.moyenneproject:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize navi.moyenneproject:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars navi.moyenneproject:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness navi.moyenneproject:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize navi.moyenneproject:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2426,11 +2784,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #DrawerArrowToggle_topBottomBarArrowSize
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023,
-            0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027
+            0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028,
+            0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#barSize}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2442,11 +2800,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:barSize
+          @attr name navi.moyenneproject:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#color}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2457,11 +2815,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:color
+          @attr name navi.moyenneproject:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2473,11 +2831,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:drawableSize
+          @attr name navi.moyenneproject:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2489,11 +2847,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:gapBetweenBars
+          @attr name navi.moyenneproject:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2505,11 +2863,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:middleBarArrowSize
+          @attr name navi.moyenneproject:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2519,11 +2877,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:spinBars
+          @attr name navi.moyenneproject:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#thickness}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2535,11 +2893,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:thickness
+          @attr name navi.moyenneproject:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2551,7 +2909,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:topBottomBarArrowSize
+          @attr name navi.moyenneproject:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -2565,10 +2923,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider esgi.ikji.mamoyenne:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding esgi.ikji.mamoyenne:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild esgi.ikji.mamoyenne:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers esgi.ikji.mamoyenne:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider navi.moyenneproject:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding navi.moyenneproject:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild navi.moyenneproject:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers navi.moyenneproject:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -2582,8 +2940,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f01000b, 0x7f010028, 0x7f010029,
-            0x7f01002a
+            0x01010128, 0x7f01000b, 0x7f01002d, 0x7f01002e,
+            0x7f01002f
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -2616,17 +2974,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#divider}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:divider
+          @attr name navi.moyenneproject:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2638,11 +2996,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:dividerPadding
+          @attr name navi.moyenneproject:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2652,11 +3010,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:measureWithLargestChild
+          @attr name navi.moyenneproject:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2671,7 +3029,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name esgi.ikji.mamoyenne:showDividers
+          @attr name navi.moyenneproject:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -2810,9 +3168,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout esgi.ikji.mamoyenne:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass esgi.ikji.mamoyenne:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass esgi.ikji.mamoyenne:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout navi.moyenneproject:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass navi.moyenneproject:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass navi.moyenneproject:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -2826,7 +3184,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction esgi.ikji.mamoyenne:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction navi.moyenneproject:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -2850,21 +3208,21 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f01002b, 0x7f01002c, 0x7f01002d,
-            0x7f01002e
+            0x0101026f, 0x7f010030, 0x7f010031, 0x7f010032,
+            0x7f010033
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionLayout
+          @attr name navi.moyenneproject:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2874,11 +3232,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:actionProviderClass
+          @attr name navi.moyenneproject:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2888,7 +3246,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:actionViewClass
+          @attr name navi.moyenneproject:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -2970,7 +3328,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -2986,7 +3344,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name esgi.ikji.mamoyenne:showAsAction
+          @attr name navi.moyenneproject:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3002,7 +3360,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing esgi.ikji.mamoyenne:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing navi.moyenneproject:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3015,7 +3373,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f01002f
+            0x0101012f, 0x01010130, 0x01010131, 0x7f010034
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -3060,7 +3418,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3070,7 +3428,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:preserveIconSpacing
+          @attr name navi.moyenneproject:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3080,13 +3438,13 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor esgi.ikji.mamoyenne:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor navi.moyenneproject:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f010030
+            0x01010176, 0x7f010035
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -3095,7 +3453,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3105,7 +3463,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:overlapAnchor
+          @attr name navi.moyenneproject:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3114,15 +3472,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor esgi.ikji.mamoyenne:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor navi.moyenneproject:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f010031
+            0x7f010036
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3132,7 +3490,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:state_above_anchor
+          @attr name navi.moyenneproject:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3145,17 +3503,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon esgi.ikji.mamoyenne:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon esgi.ikji.mamoyenne:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon esgi.ikji.mamoyenne:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault esgi.ikji.mamoyenne:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout esgi.ikji.mamoyenne:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground esgi.ikji.mamoyenne:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint esgi.ikji.mamoyenne:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon esgi.ikji.mamoyenne:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground esgi.ikji.mamoyenne:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout esgi.ikji.mamoyenne:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon esgi.ikji.mamoyenne:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon navi.moyenneproject:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon navi.moyenneproject:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint navi.moyenneproject:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon navi.moyenneproject:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault navi.moyenneproject:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout navi.moyenneproject:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground navi.moyenneproject:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint navi.moyenneproject:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon navi.moyenneproject:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon navi.moyenneproject:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground navi.moyenneproject:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout navi.moyenneproject:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon navi.moyenneproject:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3163,11 +3523,13 @@ containing a value of this type.
            @see #SearchView_android_maxWidth
            @see #SearchView_closeIcon
            @see #SearchView_commitIcon
+           @see #SearchView_defaultQueryHint
            @see #SearchView_goIcon
            @see #SearchView_iconifiedByDefault
            @see #SearchView_layout
            @see #SearchView_queryBackground
            @see #SearchView_queryHint
+           @see #SearchView_searchHintIcon
            @see #SearchView_searchIcon
            @see #SearchView_submitBackground
            @see #SearchView_suggestionRowLayout
@@ -3175,9 +3537,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
-            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
-            0x7f01003a, 0x7f01003b, 0x7f01003c
+            0x7f010037, 0x7f010038, 0x7f010039, 0x7f01003a,
+            0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e,
+            0x7f01003f, 0x7f010040, 0x7f010041, 0x7f010042,
+            0x7f010043
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -3204,71 +3567,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:closeIcon
+          @attr name navi.moyenneproject:closeIcon
         */
-        public static final int SearchView_closeIcon = 7;
+        public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:commitIcon
+          @attr name navi.moyenneproject:commitIcon
         */
-        public static final int SearchView_commitIcon = 11;
+        public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#goIcon}
-          attribute's value can be found in the {@link #SearchView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:goIcon
-        */
-        public static final int SearchView_goIcon = 8;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#iconifiedByDefault}
-          attribute's value can be found in the {@link #SearchView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:iconifiedByDefault
-        */
-        public static final int SearchView_iconifiedByDefault = 5;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#layout}
-          attribute's value can be found in the {@link #SearchView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:layout
-        */
-        public static final int SearchView_layout = 4;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#queryBackground}
-          attribute's value can be found in the {@link #SearchView} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:queryBackground
-        */
-        public static final int SearchView_queryBackground = 13;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3278,49 +3597,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:queryHint
+          @attr name navi.moyenneproject:defaultQueryHint
+        */
+        public static final int SearchView_defaultQueryHint = 7;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#goIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:goIcon
+        */
+        public static final int SearchView_goIcon = 9;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#iconifiedByDefault}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:iconifiedByDefault
+        */
+        public static final int SearchView_iconifiedByDefault = 5;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#layout}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:layout
+        */
+        public static final int SearchView_layout = 4;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#queryBackground}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:queryBackground
+        */
+        public static final int SearchView_queryBackground = 15;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#queryHint}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:searchIcon
+          @attr name navi.moyenneproject:searchHintIcon
         */
-        public static final int SearchView_searchIcon = 9;
+        public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:submitBackground
+          @attr name navi.moyenneproject:searchIcon
         */
-        public static final int SearchView_submitBackground = 14;
+        public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:suggestionRowLayout
+          @attr name navi.moyenneproject:submitBackground
         */
-        public static final int SearchView_suggestionRowLayout = 12;
+        public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:voiceIcon
+          @attr name navi.moyenneproject:suggestionRowLayout
         */
-        public static final int SearchView_voiceIcon = 10;
+        public static final int SearchView_suggestionRowLayout = 14;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#voiceIcon}
+          attribute's value can be found in the {@link #SearchView} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:voiceIcon
+        */
+        public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>
@@ -3334,10 +3721,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled esgi.ikji.mamoyenne:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView esgi.ikji.mamoyenne:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt esgi.ikji.mamoyenne:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode esgi.ikji.mamoyenne:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled navi.moyenneproject:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView navi.moyenneproject:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt navi.moyenneproject:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode navi.moyenneproject:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -3353,8 +3740,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] Spinner = {
             0x010100af, 0x010100d4, 0x01010175, 0x01010176,
-            0x01010262, 0x010102ac, 0x010102ad, 0x7f01003d,
-            0x7f01003e, 0x7f01003f, 0x7f010040
+            0x01010262, 0x010102ac, 0x010102ad, 0x7f010044,
+            0x7f010045, 0x7f010046, 0x7f010047
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -3399,7 +3786,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3409,31 +3796,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:disableChildrenWhenDisabled
+          @attr name navi.moyenneproject:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:popupPromptView
+          @attr name navi.moyenneproject:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#prompt}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:prompt
+          @attr name navi.moyenneproject:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3446,7 +3833,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name esgi.ikji.mamoyenne:spinnerMode
+          @attr name navi.moyenneproject:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -3458,13 +3845,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText esgi.ikji.mamoyenne:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack esgi.ikji.mamoyenne:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth esgi.ikji.mamoyenne:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding esgi.ikji.mamoyenne:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance esgi.ikji.mamoyenne:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding esgi.ikji.mamoyenne:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track esgi.ikji.mamoyenne:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText navi.moyenneproject:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack navi.moyenneproject:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth navi.moyenneproject:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding navi.moyenneproject:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance navi.moyenneproject:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding navi.moyenneproject:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track navi.moyenneproject:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -3478,9 +3865,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f010041,
-            0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
-            0x7f010046, 0x7f010047
+            0x01010124, 0x01010125, 0x01010142, 0x7f010048,
+            0x7f010049, 0x7f01004a, 0x7f01004b, 0x7f01004c,
+            0x7f01004d, 0x7f01004e
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -3501,7 +3888,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#showText}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3511,11 +3898,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:showText
+          @attr name navi.moyenneproject:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3525,11 +3912,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:splitTrack
+          @attr name navi.moyenneproject:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3541,11 +3928,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:switchMinWidth
+          @attr name navi.moyenneproject:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3557,21 +3944,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:switchPadding
+          @attr name navi.moyenneproject:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:switchTextAppearance
+          @attr name navi.moyenneproject:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3583,108 +3970,189 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:thumbTextPadding
+          @attr name navi.moyenneproject:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#track}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:track
+          @attr name navi.moyenneproject:track
         */
         public static final int SwitchCompat_track = 3;
+        /** Attributes that can be used with a TextAppearance.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TextAppearance_android_textColor android:textColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps navi.moyenneproject:textAllCaps}</code></td><td></td></tr>
+           </table>
+           @see #TextAppearance_android_textColor
+           @see #TextAppearance_android_textSize
+           @see #TextAppearance_android_textStyle
+           @see #TextAppearance_android_typeface
+           @see #TextAppearance_textAllCaps
+         */
+        public static final int[] TextAppearance = {
+            0x01010095, 0x01010096, 0x01010097, 0x01010098,
+            0x7f010024
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textColor}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textColor
+        */
+        public static final int TextAppearance_android_textColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textSize}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textSize
+        */
+        public static final int TextAppearance_android_textSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#textStyle}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:textStyle
+        */
+        public static final int TextAppearance_android_textStyle = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#typeface}
+          attribute's value can be found in the {@link #TextAppearance} array.
+          @attr name android:typeface
+        */
+        public static final int TextAppearance_android_typeface = 1;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAllCaps}
+          attribute's value can be found in the {@link #TextAppearance} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+          @attr name navi.moyenneproject:textAllCaps
+        */
+        public static final int TextAppearance_textAllCaps = 4;
         /** Attributes that can be used with a Theme.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider esgi.ikji.mamoyenne:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground esgi.ikji.mamoyenne:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme esgi.ikji.mamoyenne:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize esgi.ikji.mamoyenne:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle esgi.ikji.mamoyenne:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle esgi.ikji.mamoyenne:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle esgi.ikji.mamoyenne:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle esgi.ikji.mamoyenne:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle esgi.ikji.mamoyenne:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme esgi.ikji.mamoyenne:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme esgi.ikji.mamoyenne:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle esgi.ikji.mamoyenne:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle esgi.ikji.mamoyenne:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance esgi.ikji.mamoyenne:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor esgi.ikji.mamoyenne:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground esgi.ikji.mamoyenne:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle esgi.ikji.mamoyenne:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable esgi.ikji.mamoyenne:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable esgi.ikji.mamoyenne:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable esgi.ikji.mamoyenne:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable esgi.ikji.mamoyenne:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable esgi.ikji.mamoyenne:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle esgi.ikji.mamoyenne:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable esgi.ikji.mamoyenne:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable esgi.ikji.mamoyenne:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground esgi.ikji.mamoyenne:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle esgi.ikji.mamoyenne:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable esgi.ikji.mamoyenne:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle esgi.ikji.mamoyenne:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle esgi.ikji.mamoyenne:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle esgi.ikji.mamoyenne:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider navi.moyenneproject:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground navi.moyenneproject:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme navi.moyenneproject:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize navi.moyenneproject:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle navi.moyenneproject:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle navi.moyenneproject:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle navi.moyenneproject:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle navi.moyenneproject:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle navi.moyenneproject:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme navi.moyenneproject:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme navi.moyenneproject:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle navi.moyenneproject:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle navi.moyenneproject:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance navi.moyenneproject:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor navi.moyenneproject:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground navi.moyenneproject:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle navi.moyenneproject:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable navi.moyenneproject:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable navi.moyenneproject:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable navi.moyenneproject:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable navi.moyenneproject:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable navi.moyenneproject:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle navi.moyenneproject:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable navi.moyenneproject:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable navi.moyenneproject:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground navi.moyenneproject:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle navi.moyenneproject:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable navi.moyenneproject:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle navi.moyenneproject:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle navi.moyenneproject:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle navi.moyenneproject:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogButtonGroupStyle navi.moyenneproject:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogCenterButtons navi.moyenneproject:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogStyle navi.moyenneproject:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_alertDialogTheme navi.moyenneproject:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle esgi.ikji.mamoyenne:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle esgi.ikji.mamoyenne:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent esgi.ikji.mamoyenne:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal esgi.ikji.mamoyenne:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated esgi.ikji.mamoyenne:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight esgi.ikji.mamoyenne:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal esgi.ikji.mamoyenne:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary esgi.ikji.mamoyenne:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark esgi.ikji.mamoyenne:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal esgi.ikji.mamoyenne:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal esgi.ikji.mamoyenne:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical esgi.ikji.mamoyenne:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle esgi.ikji.mamoyenne:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight esgi.ikji.mamoyenne:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground esgi.ikji.mamoyenne:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor esgi.ikji.mamoyenne:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator esgi.ikji.mamoyenne:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator esgi.ikji.mamoyenne:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle esgi.ikji.mamoyenne:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight esgi.ikji.mamoyenne:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge esgi.ikji.mamoyenne:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall esgi.ikji.mamoyenne:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft esgi.ikji.mamoyenne:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight esgi.ikji.mamoyenne:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground esgi.ikji.mamoyenne:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme esgi.ikji.mamoyenne:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth esgi.ikji.mamoyenne:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle esgi.ikji.mamoyenne:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle esgi.ikji.mamoyenne:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle esgi.ikji.mamoyenne:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground esgi.ikji.mamoyenne:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless esgi.ikji.mamoyenne:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle esgi.ikji.mamoyenne:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle esgi.ikji.mamoyenne:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle esgi.ikji.mamoyenne:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu esgi.ikji.mamoyenne:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem esgi.ikji.mamoyenne:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall esgi.ikji.mamoyenne:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle esgi.ikji.mamoyenne:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle esgi.ikji.mamoyenne:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu esgi.ikji.mamoyenne:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl esgi.ikji.mamoyenne:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle esgi.ikji.mamoyenne:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle esgi.ikji.mamoyenne:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar esgi.ikji.mamoyenne:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay esgi.ikji.mamoyenne:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay esgi.ikji.mamoyenne:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor esgi.ikji.mamoyenne:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor esgi.ikji.mamoyenne:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor esgi.ikji.mamoyenne:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor esgi.ikji.mamoyenne:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_autoCompleteTextViewStyle navi.moyenneproject:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_borderlessButtonStyle navi.moyenneproject:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle navi.moyenneproject:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNegativeButtonStyle navi.moyenneproject:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarNeutralButtonStyle navi.moyenneproject:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarPositiveButtonStyle navi.moyenneproject:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle navi.moyenneproject:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyle navi.moyenneproject:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonStyleSmall navi.moyenneproject:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkboxStyle navi.moyenneproject:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_checkedTextViewStyle navi.moyenneproject:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent navi.moyenneproject:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal navi.moyenneproject:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated navi.moyenneproject:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight navi.moyenneproject:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal navi.moyenneproject:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary navi.moyenneproject:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark navi.moyenneproject:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal navi.moyenneproject:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogPreferredPadding navi.moyenneproject:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dialogTheme navi.moyenneproject:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal navi.moyenneproject:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical navi.moyenneproject:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle navi.moyenneproject:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight navi.moyenneproject:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground navi.moyenneproject:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor navi.moyenneproject:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextStyle navi.moyenneproject:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator navi.moyenneproject:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator navi.moyenneproject:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listDividerAlertDialog navi.moyenneproject:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle navi.moyenneproject:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight navi.moyenneproject:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge navi.moyenneproject:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall navi.moyenneproject:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft navi.moyenneproject:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight navi.moyenneproject:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground navi.moyenneproject:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme navi.moyenneproject:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth navi.moyenneproject:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle navi.moyenneproject:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle navi.moyenneproject:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_radioButtonStyle navi.moyenneproject:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_ratingBarStyle navi.moyenneproject:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle navi.moyenneproject:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground navi.moyenneproject:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless navi.moyenneproject:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle navi.moyenneproject:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle navi.moyenneproject:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle navi.moyenneproject:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu navi.moyenneproject:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem navi.moyenneproject:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall navi.moyenneproject:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle navi.moyenneproject:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle navi.moyenneproject:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu navi.moyenneproject:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorAlertDialogListItem navi.moyenneproject:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl navi.moyenneproject:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle navi.moyenneproject:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle navi.moyenneproject:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar navi.moyenneproject:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay navi.moyenneproject:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay navi.moyenneproject:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor navi.moyenneproject:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor navi.moyenneproject:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor navi.moyenneproject:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor navi.moyenneproject:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMajor navi.moyenneproject:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowMinWidthMinor navi.moyenneproject:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowNoTitle navi.moyenneproject:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -3717,9 +4185,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_actionOverflowButtonStyle
            @see #Theme_actionOverflowMenuStyle
            @see #Theme_activityChooserViewStyle
+           @see #Theme_alertDialogButtonGroupStyle
+           @see #Theme_alertDialogCenterButtons
+           @see #Theme_alertDialogStyle
+           @see #Theme_alertDialogTheme
+           @see #Theme_android_windowAnimationStyle
            @see #Theme_android_windowIsFloating
+           @see #Theme_autoCompleteTextViewStyle
+           @see #Theme_borderlessButtonStyle
            @see #Theme_buttonBarButtonStyle
+           @see #Theme_buttonBarNegativeButtonStyle
+           @see #Theme_buttonBarNeutralButtonStyle
+           @see #Theme_buttonBarPositiveButtonStyle
            @see #Theme_buttonBarStyle
+           @see #Theme_buttonStyle
+           @see #Theme_buttonStyleSmall
+           @see #Theme_checkboxStyle
+           @see #Theme_checkedTextViewStyle
            @see #Theme_colorAccent
            @see #Theme_colorButtonNormal
            @see #Theme_colorControlActivated
@@ -3728,14 +4210,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_colorPrimary
            @see #Theme_colorPrimaryDark
            @see #Theme_colorSwitchThumbNormal
+           @see #Theme_dialogPreferredPadding
+           @see #Theme_dialogTheme
            @see #Theme_dividerHorizontal
            @see #Theme_dividerVertical
            @see #Theme_dropDownListViewStyle
            @see #Theme_dropdownListPreferredItemHeight
            @see #Theme_editTextBackground
            @see #Theme_editTextColor
+           @see #Theme_editTextStyle
            @see #Theme_homeAsUpIndicator
            @see #Theme_listChoiceBackgroundIndicator
+           @see #Theme_listDividerAlertDialog
            @see #Theme_listPopupWindowStyle
            @see #Theme_listPreferredItemHeight
            @see #Theme_listPreferredItemHeightLarge
@@ -3747,6 +4233,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_panelMenuListWidth
            @see #Theme_popupMenuStyle
            @see #Theme_popupWindowStyle
+           @see #Theme_radioButtonStyle
+           @see #Theme_ratingBarStyle
            @see #Theme_searchViewStyle
            @see #Theme_selectableItemBackground
            @see #Theme_selectableItemBackgroundBorderless
@@ -3759,6 +4247,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_textAppearanceSearchResultSubtitle
            @see #Theme_textAppearanceSearchResultTitle
            @see #Theme_textAppearanceSmallPopupMenu
+           @see #Theme_textColorAlertDialogListItem
            @see #Theme_textColorSearchUrl
            @see #Theme_toolbarNavigationButtonStyle
            @see #Theme_toolbarStyle
@@ -3769,62 +4258,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #Theme_windowFixedHeightMinor
            @see #Theme_windowFixedWidthMajor
            @see #Theme_windowFixedWidthMinor
+           @see #Theme_windowMinWidthMajor
+           @see #Theme_windowMinWidthMinor
+           @see #Theme_windowNoTitle
          */
         public static final int[] Theme = {
-            0x01010057, 0x7f010048, 0x7f010049, 0x7f01004a,
-            0x7f01004b, 0x7f01004c, 0x7f01004d, 0x7f01004e,
-            0x7f01004f, 0x7f010050, 0x7f010051, 0x7f010052,
-            0x7f010053, 0x7f010054, 0x7f010055, 0x7f010056,
-            0x7f010057, 0x7f010058, 0x7f010059, 0x7f01005a,
-            0x7f01005b, 0x7f01005c, 0x7f01005d, 0x7f01005e,
-            0x7f01005f, 0x7f010060, 0x7f010061, 0x7f010062,
-            0x7f010063, 0x7f010064, 0x7f010065, 0x7f010066,
-            0x7f010067, 0x7f010068, 0x7f010069, 0x7f01006a,
-            0x7f01006b, 0x7f01006c, 0x7f01006d, 0x7f01006e,
-            0x7f01006f, 0x7f010070, 0x7f010071, 0x7f010072,
-            0x7f010073, 0x7f010074, 0x7f010075, 0x7f010076,
-            0x7f010077, 0x7f010078, 0x7f010079, 0x7f01007a,
-            0x7f01007b, 0x7f01007c, 0x7f01007d, 0x7f01007e,
-            0x7f01007f, 0x7f010080, 0x7f010081, 0x7f010082,
-            0x7f010083, 0x7f010084, 0x7f010085, 0x7f010086,
-            0x7f010087, 0x7f010088, 0x7f010089, 0x7f01008a,
-            0x7f01008b, 0x7f01008c, 0x7f01008d, 0x7f01008e,
-            0x7f01008f, 0x7f010090, 0x7f010091, 0x7f010092,
-            0x7f010093, 0x7f010094, 0x7f010095, 0x7f010096,
-            0x7f010097, 0x7f010098, 0x7f010099
+            0x01010057, 0x010100ae, 0x7f01004f, 0x7f010050,
+            0x7f010051, 0x7f010052, 0x7f010053, 0x7f010054,
+            0x7f010055, 0x7f010056, 0x7f010057, 0x7f010058,
+            0x7f010059, 0x7f01005a, 0x7f01005b, 0x7f01005c,
+            0x7f01005d, 0x7f01005e, 0x7f01005f, 0x7f010060,
+            0x7f010061, 0x7f010062, 0x7f010063, 0x7f010064,
+            0x7f010065, 0x7f010066, 0x7f010067, 0x7f010068,
+            0x7f010069, 0x7f01006a, 0x7f01006b, 0x7f01006c,
+            0x7f01006d, 0x7f01006e, 0x7f01006f, 0x7f010070,
+            0x7f010071, 0x7f010072, 0x7f010073, 0x7f010074,
+            0x7f010075, 0x7f010076, 0x7f010077, 0x7f010078,
+            0x7f010079, 0x7f01007a, 0x7f01007b, 0x7f01007c,
+            0x7f01007d, 0x7f01007e, 0x7f01007f, 0x7f010080,
+            0x7f010081, 0x7f010082, 0x7f010083, 0x7f010084,
+            0x7f010085, 0x7f010086, 0x7f010087, 0x7f010088,
+            0x7f010089, 0x7f01008a, 0x7f01008b, 0x7f01008c,
+            0x7f01008d, 0x7f01008e, 0x7f01008f, 0x7f010090,
+            0x7f010091, 0x7f010092, 0x7f010093, 0x7f010094,
+            0x7f010095, 0x7f010096, 0x7f010097, 0x7f010098,
+            0x7f010099, 0x7f01009a, 0x7f01009b, 0x7f01009c,
+            0x7f01009d, 0x7f01009e, 0x7f01009f, 0x7f0100a0,
+            0x7f0100a1, 0x7f0100a2, 0x7f0100a3, 0x7f0100a4,
+            0x7f0100a5, 0x7f0100a6, 0x7f0100a7, 0x7f0100a8,
+            0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac,
+            0x7f0100ad, 0x7f0100ae, 0x7f0100af, 0x7f0100b0,
+            0x7f0100b1, 0x7f0100b2, 0x7f0100b3, 0x7f0100b4,
+            0x7f0100b5, 0x7f0100b6, 0x7f0100b7
         };
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarDivider
+          @attr name navi.moyenneproject:actionBarDivider
         */
-        public static final int Theme_actionBarDivider = 19;
+        public static final int Theme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarItemBackground
+          @attr name navi.moyenneproject:actionBarItemBackground
         */
-        public static final int Theme_actionBarItemBackground = 20;
+        public static final int Theme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarPopupTheme
+          @attr name navi.moyenneproject:actionBarPopupTheme
         */
-        public static final int Theme_actionBarPopupTheme = 13;
+        public static final int Theme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3844,111 +4342,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name esgi.ikji.mamoyenne:actionBarSize
+          @attr name navi.moyenneproject:actionBarSize
         */
-        public static final int Theme_actionBarSize = 18;
+        public static final int Theme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarSplitStyle
+          @attr name navi.moyenneproject:actionBarSplitStyle
         */
-        public static final int Theme_actionBarSplitStyle = 15;
+        public static final int Theme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarStyle
+          @attr name navi.moyenneproject:actionBarStyle
         */
-        public static final int Theme_actionBarStyle = 14;
+        public static final int Theme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarTabBarStyle
+          @attr name navi.moyenneproject:actionBarTabBarStyle
         */
-        public static final int Theme_actionBarTabBarStyle = 9;
+        public static final int Theme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarTabStyle
+          @attr name navi.moyenneproject:actionBarTabStyle
         */
-        public static final int Theme_actionBarTabStyle = 8;
+        public static final int Theme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarTabTextStyle
+          @attr name navi.moyenneproject:actionBarTabTextStyle
         */
-        public static final int Theme_actionBarTabTextStyle = 10;
+        public static final int Theme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarTheme
+          @attr name navi.moyenneproject:actionBarTheme
         */
-        public static final int Theme_actionBarTheme = 16;
+        public static final int Theme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionBarWidgetTheme
+          @attr name navi.moyenneproject:actionBarWidgetTheme
         */
-        public static final int Theme_actionBarWidgetTheme = 17;
+        public static final int Theme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionButtonStyle
+          @attr name navi.moyenneproject:actionButtonStyle
         */
-        public static final int Theme_actionButtonStyle = 43;
+        public static final int Theme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionDropDownStyle
+          @attr name navi.moyenneproject:actionDropDownStyle
         */
-        public static final int Theme_actionDropDownStyle = 38;
+        public static final int Theme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionMenuTextAppearance
+          @attr name navi.moyenneproject:actionMenuTextAppearance
         */
-        public static final int Theme_actionMenuTextAppearance = 21;
+        public static final int Theme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3956,169 +4454,219 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionMenuTextColor
+          @attr name navi.moyenneproject:actionMenuTextColor
         */
-        public static final int Theme_actionMenuTextColor = 22;
+        public static final int Theme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeBackground
+          @attr name navi.moyenneproject:actionModeBackground
         */
-        public static final int Theme_actionModeBackground = 25;
+        public static final int Theme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeCloseButtonStyle
+          @attr name navi.moyenneproject:actionModeCloseButtonStyle
         */
-        public static final int Theme_actionModeCloseButtonStyle = 24;
+        public static final int Theme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeCloseDrawable
+          @attr name navi.moyenneproject:actionModeCloseDrawable
         */
-        public static final int Theme_actionModeCloseDrawable = 27;
+        public static final int Theme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeCopyDrawable
+          @attr name navi.moyenneproject:actionModeCopyDrawable
         */
-        public static final int Theme_actionModeCopyDrawable = 29;
+        public static final int Theme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeCutDrawable
+          @attr name navi.moyenneproject:actionModeCutDrawable
         */
-        public static final int Theme_actionModeCutDrawable = 28;
+        public static final int Theme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeFindDrawable
+          @attr name navi.moyenneproject:actionModeFindDrawable
         */
-        public static final int Theme_actionModeFindDrawable = 33;
+        public static final int Theme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModePasteDrawable
+          @attr name navi.moyenneproject:actionModePasteDrawable
         */
-        public static final int Theme_actionModePasteDrawable = 30;
+        public static final int Theme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModePopupWindowStyle
+          @attr name navi.moyenneproject:actionModePopupWindowStyle
         */
-        public static final int Theme_actionModePopupWindowStyle = 35;
+        public static final int Theme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeSelectAllDrawable
+          @attr name navi.moyenneproject:actionModeSelectAllDrawable
         */
-        public static final int Theme_actionModeSelectAllDrawable = 31;
+        public static final int Theme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeShareDrawable
+          @attr name navi.moyenneproject:actionModeShareDrawable
         */
-        public static final int Theme_actionModeShareDrawable = 32;
+        public static final int Theme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeSplitBackground
+          @attr name navi.moyenneproject:actionModeSplitBackground
         */
-        public static final int Theme_actionModeSplitBackground = 26;
+        public static final int Theme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeStyle
+          @attr name navi.moyenneproject:actionModeStyle
         */
-        public static final int Theme_actionModeStyle = 23;
+        public static final int Theme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionModeWebSearchDrawable
+          @attr name navi.moyenneproject:actionModeWebSearchDrawable
         */
-        public static final int Theme_actionModeWebSearchDrawable = 34;
+        public static final int Theme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionOverflowButtonStyle
+          @attr name navi.moyenneproject:actionOverflowButtonStyle
         */
-        public static final int Theme_actionOverflowButtonStyle = 11;
+        public static final int Theme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:actionOverflowMenuStyle
+          @attr name navi.moyenneproject:actionOverflowMenuStyle
         */
-        public static final int Theme_actionOverflowMenuStyle = 12;
+        public static final int Theme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:activityChooserViewStyle
+          @attr name navi.moyenneproject:activityChooserViewStyle
         */
-        public static final int Theme_activityChooserViewStyle = 50;
+        public static final int Theme_activityChooserViewStyle = 57;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#alertDialogButtonGroupStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:alertDialogButtonGroupStyle
+        */
+        public static final int Theme_alertDialogButtonGroupStyle = 90;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#alertDialogCenterButtons}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:alertDialogCenterButtons
+        */
+        public static final int Theme_alertDialogCenterButtons = 91;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#alertDialogStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:alertDialogStyle
+        */
+        public static final int Theme_alertDialogStyle = 89;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#alertDialogTheme}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:alertDialogTheme
+        */
+        public static final int Theme_alertDialogTheme = 92;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+          attribute's value can be found in the {@link #Theme} array.
+          @attr name android:windowAnimationStyle
+        */
+        public static final int Theme_android_windowAnimationStyle = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
           attribute's value can be found in the {@link #Theme} array.
@@ -4126,177 +4674,237 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:buttonBarButtonStyle
+          @attr name navi.moyenneproject:autoCompleteTextViewStyle
         */
-        public static final int Theme_buttonBarButtonStyle = 45;
+        public static final int Theme_autoCompleteTextViewStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:buttonBarStyle
+          @attr name navi.moyenneproject:borderlessButtonStyle
         */
-        public static final int Theme_buttonBarStyle = 44;
+        public static final int Theme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorAccent}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorAccent
-        */
-        public static final int Theme_colorAccent = 77;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorButtonNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorButtonNormal
-        */
-        public static final int Theme_colorButtonNormal = 81;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorControlActivated}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorControlActivated
-        */
-        public static final int Theme_colorControlActivated = 79;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorControlHighlight}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorControlHighlight
-        */
-        public static final int Theme_colorControlHighlight = 80;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorControlNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorControlNormal
-        */
-        public static final int Theme_colorControlNormal = 78;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorPrimary}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorPrimary
-        */
-        public static final int Theme_colorPrimary = 75;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorPrimaryDark}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorPrimaryDark
-        */
-        public static final int Theme_colorPrimaryDark = 76;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#colorSwitchThumbNormal}
-          attribute's value can be found in the {@link #Theme} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:colorSwitchThumbNormal
-        */
-        public static final int Theme_colorSwitchThumbNormal = 82;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:dividerHorizontal
+          @attr name navi.moyenneproject:buttonBarButtonStyle
         */
-        public static final int Theme_dividerHorizontal = 49;
+        public static final int Theme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:dividerVertical
+          @attr name navi.moyenneproject:buttonBarNegativeButtonStyle
         */
-        public static final int Theme_dividerVertical = 48;
+        public static final int Theme_buttonBarNegativeButtonStyle = 95;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:dropDownListViewStyle
+          @attr name navi.moyenneproject:buttonBarNeutralButtonStyle
         */
-        public static final int Theme_dropDownListViewStyle = 67;
+        public static final int Theme_buttonBarNeutralButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonBarPositiveButtonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:buttonBarPositiveButtonStyle
+        */
+        public static final int Theme_buttonBarPositiveButtonStyle = 94;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonBarStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:buttonBarStyle
+        */
+        public static final int Theme_buttonBarStyle = 50;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:buttonStyle
+        */
+        public static final int Theme_buttonStyle = 98;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#buttonStyleSmall}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:buttonStyleSmall
+        */
+        public static final int Theme_buttonStyleSmall = 99;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#checkboxStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:checkboxStyle
+        */
+        public static final int Theme_checkboxStyle = 100;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#checkedTextViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:checkedTextViewStyle
+        */
+        public static final int Theme_checkedTextViewStyle = 101;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorAccent}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorAccent
+        */
+        public static final int Theme_colorAccent = 83;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorButtonNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorButtonNormal
+        */
+        public static final int Theme_colorButtonNormal = 87;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorControlActivated}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorControlActivated
+        */
+        public static final int Theme_colorControlActivated = 85;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorControlHighlight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorControlHighlight
+        */
+        public static final int Theme_colorControlHighlight = 86;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorControlNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorControlNormal
+        */
+        public static final int Theme_colorControlNormal = 84;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorPrimary}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorPrimary
+        */
+        public static final int Theme_colorPrimary = 81;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorPrimaryDark}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorPrimaryDark
+        */
+        public static final int Theme_colorPrimaryDark = 82;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#colorSwitchThumbNormal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:colorSwitchThumbNormal
+        */
+        public static final int Theme_colorSwitchThumbNormal = 88;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4308,21 +4916,77 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:dropdownListPreferredItemHeight
+          @attr name navi.moyenneproject:dialogPreferredPadding
         */
-        public static final int Theme_dropdownListPreferredItemHeight = 39;
+        public static final int Theme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#dialogTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:editTextBackground
+          @attr name navi.moyenneproject:dialogTheme
         */
-        public static final int Theme_editTextBackground = 56;
+        public static final int Theme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#dividerHorizontal}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:dividerHorizontal
+        */
+        public static final int Theme_dividerHorizontal = 56;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#dividerVertical}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:dividerVertical
+        */
+        public static final int Theme_dividerVertical = 55;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#dropDownListViewStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:dropDownListViewStyle
+        */
+        public static final int Theme_dropDownListViewStyle = 73;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#dropdownListPreferredItemHeight}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:dropdownListPreferredItemHeight
+        */
+        public static final int Theme_dropdownListPreferredItemHeight = 46;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#editTextBackground}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:editTextBackground
+        */
+        public static final int Theme_editTextBackground = 63;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4330,41 +4994,61 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name esgi.ikji.mamoyenne:editTextColor
+          @attr name navi.moyenneproject:editTextColor
         */
-        public static final int Theme_editTextColor = 55;
+        public static final int Theme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#editTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:homeAsUpIndicator
+          @attr name navi.moyenneproject:editTextStyle
         */
-        public static final int Theme_homeAsUpIndicator = 42;
+        public static final int Theme_editTextStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:listChoiceBackgroundIndicator
+          @attr name navi.moyenneproject:homeAsUpIndicator
         */
-        public static final int Theme_listChoiceBackgroundIndicator = 74;
+        public static final int Theme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:listPopupWindowStyle
+          @attr name navi.moyenneproject:listChoiceBackgroundIndicator
         */
-        public static final int Theme_listPopupWindowStyle = 68;
+        public static final int Theme_listChoiceBackgroundIndicator = 80;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listDividerAlertDialog}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:listDividerAlertDialog
+        */
+        public static final int Theme_listDividerAlertDialog = 44;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listPopupWindowStyle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:listPopupWindowStyle
+        */
+        public static final int Theme_listPopupWindowStyle = 74;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4376,11 +5060,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:listPreferredItemHeight
+          @attr name navi.moyenneproject:listPreferredItemHeight
         */
-        public static final int Theme_listPreferredItemHeight = 62;
+        public static final int Theme_listPreferredItemHeight = 68;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4392,11 +5076,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:listPreferredItemHeightLarge
+          @attr name navi.moyenneproject:listPreferredItemHeightLarge
         */
-        public static final int Theme_listPreferredItemHeightLarge = 64;
+        public static final int Theme_listPreferredItemHeightLarge = 70;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4408,11 +5092,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:listPreferredItemHeightSmall
+          @attr name navi.moyenneproject:listPreferredItemHeightSmall
         */
-        public static final int Theme_listPreferredItemHeightSmall = 63;
+        public static final int Theme_listPreferredItemHeightSmall = 69;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4424,11 +5108,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:listPreferredItemPaddingLeft
+          @attr name navi.moyenneproject:listPreferredItemPaddingLeft
         */
-        public static final int Theme_listPreferredItemPaddingLeft = 65;
+        public static final int Theme_listPreferredItemPaddingLeft = 71;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4440,31 +5124,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:listPreferredItemPaddingRight
+          @attr name navi.moyenneproject:listPreferredItemPaddingRight
         */
-        public static final int Theme_listPreferredItemPaddingRight = 66;
+        public static final int Theme_listPreferredItemPaddingRight = 72;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:panelBackground
+          @attr name navi.moyenneproject:panelBackground
         */
-        public static final int Theme_panelBackground = 71;
+        public static final int Theme_panelBackground = 77;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:panelMenuListTheme
+          @attr name navi.moyenneproject:panelMenuListTheme
         */
-        public static final int Theme_panelMenuListTheme = 73;
+        public static final int Theme_panelMenuListTheme = 79;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4476,151 +5160,171 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:panelMenuListWidth
+          @attr name navi.moyenneproject:panelMenuListWidth
         */
-        public static final int Theme_panelMenuListWidth = 72;
+        public static final int Theme_panelMenuListWidth = 78;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:popupMenuStyle
+          @attr name navi.moyenneproject:popupMenuStyle
         */
-        public static final int Theme_popupMenuStyle = 53;
+        public static final int Theme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:popupWindowStyle
+          @attr name navi.moyenneproject:popupWindowStyle
         */
-        public static final int Theme_popupWindowStyle = 54;
+        public static final int Theme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:searchViewStyle
+          @attr name navi.moyenneproject:radioButtonStyle
         */
-        public static final int Theme_searchViewStyle = 61;
+        public static final int Theme_radioButtonStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:selectableItemBackground
+          @attr name navi.moyenneproject:ratingBarStyle
         */
-        public static final int Theme_selectableItemBackground = 46;
+        public static final int Theme_ratingBarStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:selectableItemBackgroundBorderless
+          @attr name navi.moyenneproject:searchViewStyle
         */
-        public static final int Theme_selectableItemBackgroundBorderless = 47;
+        public static final int Theme_searchViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:spinnerDropDownItemStyle
+          @attr name navi.moyenneproject:selectableItemBackground
         */
-        public static final int Theme_spinnerDropDownItemStyle = 41;
+        public static final int Theme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:spinnerStyle
+          @attr name navi.moyenneproject:selectableItemBackgroundBorderless
         */
-        public static final int Theme_spinnerStyle = 40;
+        public static final int Theme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:switchStyle
+          @attr name navi.moyenneproject:spinnerDropDownItemStyle
         */
-        public static final int Theme_switchStyle = 57;
+        public static final int Theme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:textAppearanceLargePopupMenu
+          @attr name navi.moyenneproject:spinnerStyle
         */
-        public static final int Theme_textAppearanceLargePopupMenu = 36;
+        public static final int Theme_spinnerStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:textAppearanceListItem
+          @attr name navi.moyenneproject:switchStyle
         */
-        public static final int Theme_textAppearanceListItem = 69;
+        public static final int Theme_switchStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:textAppearanceListItemSmall
+          @attr name navi.moyenneproject:textAppearanceLargePopupMenu
         */
-        public static final int Theme_textAppearanceListItemSmall = 70;
+        public static final int Theme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:textAppearanceSearchResultSubtitle
+          @attr name navi.moyenneproject:textAppearanceListItem
         */
-        public static final int Theme_textAppearanceSearchResultSubtitle = 59;
+        public static final int Theme_textAppearanceListItem = 75;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:textAppearanceSearchResultTitle
+          @attr name navi.moyenneproject:textAppearanceListItemSmall
         */
-        public static final int Theme_textAppearanceSearchResultTitle = 58;
+        public static final int Theme_textAppearanceListItemSmall = 76;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:textAppearanceSmallPopupMenu
+          @attr name navi.moyenneproject:textAppearanceSearchResultSubtitle
         */
-        public static final int Theme_textAppearanceSmallPopupMenu = 37;
+        public static final int Theme_textAppearanceSearchResultSubtitle = 65;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAppearanceSearchResultTitle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:textAppearanceSearchResultTitle
+        */
+        public static final int Theme_textAppearanceSearchResultTitle = 64;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textAppearanceSmallPopupMenu}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:textAppearanceSmallPopupMenu
+        */
+        public static final int Theme_textAppearanceSmallPopupMenu = 41;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4628,31 +5332,43 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name esgi.ikji.mamoyenne:textColorSearchUrl
+          @attr name navi.moyenneproject:textColorAlertDialogListItem
         */
-        public static final int Theme_textColorSearchUrl = 60;
+        public static final int Theme_textColorAlertDialogListItem = 93;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#textColorSearchUrl}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name navi.moyenneproject:textColorSearchUrl
+        */
+        public static final int Theme_textColorSearchUrl = 66;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:toolbarNavigationButtonStyle
+          @attr name navi.moyenneproject:toolbarNavigationButtonStyle
         */
-        public static final int Theme_toolbarNavigationButtonStyle = 52;
+        public static final int Theme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:toolbarStyle
+          @attr name navi.moyenneproject:toolbarStyle
         */
-        public static final int Theme_toolbarStyle = 51;
+        public static final int Theme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4662,11 +5378,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:windowActionBar
+          @attr name navi.moyenneproject:windowActionBar
         */
-        public static final int Theme_windowActionBar = 1;
+        public static final int Theme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4676,11 +5392,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:windowActionBarOverlay
+          @attr name navi.moyenneproject:windowActionBarOverlay
         */
-        public static final int Theme_windowActionBarOverlay = 2;
+        public static final int Theme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4690,11 +5406,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:windowActionModeOverlay
+          @attr name navi.moyenneproject:windowActionModeOverlay
         */
-        public static final int Theme_windowActionModeOverlay = 3;
+        public static final int Theme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4709,11 +5425,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:windowFixedHeightMajor
+          @attr name navi.moyenneproject:windowFixedHeightMajor
         */
-        public static final int Theme_windowFixedHeightMajor = 7;
+        public static final int Theme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4728,11 +5444,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:windowFixedHeightMinor
+          @attr name navi.moyenneproject:windowFixedHeightMinor
         */
-        public static final int Theme_windowFixedHeightMinor = 5;
+        public static final int Theme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4747,11 +5463,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:windowFixedWidthMajor
+          @attr name navi.moyenneproject:windowFixedWidthMajor
         */
-        public static final int Theme_windowFixedWidthMajor = 4;
+        public static final int Theme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4766,9 +5482,61 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:windowFixedWidthMinor
+          @attr name navi.moyenneproject:windowFixedWidthMinor
         */
-        public static final int Theme_windowFixedWidthMinor = 6;
+        public static final int Theme_windowFixedWidthMinor = 8;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowMinWidthMajor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:windowMinWidthMajor
+        */
+        public static final int Theme_windowMinWidthMajor = 10;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowMinWidthMinor}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:windowMinWidthMinor
+        */
+        public static final int Theme_windowMinWidthMinor = 11;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#windowNoTitle}
+          attribute's value can be found in the {@link #Theme} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:windowNoTitle
+        */
+        public static final int Theme_windowNoTitle = 3;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -4777,26 +5545,25 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription esgi.ikji.mamoyenne:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon esgi.ikji.mamoyenne:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd esgi.ikji.mamoyenne:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft esgi.ikji.mamoyenne:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight esgi.ikji.mamoyenne:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart esgi.ikji.mamoyenne:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight esgi.ikji.mamoyenne:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription esgi.ikji.mamoyenne:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon esgi.ikji.mamoyenne:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme esgi.ikji.mamoyenne:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle esgi.ikji.mamoyenne:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance esgi.ikji.mamoyenne:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme esgi.ikji.mamoyenne:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title esgi.ikji.mamoyenne:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom esgi.ikji.mamoyenne:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd esgi.ikji.mamoyenne:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart esgi.ikji.mamoyenne:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop esgi.ikji.mamoyenne:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins esgi.ikji.mamoyenne:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance esgi.ikji.mamoyenne:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription navi.moyenneproject:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon navi.moyenneproject:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd navi.moyenneproject:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft navi.moyenneproject:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight navi.moyenneproject:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart navi.moyenneproject:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight navi.moyenneproject:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription navi.moyenneproject:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon navi.moyenneproject:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme navi.moyenneproject:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle navi.moyenneproject:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance navi.moyenneproject:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title navi.moyenneproject:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom navi.moyenneproject:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd navi.moyenneproject:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart navi.moyenneproject:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop navi.moyenneproject:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins navi.moyenneproject:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance navi.moyenneproject:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -4812,7 +5579,6 @@ containing a value of this type.
            @see #Toolbar_popupTheme
            @see #Toolbar_subtitle
            @see #Toolbar_subtitleTextAppearance
-           @see #Toolbar_theme
            @see #Toolbar_title
            @see #Toolbar_titleMarginBottom
            @see #Toolbar_titleMarginEnd
@@ -4824,10 +5590,10 @@ containing a value of this type.
         public static final int[] Toolbar = {
             0x010100af, 0x01010140, 0x7f010003, 0x7f010006,
             0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
-            0x7f01001b, 0x7f01009a, 0x7f01009b, 0x7f01009c,
-            0x7f01009d, 0x7f01009e, 0x7f01009f, 0x7f0100a0,
-            0x7f0100a1, 0x7f0100a2, 0x7f0100a3, 0x7f0100a4,
-            0x7f0100a5, 0x7f0100a6
+            0x7f01001b, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba,
+            0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be,
+            0x7f0100bf, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2,
+            0x7f0100c3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -4842,7 +5608,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4852,21 +5618,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:collapseContentDescription
+          @attr name navi.moyenneproject:collapseContentDescription
         */
-        public static final int Toolbar_collapseContentDescription = 19;
+        public static final int Toolbar_collapseContentDescription = 18;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:collapseIcon
+          @attr name navi.moyenneproject:collapseIcon
         */
-        public static final int Toolbar_collapseIcon = 18;
+        public static final int Toolbar_collapseIcon = 17;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4878,11 +5644,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetEnd
+          @attr name navi.moyenneproject:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4894,11 +5660,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetLeft
+          @attr name navi.moyenneproject:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4910,11 +5676,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetRight
+          @attr name navi.moyenneproject:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4926,11 +5692,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:contentInsetStart
+          @attr name navi.moyenneproject:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4942,11 +5708,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:maxButtonHeight
+          @attr name navi.moyenneproject:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4956,31 +5722,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:navigationContentDescription
+          @attr name navi.moyenneproject:navigationContentDescription
         */
-        public static final int Toolbar_navigationContentDescription = 21;
+        public static final int Toolbar_navigationContentDescription = 20;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:navigationIcon
+          @attr name navi.moyenneproject:navigationIcon
         */
-        public static final int Toolbar_navigationIcon = 20;
+        public static final int Toolbar_navigationIcon = 19;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:popupTheme
+          @attr name navi.moyenneproject:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -4990,31 +5756,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:subtitle
+          @attr name navi.moyenneproject:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:subtitleTextAppearance
+          @attr name navi.moyenneproject:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#theme}
-          attribute's value can be found in the {@link #Toolbar} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:theme
-        */
-        public static final int Toolbar_theme = 17;
-        /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#title}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5024,11 +5780,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:title
+          @attr name navi.moyenneproject:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5040,11 +5796,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:titleMarginBottom
+          @attr name navi.moyenneproject:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5056,11 +5812,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:titleMarginEnd
+          @attr name navi.moyenneproject:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5072,11 +5828,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:titleMarginStart
+          @attr name navi.moyenneproject:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5088,11 +5844,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:titleMarginTop
+          @attr name navi.moyenneproject:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5104,17 +5860,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:titleMargins
+          @attr name navi.moyenneproject:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name esgi.ikji.mamoyenne:titleTextAppearance
+          @attr name navi.moyenneproject:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -5124,24 +5880,74 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd esgi.ikji.mamoyenne:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart esgi.ikji.mamoyenne:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTint navi.moyenneproject:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_backgroundTintMode navi.moyenneproject:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd navi.moyenneproject:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart navi.moyenneproject:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme navi.moyenneproject:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
+           @see #View_android_theme
+           @see #View_backgroundTint
+           @see #View_backgroundTintMode
            @see #View_paddingEnd
            @see #View_paddingStart
+           @see #View_theme
          */
         public static final int[] View = {
-            0x010100da, 0x7f0100a7, 0x7f0100a8
+            0x01010000, 0x010100da, 0x7f0100c4, 0x7f0100c5,
+            0x7f0100c6, 0x7f0100c7, 0x7f0100c8
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
           attribute's value can be found in the {@link #View} array.
           @attr name android:focusable
         */
-        public static final int View_android_focusable = 0;
+        public static final int View_android_focusable = 1;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link android.R.attr#theme}
+          attribute's value can be found in the {@link #View} array.
+          @attr name android:theme
+        */
+        public static final int View_android_theme = 0;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#backgroundTint}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name navi.moyenneproject:backgroundTint
+        */
+        public static final int View_backgroundTint = 5;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#backgroundTintMode}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>src_over</code></td><td>3</td><td></td></tr>
+<tr><td><code>src_in</code></td><td>5</td><td></td></tr>
+<tr><td><code>src_atop</code></td><td>9</td><td></td></tr>
+<tr><td><code>multiply</code></td><td>14</td><td></td></tr>
+<tr><td><code>screen</code></td><td>15</td><td></td></tr>
+</table>
+          @attr name navi.moyenneproject:backgroundTintMode
+        */
+        public static final int View_backgroundTintMode = 6;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5153,11 +5959,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:paddingEnd
+          @attr name navi.moyenneproject:paddingEnd
         */
-        public static final int View_paddingEnd = 2;
+        public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link esgi.ikji.mamoyenne.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5169,9 +5975,19 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name esgi.ikji.mamoyenne:paddingStart
+          @attr name navi.moyenneproject:paddingStart
         */
-        public static final int View_paddingStart = 1;
+        public static final int View_paddingStart = 2;
+        /**
+          <p>This symbol is the offset where the {@link navi.moyenneproject.R.attr#theme}
+          attribute's value can be found in the {@link #View} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name navi.moyenneproject:theme
+        */
+        public static final int View_theme = 4;
         /** Attributes that can be used with a ViewStubCompat.
            <p>Includes the following attributes:</p>
            <table>
