@@ -14,9 +14,9 @@ Créer le tableau pour la consultation : ![alt text][logokook]  IVAN
 
 Créer le formulaire de modification d'une matière et des notes : ![alt text][logokook]  JONATHAN
 
-Créer le tableau pour la consultation par matière : ![alt text][logoko]  IVAN
+Créer le tableau pour la consultation trié par matière : ![alt text][logokook]  IVAN
 
-Créer le tableau pour la consultation par note : ![alt text][logoko]  IVAN
+Créer le tableau pour la consultation trié par note : ![alt text][logokook]  IVAN
 
 Mettre comme fragment initial, le logo en haut à gauche de l'application : ![alt text][logoko]
 
