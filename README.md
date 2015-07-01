@@ -32,17 +32,19 @@ Tester le bon fonctionnement de création de matières et notes : ![alt text][lo
 
 ## Clean Code
 
-Mettre toutes les chaînes de caratères statique dans le fichier "string.xml" : ![alt text][logoko]
+Mettre toutes les chaînes de caratères statique dans le fichier "string.xml" : ![alt text][logook] IVAN
 
-Créer et mettre les couleurs dans le fichier "color.xml" : ![alt text][logoko]
+Mettre toutes les chaînes de caratères statique en Anglais : ![alt text][logoko] JONATHAN
+
+Créer et mettre les couleurs dans le fichier "color.xml" : ![alt text][logook] IVAN
 
 ## Fonctionnalités
 
 Vérifier que l'ajout de matière fonctionne : ![alt text][logook]  IVAN
 
-Vérifier que l'ajout de note fonctionne : ![alt text][logokook]  IVAN
+Vérifier que l'ajout de note fonctionne : ![alt text][logook]  IVAN
 
-Vérifier que la moyenne par matière est correcte : ![alt text][logoko]  JONATHAN
+Vérifier que la moyenne par matière est correcte : ![alt text][logook]  IVAN
 
 Vérifier que la moyenne de toutes les matières est correcte : ![alt text][logoko]   JONATHAN
 
