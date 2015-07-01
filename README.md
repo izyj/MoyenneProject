@@ -10,7 +10,9 @@ Créer le formulaire statique pour les matières : ![alt text][logook]  IVAN
 
 Créer le formulaire statique pour les notes : ![alt text][logook]  IVAN
 
-Créer le tableau pour la consultation : ![alt text][logokook]  IVAN
+Créer le tableau pour la consultation - Version Mobile : ![alt text][logook]  IVAN
+
+Créer le tableau pour la consultation - Version Tablette : ![alt text][logokook]  IVAN
 
 Créer le formulaire de modification d'une matière et des notes : ![alt text][logokook]  JONATHAN
 
