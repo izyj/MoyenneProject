@@ -74,7 +74,7 @@ public class FormUpdateNote extends Fragment {
         NoteDAO bdd = new NoteDAO(getActivity());
 
 
-       /* try {
+        try {
             Note note =  bdd.getNote(1);
             List<Note> lis = bdd.getAllNote();
 
@@ -82,7 +82,7 @@ public class FormUpdateNote extends Fragment {
         }catch (SQLException e){
             e.printStackTrace();
         }
-        */
+
         return inflater.inflate(R.layout.fragment_form_update_note, container, false);
 
     }
