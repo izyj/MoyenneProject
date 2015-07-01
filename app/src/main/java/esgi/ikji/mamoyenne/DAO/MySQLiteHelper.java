@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class MySQLiteHelper extends SQLiteOpenHelper {
 
     //Nom de la base de donnees
-    private static final String DATABASE_NAME = "moyenne.db";
+    public static final String DATABASE_NAME = "moyenne.db";
 
     //matiere
     public static  final String TABLE_MATIERE ="matiere";
@@ -25,7 +25,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
     public static  final String NOTE_VALUE ="note_value";
     public static  final String NOTE_COEF ="note_coef";
     // Version
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
 
     public MySQLiteHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -44,7 +44,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
                 NOTE_ID +" INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 NOTE_ID_MATIERE+" INTEGER, "+
                 NOTE_VALUE+" TEXT, "+
-                NOTE_COEF+" INTEGER "+
+                NOTE_COEF+" INTEGER, "+
                 "FOREIGN KEY(note_id_matiere) REFERENCES Matiere(matiere_id) )";
         // create books table
         db.execSQL(CREATE_MATIERE_TABLE);

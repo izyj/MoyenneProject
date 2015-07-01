@@ -49,7 +49,7 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         // Recuparation de la matiere
         Matiere matiere = data.get(position);
 
-        // Remplissage des textView avec les données des matières.
+        // Remplissage des textView avec les donnees des matieres.
         TextView textViewMatiere = (TextView) convertView.findViewById(R.id.txt_matiere_name);
         textViewMatiere.setText(matiere.getNomMatiere());
 
@@ -59,7 +59,7 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         TextView textViewNotes = (TextView) convertView.findViewById(R.id.txt_matiere_notes);
         String tmp = "";
         for(Note n : matiere.getNotes()){
-            tmp = n.getValue() + "^" + n.getCoef();
+            tmp += n.getValue() + "^" + n.getCoef() + " | ";
         }
         textViewNotes.setText(tmp);
 

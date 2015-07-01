@@ -48,7 +48,7 @@ public class Note {
         return coef;
     }
 
-    public void setNote(Note n) {
+    public void setCoef(int coef) {
         this.coef = coef;
     }
 }
