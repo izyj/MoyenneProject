@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -121,11 +121,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -159,18 +159,18 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">mamoyenne</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <string name="black">#FFF</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_Application">Direct Moyenne</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!--
@@ -182,7 +182,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1220,7 +1220,7 @@
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Base.Widget.AppCompat.Spinner.DropDown.ActionBar"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="lbl_value_consult">
         <item name="android:layout_width">0dp</item>
