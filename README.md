@@ -20,7 +20,7 @@ Créer le tableau pour la consultation trié par matière : ![alt text][logokook
 
 Créer le tableau pour la consultation trié par note : ![alt text][logokook]  IVAN
 
-Mettre comme fragment initial, le logo en haut à gauche de l'application : ![alt text][logoko] Ivan
+Mettre comme fragment initial, le logo en haut à gauche de l'application : ![alt text][logoko] IVAN
 
 ## BDD
 
