@@ -30,7 +30,7 @@ Créer les requêtes de modification d'une matière : ![alt text][logoko]   JONA
 
 Créer les requêtes de modification d'une note a partir d'une matière : ![alt text][logoko]   JONATHAN
 
-Tester le bon fonctionnement de création de matières et notes : ![alt text][logokook]   JONATHAN
+Tester le bon fonctionnement de création de matières et notes : ![alt text][logook]   JONATHAN
 
 ## Clean Code
 
