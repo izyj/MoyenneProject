@@ -48,9 +48,17 @@ Vérifier que l'ajout de matière fonctionne : ![alt text][logook]  IVAN
 
 Vérifier que l'ajout de note fonctionne : ![alt text][logook]  IVAN
 
+Vérifier que la modification de matières fonctionne : ![alt text][logokook]  JONATHAN
+
+Vérifier que la suppression de matières fonctionne : ![alt text][logokook]  JONATHAN
+
+Vérifier que la modification de notes fonctionne : ![alt text][logokook]  JONATHAN
+
+Vérifier que la suppression de notes fonctionne : ![alt text][logokook]  JONATHAN
+
 Vérifier que la moyenne par matière est correcte : ![alt text][logook]  IVAN
 
-Vérifier que la moyenne de toutes les matières est correcte : ![alt text][logoko]   JONATHAN
+Vérifier que la moyenne de toutes les matières est correcte : ![alt text][logoko]   IVAN
 
 
 [logoko]:https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png "KO"
