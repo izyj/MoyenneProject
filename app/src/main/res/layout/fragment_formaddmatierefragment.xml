@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
@@ -43,6 +44,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_below="@+id/et_coefMat"
             android:layout_alignLeft="@+id/et_coefMat"
             android:layout_alignStart="@+id/et_coefMat"
+            style="@style/custom_bt_save"
             android:layout_marginTop="54dp" />
 
         <TextView

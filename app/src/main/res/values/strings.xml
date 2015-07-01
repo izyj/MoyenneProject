@@ -6,9 +6,15 @@
     <string name="action_settings">Settings</string>
 
     <!-- PRESENTATION FRAGMENT -->
-    <string name="title_Application">Direct Moyenne</string>
-
-<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_Application"><b>Présentation</b></string>
+    <string name="titleNewMatiere"><h2>Nouvelle Matière</h2></string>
+    <string name="titleNewNote"><h2>Nouvelle Note</h2></string>
+    <string name="description_Application">
+        Moyenne Project est une application permettant la gestion des matières et notes d\'un utilisateur.\n\n
+        Vous avez la possibilité d\'ajouter, modifier et supprimer des matières et notes.\n
+        Vous avez également des informations essentielles comme la moyenne par matières et la moyenne générale.\n\n
+        En cas de renouvellement des données, un bouton pour supprimer toutes les données est disponible.\n
+    </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- FORMULAIRE MATIERES FRAGMENT -->

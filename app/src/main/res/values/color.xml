@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="black">#FFF</string>
+    <color name="blue">#0083a9</color>
+    <color name="grey">#8a8c8f</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="turkish">#2B9AE5</color>
+    <color name="orange">#F08C09</color>
+    <color name="green">#009966</color>
 </resources>

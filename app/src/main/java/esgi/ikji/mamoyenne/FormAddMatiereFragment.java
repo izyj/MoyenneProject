@@ -43,6 +43,7 @@ public class FormAddMatiereFragment extends Fragment {
                     Matiere ma = new Matiere(nameMatFromForm.getText().toString(),Integer.parseInt(coefMatFromForm.getText().toString()));
                     try {
                         tbMat.addMatiere(ma);
+                        Toast.makeText(getActivity().getApplicationContext(),"Matiere ajoutee",Toast.LENGTH_LONG).show();
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

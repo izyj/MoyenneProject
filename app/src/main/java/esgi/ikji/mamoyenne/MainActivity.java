@@ -75,7 +75,7 @@ public class MainActivity extends ActionBarActivity {
 		});
 
 		/**
-		 * Traitement Suppression donn�es
+		 * Traitement Suppression donnees
 		 */
 		Button bt_del = (Button) findViewById(R.id.btDeleteAll);
 		bt_del.setOnClickListener(new View.OnClickListener() {
