@@ -24,7 +24,7 @@ Mettre comme fragment initial, le logo en haut à gauche de l'application : ![al
 
 Créer la base de données : ![alt text][logook]  JONATHAN
 
-Créer les requêtes ajout et suppression d'une note et d'une matière : ![alt text][logokook]  JONATHAN
+Créer les requêtes ajout et suppression d'une note et d'une matière : ![alt text][logook]  JONATHAN
 
 Créer les requêtes de modification d'une matière : ![alt text][logoko]   JONATHAN
 
