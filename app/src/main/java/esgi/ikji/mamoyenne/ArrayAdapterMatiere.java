@@ -9,9 +9,12 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
+import java.sql.SQLException;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import esgi.ikji.mamoyenne.DAO.NoteDAO;
 import esgi.ikji.mamoyenne.Modele.Matiere;
 import esgi.ikji.mamoyenne.Modele.Note;
 
@@ -46,8 +49,9 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
             convertView = inflater.inflate(layoutResourceId, parent, false);
         }
 
-        // Recuparation de la matiere
+        // Recuparation de la matiere et des notes de la matiere
         Matiere matiere = data.get(position);
+        NoteDAO ndao = new NoteDAO(mContext);
 
         // Remplissage des textView avec les donnees des matieres.
         TextView textViewMatiere = (TextView) convertView.findViewById(R.id.txt_matiere_name);
@@ -57,11 +61,32 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         textViewCoef.setText(""+matiere.getCoeficient());
 
         TextView textViewNotes = (TextView) convertView.findViewById(R.id.txt_matiere_notes);
+
+
+        try {
+            ArrayList<Note> list_notes = ndao.getAllNoteByMatiere(matiere);
+            matiere.setNotes(list_notes);
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
         String tmp = "";
-        for(Note n : matiere.getNotes()){
-            tmp += n.getValue() + "^" + n.getCoef() + " | ";
+        if(!matiere.getNotes().isEmpty()){
+            for(Note n : matiere.getNotes()){
+                tmp += n.getValue().toString() + "^" + n.getCoef() + "\n ";
+            }
+        }else{
+            tmp = "-";
         }
         textViewNotes.setText(tmp);
+
+
+        TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.txt_matiere_moy);
+        DecimalFormat df = new DecimalFormat("#.#");
+        if(Double.isNaN(matiere.getMoyenne())){
+            textViewMoyenne.setText("-");
+        }else{
+            textViewMoyenne.setText(df.format(matiere.getMoyenne()));
+        }
 
       //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
       //  textViewMoyenne.setText(""+matiere.getMoyenne());

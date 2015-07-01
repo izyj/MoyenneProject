@@ -26,7 +26,7 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-        getApplicationContext().deleteDatabase(MySQLiteHelper.DATABASE_NAME);
+
 		// INSTANCIATE FRAGMENT MANAGER
 		manager = getFragmentManager();
 		transaction = manager.beginTransaction();
@@ -83,7 +83,7 @@ public class MainActivity extends ActionBarActivity {
 			public void onClick(View v) {
 
 
-
+				getApplicationContext().deleteDatabase(MySQLiteHelper.DATABASE_NAME);
 				/**
 				 * Suppression en Base de donnees
 				 */

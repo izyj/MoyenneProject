@@ -20,8 +20,7 @@ public class NoteDAO {
     // Champs de la base de données
     private SQLiteDatabase database;
     private MySQLiteHelper dbHelper;
-    private String[] allColumns = { MySQLiteHelper.NOTE_ID,
-            MySQLiteHelper.NOTE_VALUE, MySQLiteHelper.NOTE_ID_MATIERE,MySQLiteHelper.NOTE_COEF };
+    private String[] allColumns = { MySQLiteHelper.NOTE_ID,MySQLiteHelper.NOTE_ID_MATIERE,MySQLiteHelper.NOTE_VALUE,MySQLiteHelper.NOTE_COEF };
 
 
     public NoteDAO(Context context) {
