@@ -58,4 +58,5 @@
 <p>Vérifier que la moyenne par matière est correcte : <a href="https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png" target="_blank"><img src="https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png" alt="alt text" title="OK" style="max-width:100%;"></a>  IVAN</p>
 
 <p>Vérifier que la moyenne de toutes les matières est correcte : <a href="https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png" target="_blank"><img src="https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png" alt="alt text" title="KO" style="max-width:100%;"></a>   IVAN</p>
+
 ```
