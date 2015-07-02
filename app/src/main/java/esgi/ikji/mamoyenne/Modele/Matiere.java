@@ -1,5 +1,6 @@
 package esgi.ikji.mamoyenne.Modele;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 /**
@@ -59,8 +60,18 @@ public class Matiere {
 
         return id;
     }
-
     public void setId(int id) {
         this.id = id;
+    }
+
+    public Double getMoyenne(){
+        double res = 0;
+        int cpt = 0;
+        for(Note n : notes) {
+            res += Double.parseDouble(n.getValue()) * n.getCoef();
+            cpt += n.getCoef();
+        }
+
+        return res/cpt;
     }
 }

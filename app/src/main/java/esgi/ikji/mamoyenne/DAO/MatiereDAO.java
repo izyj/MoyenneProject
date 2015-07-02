@@ -69,15 +69,9 @@ public class MatiereDAO {
 
     private Matiere cursorToMatiere(Cursor cursor) {
         Matiere matiere = new Matiere();
-        NoteDAO ndao = new NoteDAO(context);
         matiere.setId(cursor.getInt(0));
         matiere.setNomMatiere(cursor.getString(1));
         matiere.setCoeficient(cursor.getInt(2));
-        try {
-            matiere.setNotes(ndao.getAllNoteByMatiere(matiere));
-        }catch(SQLException e){
-            e.printStackTrace();
-        }
         return matiere;
     }
 
@@ -95,7 +89,6 @@ public class MatiereDAO {
         ArrayList<Matiere> matieres = new ArrayList<Matiere>();
         this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,allColumns, null, null, null, null, null);
-
         cursor.moveToFirst();
         while (!cursor.isAfterLast()) {
             Matiere matiere = cursorToMatiere(cursor);

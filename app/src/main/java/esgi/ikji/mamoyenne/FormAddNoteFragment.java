@@ -65,6 +65,8 @@ public class FormAddNoteFragment extends Fragment {
                         String nameMatiere = listMat.getSelectedItem().toString();
                         Note no = new Note(nameNoteFromForm.getText().toString(),handlerMatiere.getMatiereByName(nameMatiere),Integer.parseInt(coefNoteFromForm.getText().toString()));
                         tbNote.addNote(no);
+                        Toast.makeText(getActivity().getApplicationContext(),"Note ajoutee",Toast.LENGTH_LONG).show();
+
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

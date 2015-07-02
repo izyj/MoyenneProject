@@ -1,49 +1,69 @@
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="220dp"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginLeft="150dp">
+        android:layout_marginLeft="100dp"
+        android:paddingLeft="-10dp">
 
         <LinearLayout
             android:id="@+id/layout_matiere_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@color/turkish"
+            android:layout_marginLeft="12dp"
+            android:textAlignment="center"
+            android:paddingLeft="10dp">
 
             <TextView
                 android:id="@+id/lbl_matiere_name"
                 style="@style/lbl_value_consult"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Matiere" />
+                android:text="Matiere"
+                android:textColor="@color/white"
+                android:singleLine="true" />
             <TextView
                 android:id="@+id/lbl_matiere_coef"
                 style="@style/lbl_value_consult"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Coefficient" />
+                android:text="Coefficient"
+                android:textColor="@color/white" />
             <TextView
                 android:id="@+id/lbl_matiere_notes"
                 style="@style/lbl_value_consult"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Notes"
-                />
+                android:textColor="@color/white" />
             <TextView
                 android:id="@+id/lbl_matiere_moy"
                 style="@style/lbl_value_consult"
-                android:layout_width="100dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Moyennes" />
+                android:text="Moyennes"
+                android:textColor="@color/white" />
 
         </LinearLayout>
         <ListView
             android:id="@+id/lv_matiere"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true" >
+            android:layout_below="@+id/layout_matiere_title"
+            android:background="#ff98d2ff"
+            android:divider="@color/orange"
+            android:dividerHeight="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
         </ListView>
 
     </RelativeLayout><!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/layout_list_item.xml -->
