@@ -1,9 +1,15 @@
 package esgi.ikji.mamoyenne;
 
+import android.app.Activity;
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+import android.content.ClipData;
 import android.content.Context;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -22,6 +28,8 @@ public class FormConsultFragment extends Fragment {
     // variables declaration
     ListView listViewMatieres;
     Context ct;
+    FragmentManager manager;
+    FragmentTransaction transaction;
     public FormConsultFragment() {
     }
     @Override
@@ -42,18 +50,52 @@ public class FormConsultFragment extends Fragment {
             listViewMatieres = (ListView) v.findViewById(R.id.lv_matiere);
             listViewMatieres.setAdapter(adapter);
             // Set the onItemClickListener on the ListView to listen for items clicks
-
+            registerForContextMenu(listViewMatieres);
         }catch(Exception e){
             e.printStackTrace();
         }
 
-        listViewMatieres.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            public boolean onItemLongClick(AdapterView<?> arg0, View arg1, int position, long id) {
-                Toast.makeText(ct, " " + position, Toast.LENGTH_LONG).show();
-                return true;
-            }
-        });
+
         return v;
     }
 
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+
+        ListView lv = (ListView) v;
+        AdapterView.AdapterContextMenuInfo acmi = (AdapterView.AdapterContextMenuInfo) menuInfo;
+        Matiere obj = (Matiere) lv.getItemAtPosition(acmi.position);
+
+      //  menu.add(obj.getNomMatiere());
+        menu.setHeaderTitle("Selectionner une action");
+        menu.add(0,obj.getId(), 0, "Modifier note");//groupId, itemId, order, title
+        menu.add(0, obj.getId(), 0, "Supprimer note");
+    }
+
+    @Override
+    public boolean onContextItemSelected(MenuItem item){
+
+
+        Fragment fragment = new FormModifNoteFragment();
+        if(item.getTitle()=="Modifier note"){
+
+            Bundle bundle = new Bundle();
+            bundle.putInt("idMatiere", item.getItemId());
+            fragment.setArguments(bundle);
+
+            manager = getFragmentManager();
+            transaction = manager.beginTransaction();
+            transaction.replace(R.id.container,fragment);
+            transaction.commit();
+
+            Toast.makeText(getActivity().getApplicationContext(),Integer.toString(item.getItemId()),Toast.LENGTH_LONG).show();
+        }
+        else if(item.getTitle()=="Supprimer note"){
+            Toast.makeText(getActivity().getApplicationContext(),"sending sms code",Toast.LENGTH_LONG).show();
+        }else{
+            return false;
+        }
+        return true;
+    }
 }

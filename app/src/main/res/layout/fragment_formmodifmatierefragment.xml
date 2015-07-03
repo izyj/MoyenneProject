@@ -22,14 +22,14 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_marginRight="41dp"
             android:layout_marginEnd="41dp"
             android:layout_marginTop="93dp"
-            android:width="150dp"
+            android:width="100dp"
             android:hint="Nom" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/et_coefMat"
-            android:width="150dp"
+            android:width="100dp"
             android:hint="Coefficient"
             android:layout_below="@+id/et_nameMat"
             android:layout_alignLeft="@+id/et_nameMat"
@@ -41,8 +41,12 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:text="Enregistrer"
             android:id="@+id/btSaveMatiere"
             style="@style/custom_bt_save"
+<<<<<<< HEAD
             android:layout_marginBottom="44dp"
             android:layout_alignParentBottom="true"
+=======
+            android:layout_centerVertical="true"
+>>>>>>> 48754252c5abb606a5743cd897ca455d6080611b
             android:layout_alignLeft="@+id/et_coefMat"
             android:layout_alignStart="@+id/et_coefMat" />
 
@@ -59,6 +63,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:width="220dp"
             android:layout_marginLeft="-25dp" />
 
+<<<<<<< HEAD
         <ListView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,5 +74,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_above="@+id/btSaveMatiere"
             android:layout_alignLeft="@+id/textView3"
             android:layout_alignStart="@+id/textView3" />
+=======
+>>>>>>> 48754252c5abb606a5743cd897ca455d6080611b
     </RelativeLayout>
 </FrameLayout>

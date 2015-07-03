@@ -22,14 +22,14 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_marginRight="41dp"
             android:layout_marginEnd="41dp"
             android:layout_marginTop="93dp"
-            android:width="150dp"
+            android:width="100dp"
             android:hint="Nom" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/et_coefMat"
-            android:width="150dp"
+            android:width="100dp"
             android:hint="Coefficient"
             android:layout_below="@+id/et_nameMat"
             android:layout_alignLeft="@+id/et_nameMat"
@@ -41,10 +41,9 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:text="Enregistrer"
             android:id="@+id/btSaveMatiere"
             style="@style/custom_bt_save"
-            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
             android:layout_alignLeft="@+id/et_coefMat"
-            android:layout_alignStart="@+id/et_coefMat"
-            android:layout_marginBottom="62dp" />
+            android:layout_alignStart="@+id/et_coefMat" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -59,16 +58,6 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:width="220dp"
             android:layout_marginLeft="-25dp" />
 
-        <ListView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/lv_note"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignLeft="@+id/btSaveMatiere"
-            android:layout_alignStart="@+id/btSaveMatiere"
-            android:layout_below="@+id/et_coefMat"
-            android:layout_above="@+id/btSaveMatiere" />
     </RelativeLayout>
 </FrameLayout>
-<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/fragment_formmodifmatierefragment.xml -->
+<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/fragment_formmodifmatierefragment.xml -->

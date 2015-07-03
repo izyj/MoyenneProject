@@ -19,15 +19,19 @@ import esgi.ikji.mamoyenne.Modele.Matiere;
 public class FormModifFragment extends Fragment {
     EditText nameMatFromForm,coefMatFromForm;
     final MySQLiteHelper db = new MySQLiteHelper(getActivity());
+    String idMatiere;
+    String idNote;
     public FormModifFragment() {
     }
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // INFLATER
         View v = inflater.inflate(R.layout.fragment_formmodifmatierefragment, container, false);
 
-        // 1 - Récuperer la matiere
+        // 1 - Recuperer la matiere
         //EditText etMat = (EditText) v.findViewById(R.id.)
 
         // 2 - Chercher les notes par la matiere
@@ -47,8 +51,8 @@ public class FormModifFragment extends Fragment {
             // matieres data and then set it the ListView
 
             /*ArrayAdapterNotes adapter = new ArrayAdapterNotes(getActivity().getApplicationContext(),R.layout.list_note, list);
-            listViewMatieres = (ListView) v.findViewById(R.id.lv_note);
-            listViewMatieres.setAdapter(adapter);*/
+            listViewNotes = (ListView) v.findViewById(R.id.lv_note);
+            listViewNotes.setAdapter(adapter);*/
         }catch(Exception e){
             e.printStackTrace();
         }
