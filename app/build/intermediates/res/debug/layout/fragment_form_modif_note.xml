@@ -30,7 +30,7 @@
                 style="@style/lbl_value_consult"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:text="Note"
+                android:text="@string/title_table_update_value_note"
                 android:textColor="@color/white"
                 android:singleLine="true" />
             <TextView
@@ -38,7 +38,7 @@
                 style="@style/lbl_value_consult"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-                android:text="Coefficient"
+                android:text="@string/title_table_update_coef"
                 android:textColor="@color/white" />
 
             <TextView
@@ -46,7 +46,7 @@
                 style="@style/lbl_value_consult"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="Modifier"
+                android:text="@string/title_table_update_bt_update"
                 android:textColor="@color/white" />
 
             <TextView
@@ -54,7 +54,7 @@
                 style="@style/lbl_value_consult"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="Supprimer"
+                android:text="@string/title_table_update_bt_delete"
                 android:textColor="@color/white" />
 
         </LinearLayout>
@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/layout_note_title"
-        android:background="#ff98d2ff"
+        android:background="@color/bluelist"
         android:divider="@color/orange"
         android:dividerHeight="1dp"
         android:layout_alignParentLeft="true"

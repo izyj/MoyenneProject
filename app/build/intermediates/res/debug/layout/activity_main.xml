@@ -9,7 +9,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nouvelle note"
+        android:text="@string/titleNewNote"
         android:id="@+id/btNewNote"
         android:onClick="OC_BT_Add_Note"
         android:layout_below="@+id/btNewMatiere"
@@ -21,7 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nouvelle matiere"
+        android:text="@string/titleNewMatiere"
         android:id="@+id/btNewMatiere"
         android:onClick="OC_BT_Add_Matiere"
         android:layout_marginTop="53dp"
@@ -37,7 +37,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Supprimer tout"
+        android:text="@string/deleteall"
         android:id="@+id/btDeleteAll"
         android:onClick="OC_BT_Delete_All"
         android:layout_marginTop="84dp"
@@ -53,22 +53,12 @@
     <View
         android:layout_width="2dp"
         android:layout_height="match_parent"
-        android:background="#1442ae"
+        android:background="@color/bluebuttonpresentation"
         android:id="@+id/view"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/btNewNote"
         android:layout_toEndOf="@+id/btNewNote"
         android:layout_marginLeft="5dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_below="@+id/btDeleteAll"
-        android:layout_toLeftOf="@+id/view"
-        android:layout_toStartOf="@+id/view"
-        android:layout_marginTop="43dp" />
 
 
 </RelativeLayout>

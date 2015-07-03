@@ -27,6 +27,8 @@
     <eat-comment/>
     <color name="black">#000</color>
     <color name="blue">#0083a9</color>
+    <color name="bluebuttonpresentation">#1442ae</color>
+    <color name="bluelist">#ff98d2ff</color>
     <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
@@ -242,21 +244,33 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">mamoyenne</string>
+    <string name="choose_matiere">Choose discipline :</string>
+    <string name="deleteall"><h2>Delete all</h2></string>
     <string name="description_Application">
-        Moyenne Project est une application permettant la gestion des matières et notes d\'un utilisateur.\n\n
-        Vous avez la possibilité d\'ajouter, modifier et supprimer des matières et notes.\n
-        Vous avez également des informations essentielles comme la moyenne par matières et la moyenne générale.\n\n
-        En cas de renouvellement des données, un bouton pour supprimer toutes les données est disponible.\n
+        Moyenne Project is an application who can manage your disciplines and notes.\n\n
+        You can add, modify and delete disciplines and notes.\n
+        You can get general average or average by disciplines.\n\n
+        If you want to reset your table, a button "Delete all" can do this for you.\n
     </string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="interval_note">Note  0 - 20 </string>
+    <string name="matiere">Discipline</string>
+    <string name="moy">Averages</string>
+    <string name="name_matiere">Nom discipline</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
     <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
     <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="titleNewMatiere"><h2>Nouvelle Matière</h2></string>
-    <string name="titleNewNote"><h2>Nouvelle Note</h2></string>
-    <string name="title_Application"><b>Présentation</b></string>
+    <string name="titleNewMatiere"><h2>New Discipline</h2></string>
+    <string name="titleNewNote"><h2>New Note</h2></string>
+    <string name="title_Application"><b>Introduction</b></string>
+    <string name="title_table_update_bt_delete">Delete</string>
+    <string name="title_table_update_bt_update">Update</string>
+    <string name="title_table_update_coef">Coefficient</string>
+    <string name="title_table_update_value_note">Note</string>
+    <string name="update_matiere">Update discipline</string>
     <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
