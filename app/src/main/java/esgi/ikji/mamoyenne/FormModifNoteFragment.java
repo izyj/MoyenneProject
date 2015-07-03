@@ -55,7 +55,11 @@ public class FormModifNoteFragment extends Fragment {
                 return v;
             }
         try {
+<<<<<<< HEAD
             Matiere mat = matDAO.getMatiere(i);
+=======
+            Matiere mat = matDAO.getMatiere(2);
+>>>>>>> 8c7f693d7e1a546699af0c45e43aba6195612f3d
             ArrayList<Note> list = new ArrayList<Note>();
             list = noteDAO.getAllNoteByMatiere(mat);
 

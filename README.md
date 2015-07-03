@@ -36,7 +36,7 @@ Tester le bon fonctionnement de création de matières et notes : [![alt text](h
 
 Mettre toutes les chaînes de caratères statique dans le fichier "string.xml" : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
-Mettre toutes les chaînes de caratères statique en Anglais : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)IVAN
+Mettre toutes les chaînes de caratères statique en Anglais : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
 Créer et mettre les couleurs dans le fichier "color.xml" : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 

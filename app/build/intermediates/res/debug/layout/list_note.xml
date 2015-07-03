@@ -17,14 +17,20 @@
             style="@style/txt_value_consult" />
         <ImageButton
             android:id="@+id/bt_modif_note"
-            android:layout_width="40dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/update"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="10dp"
             />
         <ImageButton
             android:id="@+id/bt_del_note"
-            android:layout_width="40dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/delete"
             />
 
     </LinearLayout>
-<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/list_note.xml -->
+<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/list_note.xml -->
