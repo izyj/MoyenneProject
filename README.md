@@ -10,9 +10,9 @@ Créer le formulaire statique pour les notes : [![alt text](https://github.com/i
 
 Créer le tableau pour la consultation - Version Mobile : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
-Créer le tableau pour la consultation - Version Tablette : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
+Créer le tableau pour la consultation - Version Tablette : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
 
-Créer le formulaire de modification d'une matière et des notes : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Créer le formulaire de modification d'une matière et des notes : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
 Créer le tableau pour la consultation trié par matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
 
@@ -28,7 +28,7 @@ Créer les requêtes ajout et suppression d'une note et d'une matière : [![alt 
 
 Créer les requêtes de modification d'une matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
 
-Créer les requêtes de modification d'une note a partir d'une matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Créer les requêtes de modification d'une note a partir d'une matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
 Tester le bon fonctionnement de création de matières et notes : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
@@ -36,7 +36,7 @@ Tester le bon fonctionnement de création de matières et notes : [![alt text](h
 
 Mettre toutes les chaînes de caratères statique dans le fichier "string.xml" : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
-Mettre toutes les chaînes de caratères statique en Anglais : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)JONATHAN
+Mettre toutes les chaînes de caratères statique en Anglais : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)IVAN
 
 Créer et mettre les couleurs dans le fichier "color.xml" : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
