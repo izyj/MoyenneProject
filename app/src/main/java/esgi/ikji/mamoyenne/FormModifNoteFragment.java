@@ -8,8 +8,10 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -37,14 +39,23 @@ public class FormModifNoteFragment extends Fragment {
                              Bundle savedInstanceState) {
         // INFLATER
         View v = inflater.inflate(R.layout.fragment_form_modif_note, container, false);
-
+        //code erreur
+        int i =600;
         ct = getActivity().getApplicationContext();
         final MatiereDAO matDAO = new MatiereDAO(getActivity());
         final NoteDAO noteDAO = new NoteDAO(getActivity());
+        Bundle bundle = this.getArguments();
+        if (bundle != null) {
+        i = bundle.getInt("idMatiere",600);
 
-
+        }
+        //si i a 600 alors on tombe en erreur
+            if(i==600){
+               Toast.makeText(getActivity().getApplicationContext(),"Aucune valeur à modifier",Toast.LENGTH_LONG).show();
+                return v;
+            }
         try {
-            Matiere mat = matDAO.getMatiere(1);
+            Matiere mat = matDAO.getMatiere(i);
             ArrayList<Note> list = new ArrayList<Note>();
             list = noteDAO.getAllNoteByMatiere(mat);
 
@@ -56,9 +67,14 @@ public class FormModifNoteFragment extends Fragment {
             listViewNotes.setAdapter(adapter);
             // Set the onItemClickListener on the ListView to listen for items clicks
             registerForContextMenu(listViewNotes);
+
         }catch(Exception e){
             e.printStackTrace();
         }
+
+
+
+
         return v;
     }
 

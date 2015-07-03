@@ -136,5 +136,16 @@ public class MatiereDAO {
         return matiere;
     }
 
+    public void updateMatiere(Matiere matiere)  throws SQLException,Exception {
+        this.open();
+        ContentValues values = new ContentValues();
+        values.put(MySQLiteHelper.MATIERE_NAME, matiere.getNomMatiere());
+        values.put(MySQLiteHelper.MATIERE_COEF, matiere.getCoeficient());
+        String[] selectionArgs = { Integer.toString(matiere.getId()) };
+        System.out.println("Discipline updated with id: " + matiere.getId());
+        database.update(MySQLiteHelper.TABLE_MATIERE, values, MySQLiteHelper.MATIERE_ID +" =?", selectionArgs);
+        this.close();
+    }
+
 
 }

@@ -19,6 +19,13 @@ public class Note {
         this.coef = _coef;
 
     }
+    public Note(int id,String _value, Matiere _m,int _coef){
+        this.id = id;
+        this.value = _value;
+        this.matiere = _m;
+        this.coef = _coef;
+
+    }
 
     public int getId() {
         return id;

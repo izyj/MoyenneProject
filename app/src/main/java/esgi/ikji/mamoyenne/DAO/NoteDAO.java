@@ -112,14 +112,14 @@ public class NoteDAO {
         close();
         return notes;
     }
-    public void updateNote(Note note)  throws Exception {
+    public void updateNote(Note note)  throws SQLException,Exception {
         this.open();
         ContentValues values = new ContentValues();
-        values.put(MySQLiteHelper.NOTE_ID_MATIERE, note.getValue());
+        values.put(MySQLiteHelper.NOTE_COEF, note.getCoef());
+        values.put(MySQLiteHelper.NOTE_VALUE, note.getValue());
         String[] selectionArgs = { Integer.toString(note.getId()) };
         System.out.println("Comment updated with id: " + note.getId());
-        database.update(MySQLiteHelper.TABLE_NOTE, values, MySQLiteHelper.NOTE_ID
-                + " = ?", selectionArgs);
-        close();
+        database.update(MySQLiteHelper.TABLE_NOTE, values, MySQLiteHelper.NOTE_ID +" =?", selectionArgs);
+        this.close();
     }
 }
