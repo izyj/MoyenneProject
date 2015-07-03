@@ -25,7 +25,7 @@
     <string name="deleteall"><h2>Delete all</h2></string>
 
     <!-- FORMULAIRE MATIERES FRAGMENT -->
-    <string name="name_matiere">Nom discipline</string>
+    <string name="name_matiere">Name discipline</string>
     <string name="update_matiere">Update discipline</string>
     <!-- FORMULAIRE NOTES FRAGMENT -->
     <string name="title_table_update_value_note">Note</string>

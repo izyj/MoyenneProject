@@ -255,7 +255,7 @@
     <string name="interval_note">Note  0 - 20 </string>
     <string name="matiere">Discipline</string>
     <string name="moy">Averages</string>
-    <string name="name_matiere">Nom discipline</string>
+    <string name="name_matiere">Name discipline</string>
     <string name="notes">Notes</string>
     <string name="save">Save</string>
     <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
