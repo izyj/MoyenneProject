@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -47,12 +48,11 @@ public class ArrayAdapterNotes extends ArrayAdapter<Note> {
         Note note = data.get(position);
 
         // Remplissage des textView avec les donnees de la note
-        TextView textViewValueNote = (TextView) convertView.findViewById(R.id.txt_note_value);
-        textViewValueNote.setText(note.getValue());
+        EditText edittextValueNote = (EditText) convertView.findViewById(R.id.et_note_value);
+        edittextValueNote.setText(note.getValue());
 
-        TextView textViewCoefNote = (TextView) convertView.findViewById(R.id.txt_note_coef);
-        textViewCoefNote.setText(""+note.getCoef());
-
+       EditText edittextCoefNote = (EditText) convertView.findViewById(R.id.et_note_coef);
+        edittextCoefNote.setText(Integer.toString(note.getCoef()));
 
       //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
       //  textViewMoyenne.setText(""+matiere.getMoyenne());

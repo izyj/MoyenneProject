@@ -122,7 +122,7 @@ public class MatiereDAO {
         Matiere matiere = null;
         this.open();
         Cursor cursor = database.query(MySQLiteHelper.TABLE_MATIERE,
-                allColumns," id = ?", // c. selections
+                allColumns,MySQLiteHelper.MATIERE_ID+" = ?", // c. selections
                 new String[] { String.valueOf(id) }, null, null, null);
 
         cursor.moveToFirst();
