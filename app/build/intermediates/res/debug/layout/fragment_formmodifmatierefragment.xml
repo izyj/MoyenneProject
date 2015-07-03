@@ -9,7 +9,7 @@ tools:context="navi.project.FormAddMatiereFragment">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center">
+        android:layout_gravity="right|bottom">
 
 
         <EditText
@@ -41,7 +41,8 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:text="Enregistrer"
             android:id="@+id/btSaveMatiere"
             style="@style/custom_bt_save"
-            android:layout_centerVertical="true"
+            android:layout_marginBottom="44dp"
+            android:layout_alignParentBottom="true"
             android:layout_alignLeft="@+id/et_coefMat"
             android:layout_alignStart="@+id/et_coefMat" />
 
@@ -58,6 +59,16 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:width="220dp"
             android:layout_marginLeft="-25dp" />
 
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_note"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/et_coefMat"
+            android:layout_above="@+id/btSaveMatiere"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
     </RelativeLayout>
 </FrameLayout>
-<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/fragment_formmodifmatierefragment.xml -->
+<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/fragment_formmodifmatierefragment.xml -->

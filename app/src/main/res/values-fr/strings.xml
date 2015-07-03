@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CHAINE DE CONFIGURATION VITALE -->
+    <string name="app_name">mamoyenne</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- PRESENTATION FRAGMENT -->
+    <string name="title_Application"><b>Présentation</b></string>
+    <string name="matiere">Matière</string>
+    <string name="notes">Notes</string>
+    <string name="moy">Moyennes</string>
+    <string name="titleNewMatiere"><h2>Nouvelle Matière</h2></string>
+    <string name="titleNewNote"><h2>Nouvelle Note</h2></string>
+    <string name="save">Enregistrer</string>
+    <string name="title_table_update_coef">Coefficient</string>
+    <string name="title_table_update_bt_update">Modifier</string>
+    <string name="title_table_update_bt_delete">Supprimer</string>
+    <string name="description_Application">
+        Moyenne Project est une application permettant la gestion des matières et notes d\'un utilisateur.\n\n
+        Vous avez la possibilité d\'ajouter, modifier et supprimer des matières et notes.\n
+        Vous avez également des informations essentielles comme la moyenne par matières et la moyenne générale.\n\n
+        En cas de renouvellement des données, un bouton pour supprimer toutes les données est disponible.\n
+    </string>
+    <string name="deleteall"><h2>Supprimer tout</h2></string>
+    <!-- FORMULAIRE MATIERES FRAGMENT -->
+    <string name="name_matiere">Nom matière</string>
+    <string name="update_matiere">Modifier une matière</string>
+    <!-- FORMULAIRE NOTES FRAGMENT -->
+    <string name="title_table_update_value_note">Note</string>
+    <string name="choose_matiere">Choisir une matière :</string>
+    <string name="interval_note">Note  0 - 20 </string>
+
+
+    <!-- FRAGMENT -->
+
+</resources>

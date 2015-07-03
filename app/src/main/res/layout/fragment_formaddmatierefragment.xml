@@ -23,7 +23,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_marginEnd="41dp"
             android:layout_marginTop="93dp"
             android:width="150dp"
-            android:hint="Nom" />
+            android:hint="@string/name_matiere" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -31,7 +31,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:id="@+id/et_coefMat"
             android:layout_marginTop="41dp"
             android:width="150dp"
-            android:hint="Coefficient"
+            android:hint="@string/title_table_update_coef"
             android:layout_below="@+id/et_nameMat"
             android:layout_alignLeft="@+id/et_nameMat"
             android:layout_alignStart="@+id/et_nameMat" />
@@ -39,7 +39,7 @@ tools:context="navi.project.FormAddMatiereFragment">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enregistrer"
+            android:text="@string/save"
             android:id="@+id/btSaveMatiere"
             android:layout_below="@+id/et_coefMat"
             android:layout_alignLeft="@+id/et_coefMat"
@@ -51,7 +51,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Ajouter une matiere"
+            android:text="@string/titleNewMatiere"
             android:id="@+id/textView3"
             android:layout_alignParentTop="true"
             android:layout_marginTop="39dp"
