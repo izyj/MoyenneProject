@@ -9,6 +9,7 @@
         <dex dex="D:\git\android\MoyenneProject\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-91c5df98811a0a985311f7181629b7428a25e45d.jar" />
     </item>
     <item
+<<<<<<< HEAD
         jar="D:\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -17,6 +18,9 @@
     </item>
     <item
         jar="D:\git\android\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+=======
+        jar="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+>>>>>>> b57909be7506a4ece59e30c8608dc9c7e4ff7e19
         jumboMode="false"
         revision="22.0.1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
@@ -28,6 +32,13 @@
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
         <dex dex="D:\git\android\MoyenneProject\app\build\intermediates\pre-dexed\debug\classes-fc51f49175dfd0e2469514a93d8aa818f69cfa5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-2946c5953a4c5d6379b48843003161d49a4a2b01.jar" />
     </item>
 
 </items>
