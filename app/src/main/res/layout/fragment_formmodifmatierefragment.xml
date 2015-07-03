@@ -9,7 +9,7 @@ tools:context="navi.project.FormAddMatiereFragment">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center">
+        android:layout_gravity="right|bottom">
 
 
         <EditText
@@ -41,10 +41,10 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:text="Enregistrer"
             android:id="@+id/btSaveMatiere"
             style="@style/custom_bt_save"
+            android:layout_marginBottom="44dp"
             android:layout_alignParentBottom="true"
             android:layout_alignLeft="@+id/et_coefMat"
-            android:layout_alignStart="@+id/et_coefMat"
-            android:layout_marginBottom="62dp" />
+            android:layout_alignStart="@+id/et_coefMat" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -65,9 +65,9 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:id="@+id/lv_note"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_alignLeft="@+id/btSaveMatiere"
-            android:layout_alignStart="@+id/btSaveMatiere"
             android:layout_below="@+id/et_coefMat"
-            android:layout_above="@+id/btSaveMatiere" />
+            android:layout_above="@+id/btSaveMatiere"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
     </RelativeLayout>
 </FrameLayout>
