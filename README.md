@@ -1,5 +1,5 @@
 Application Android calculant la moyenne de plusieurs matieres
-# <span style="color:green;">ETAT DU PROJET => 90% Terminé</span>
+# [<span style="color:green;">]ETAT DU PROJET => 90% Terminé[</span>]
 
 ## [<span class="octicon octicon-link"></span>](#fragments)[](#fragments)Fragments
 
