@@ -1,10 +1,8 @@
 package esgi.ikji.mamoyenne;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.content.ClipData;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -70,13 +68,14 @@ public class FormConsultFragment extends Fragment {
       //  menu.add(obj.getNomMatiere());
         menu.setHeaderTitle("Selectionner une action");
         menu.add(0,obj.getId(), 0, "Modifier note");//groupId, itemId, order, title
-        menu.add(0, obj.getId(), 0, "Supprimer note");
+        menu.add(0, obj.getId(), 0, "Modifier matiere");
     }
 
     @Override
     public boolean onContextItemSelected(MenuItem item){
 
 
+        Fragment fragmentModifMatiere = new FormModifMatiereFragment();
         Fragment fragment = new FormModifNoteFragment();
         if(item.getTitle()=="Modifier note"){
 
@@ -89,10 +88,17 @@ public class FormConsultFragment extends Fragment {
             transaction.replace(R.id.container,fragment);
             transaction.commit();
 
-            Toast.makeText(getActivity().getApplicationContext(),Integer.toString(item.getItemId()),Toast.LENGTH_LONG).show();
+            //Toast.makeText(getActivity().getApplicationContext(),Integer.toString(item.getItemId()),Toast.LENGTH_LONG).show();
         }
-        else if(item.getTitle()=="Supprimer note"){
-            Toast.makeText(getActivity().getApplicationContext(),"sending sms code",Toast.LENGTH_LONG).show();
+        else if(item.getTitle()=="Modifier matiere"){
+            Bundle bundle = new Bundle();
+            bundle.putInt("idMatiere", item.getItemId());
+            fragmentModifMatiere.setArguments(bundle);
+
+            manager = getFragmentManager();
+            transaction = manager.beginTransaction();
+            transaction.replace(R.id.container,fragmentModifMatiere);
+            transaction.commit();
         }else{
             return false;
         }

@@ -5,12 +5,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import esgi.ikji.mamoyenne.Modele.Matiere;
+import esgi.ikji.mamoyenne.DAO.NoteDAO;
 import esgi.ikji.mamoyenne.Modele.Note;
 
 public class ArrayAdapterNotes extends ArrayAdapter<Note> {
@@ -36,7 +38,13 @@ public class ArrayAdapterNotes extends ArrayAdapter<Note> {
     /**
      * Renvoie la vue
      */
-    public View getView(int position, View convertView, ViewGroup parent) {
+    @Override
+    public View getView(final int position, View convertView, ViewGroup parent) {
+
+
+        // Instanciation du DAO note
+
+        final NoteDAO dao = new NoteDAO(getContext());
 
         //Creation de la vue si elle existe pas
         if (convertView == null) {
@@ -48,12 +56,49 @@ public class ArrayAdapterNotes extends ArrayAdapter<Note> {
         Note note = data.get(position);
 
         // Remplissage des textView avec les donnees de la note
-        EditText edittextValueNote = (EditText) convertView.findViewById(R.id.et_note_value);
+        final EditText edittextValueNote = (EditText) convertView.findViewById(R.id.et_note_value);
         edittextValueNote.setText(note.getValue());
 
-       EditText edittextCoefNote = (EditText) convertView.findViewById(R.id.et_note_coef);
+       final EditText edittextCoefNote = (EditText) convertView.findViewById(R.id.et_note_coef);
         edittextCoefNote.setText(Integer.toString(note.getCoef()));
 
+        ImageButton bt_modif = (ImageButton) convertView.findViewById(R.id.bt_modif_note);
+        bt_modif.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try{
+                    Note nt = data.get(position);
+                    nt.setValue(edittextValueNote.getText().toString());
+                    nt.setCoef(Integer.parseInt(edittextCoefNote.getText().toString()));
+                    dao.updateNote(nt);
+                    Toast.makeText(v.getContext(), "Note modifier", Toast.LENGTH_LONG).show();
+                }
+                catch(Exception e){
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
+
+        ImageButton bt_delete = (ImageButton) convertView.findViewById(R.id.bt_del_note);
+        bt_delete.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try{
+                    Note nt = data.get(position);
+                    nt.setValue(edittextValueNote.getText().toString());
+                    nt.setCoef(Integer.parseInt(edittextCoefNote.getText().toString()));
+                    dao.deleteNote(nt);
+                    Toast.makeText(v.getContext(), "Note supprimer", Toast.LENGTH_LONG).show();
+                    remove(nt);
+                    notifyDataSetChanged();
+                }
+                catch(Exception e){
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
       //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
       //  textViewMoyenne.setText(""+matiere.getMoyenne());
 
