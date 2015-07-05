@@ -1,4 +1,5 @@
 Application Android calculant la moyenne de plusieurs matieres
+# <div class="color:green;">ETAT DU PROJET => 90% Terminé</div>
 
 ## [<span class="octicon octicon-link"></span>](#fragments)[](#fragments)Fragments
 
@@ -18,7 +19,7 @@ Créer le tableau pour la consultation trié par matière : [![alt text](https:/
 
 Créer le tableau pour la consultation trié par note : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
 
-Mettre comme fragment initial, le logo en haut à gauche de l'application : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)IVAN
+Mettre comme fragment initial, le logo en haut à gauche de l'application : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
 
 ## [<span class="octicon octicon-link"></span>](#bdd)[](#bdd)BDD
 
@@ -26,7 +27,7 @@ Créer la base de données : [![alt text](https://github.com/izyj/MoyenneProject
 
 Créer les requêtes ajout et suppression d'une note et d'une matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
-Créer les requêtes de modification d'une matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Créer les requêtes de modification d'une matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
 Créer les requêtes de modification d'une note a partir d'une matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
@@ -46,13 +47,13 @@ Vérifier que l'ajout de matière fonctionne : [![alt text](https://github.com/i
 
 Vérifier que l'ajout de note fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
-Vérifier que la modification de matières fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Vérifier que la modification de matières fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
-Vérifier que la suppression de matières fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Vérifier que la suppression de matières fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
-Vérifier que la modification de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Vérifier que la modification de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
-Vérifier que la suppression de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Vérifier que la suppression de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
 Vérifier que la moyenne par matière est correcte : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
