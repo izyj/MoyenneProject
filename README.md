@@ -19,11 +19,7 @@ Créer le tableau pour la consultation trié par matière : [![alt text](https:/
 
 Créer le tableau pour la consultation trié par note : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
 
-<<<<<<< HEAD
 Mettre comme fragment initial, le logo en haut à gauche de l'application : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
-=======
-Mettre comme fragment initial, le logo en haut à gauche de l'application : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
->>>>>>> 0e949dbcc02c2012ee0db7549b360b142e6a98b0
 
 ## [<span class="octicon octicon-link"></span>](#bdd)[](#bdd)BDD
 
