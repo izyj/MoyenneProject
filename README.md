@@ -48,11 +48,11 @@ Vérifier que l'ajout de note fonctionne : [![alt text](https://github.com/izyj/
 
 Vérifier que la modification de matières fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
 
-Vérifier que la suppression de matières fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Vérifier que la suppression de matières fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
-Vérifier que la modification de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Vérifier que la modification de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
-Vérifier que la suppression de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Vérifier que la suppression de notes fonctionne : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
 Vérifier que la moyenne par matière est correcte : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
