@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/fragment_formaddnotefragment"
+tools:context="navi.project.FormAddNoteFragment.xml">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_nameNot"
+            android:width="150dp"
+            android:hint="@string/interval_note"
+            android:layout_above="@+id/et_coefNot"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_coefNot"
+            android:width="150dp"
+            android:hint="@string/title_table_update_coef"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/et_nameNot"
+            android:layout_alignStart="@+id/et_nameNot" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            style="@style/custom_bt_save"
+            android:id="@+id/btSaveNote"
+            android:layout_marginLeft="38dp"
+            android:layout_marginStart="38dp"
+            android:layout_alignTop="@+id/listmatiere"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/titleNewNote"
+            android:id="@+id/textView3"
+            android:layout_marginTop="36dp"
+            android:width="220dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/listmatiere"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/choose_matiere"
+            android:id="@+id/textView4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="51dp" />
+
+    </RelativeLayout>
+</FrameLayout>
+<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout-land/fragment_formaddnotefragment.xml -->

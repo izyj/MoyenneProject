@@ -1,0 +1,77 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:id="@+id/modifnotes"
+    android:layout_marginLeft="100dp"
+    android:paddingLeft="-10dp"
+    tools:context="esgi.ikji.mamoyenne.FormModifNoteFragment">
+
+
+    <LinearLayout
+        android:id="@+id/layout_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/turkish"
+        android:layout_marginLeft="12dp"
+        android:textAlignment="center"
+        android:paddingLeft="10dp">
+
+
+            <TextView
+                android:id="@+id/lbl_note_value"
+                style="@style/lbl_value_consult"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_table_update_value_note"
+                android:textColor="@color/white"
+                android:singleLine="true" />
+            <TextView
+                android:id="@+id/lbl_note_coef"
+                style="@style/lbl_value_consult"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_table_update_coef"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/lbl_note_update"
+                style="@style/lbl_value_consult"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_table_update_bt_update"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/lbl_note_delete"
+                style="@style/lbl_value_consult"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_table_update_bt_delete"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    <ListView
+        android:id="@+id/lv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_note_title"
+        android:background="@color/bluelist"
+        android:divider="@color/orange"
+        android:dividerHeight="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </ListView>
+
+</RelativeLayout>
+<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout-land/fragment_form_modif_note.xml -->
