@@ -2,6 +2,7 @@ package esgi.ikji.mamoyenne;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.os.PersistableBundle;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.MenuInflater;
@@ -19,6 +20,8 @@ import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
 public class MainActivity extends ActionBarActivity {
 	FragmentManager manager;
 	FragmentTransaction transaction;
+
+    static final String STATE_TRANSACTION = "transaction";
 	// INITIALISE DATABASE
 	final MySQLiteHelper db = new MySQLiteHelper(this);
 	@Override
@@ -26,11 +29,13 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		// INSTANCIATE FRAGMENT MANAGER
-		manager = getFragmentManager();
-		transaction = manager.beginTransaction();
-		transaction.replace(R.id.container,new PresentationFragment());
-		transaction.commit();
+
+            // INSTANCIATE FRAGMENT MANAGER
+            manager = getFragmentManager();
+            transaction = manager.beginTransaction();
+            transaction.replace(R.id.container, new PresentationFragment());
+            transaction.commit();
+
 
 		// CONFIGURE ACTION BAR
 		getSupportActionBar().setIcon(R.drawable.ic_launcher);
@@ -63,6 +68,7 @@ public class MainActivity extends ActionBarActivity {
 				manager = getFragmentManager();
 				transaction = manager.beginTransaction();
 				transaction.replace(R.id.container,new FormAddNoteFragment());
+                transaction.addToBackStack("nouvellenote");
 				transaction.commit();
 
 				/**
@@ -145,4 +151,15 @@ public class MainActivity extends ActionBarActivity {
 		}
 		return super.onMenuOpened(featureId, menu);
 	}
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState, PersistableBundle outPersistentState) {
+
+
+        // savedInstanceState.put(STATE_TRANSACTION, transaction);
+
+        // Always call the superclass so it can save the view hierarchy state
+        super.onSaveInstanceState(savedInstanceState, outPersistentState);
+
+    }
 }

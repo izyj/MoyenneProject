@@ -58,9 +58,9 @@ tools:context="navi.project.FormAddNoteFragment.xml">
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:id="@+id/listmatiere"
-            android:layout_alignTop="@+id/textView4"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3" />
+            android:layout_below="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -68,10 +68,10 @@ tools:context="navi.project.FormAddNoteFragment.xml">
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/choose_matiere"
             android:id="@+id/textView4"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="51dp" />
+            android:layout_below="@+id/et_coefNot"
+            android:layout_alignLeft="@+id/et_coefNot"
+            android:layout_alignStart="@+id/et_coefNot"
+            android:layout_marginTop="31dp" />
 
     </RelativeLayout>
 </FrameLayout>

@@ -15,36 +15,32 @@
         android:layout_gravity="right|center_vertical">
 
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/title_Application"
-            android:id="@+id/textView"
-            android:layout_gravity="right|top"
-            android:layout_marginBottom="50dp"
-             />
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/scrollView"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" >
-        <TextView
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/description_Application"
-            android:id="@+id/textView2"
-            android:layout_gravity="right|center_vertical"
-            android:layout_centerVertical="true"
-             />
+            android:layout_alignParentTop="true">
 
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/description_Application"
+                android:id="@+id/textView2"
+                android:layout_centerVertical="true" />
         </ScrollView>
 
 
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title_Application"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+         />
 
 </FrameLayout>

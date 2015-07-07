@@ -42,16 +42,18 @@ MERGED from com.android.support:support-v4:22.2.0:22:5
 activity#esgi.ikji.mamoyenne.MainActivity
 ADDED from AndroidManifest.xml:16:9
 	android:label
+		ADDED from AndroidManifest.xml:20:13
+	android:configChanges
 		ADDED from AndroidManifest.xml:18:13
 	android:name
 		ADDED from AndroidManifest.xml:17:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:19:13
+ADDED from AndroidManifest.xml:21:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:20:17
-	android:name
-		ADDED from AndroidManifest.xml:20:25
-category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:22:17
 	android:name
-		ADDED from AndroidManifest.xml:22:27
+		ADDED from AndroidManifest.xml:22:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:24:17
+	android:name
+		ADDED from AndroidManifest.xml:24:27
