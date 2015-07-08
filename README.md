@@ -1,5 +1,5 @@
 Application Android calculant la moyenne de plusieurs matieres
-# <div class="color:green;">ETAT DU PROJET => 90% Terminé</div>
+# <div class="color:green;">ETAT DU PROJET => 93% Terminé</div>
 
 ## [<span class="octicon octicon-link"></span>](#fragments)[](#fragments)Fragments
 
@@ -57,4 +57,4 @@ Vérifier que la suppression de notes fonctionne : [![alt text](https://github.c
 
 Vérifier que la moyenne par matière est correcte : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
-Vérifier que la moyenne de toutes les matières est correcte : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)IVAN
+Vérifier que la moyenne de toutes les matières est correcte : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN

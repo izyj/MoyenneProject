@@ -2,6 +2,7 @@ package esgi.ikji.mamoyenne;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,7 +28,7 @@ public class FormAddMatiereFragment extends Fragment {
         // GET VALUES FROM FORM
         nameMatFromForm = (EditText) v.findViewById(R.id.et_nameMat);
         coefMatFromForm = (EditText) v.findViewById(R.id.et_coefMat);
-
+        Log.d(" FormAddMatiereFragment","oncreateview");
 
        // EVENEMENT " ENREGISTRER "
 
