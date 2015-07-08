@@ -1,5 +1,6 @@
 package esgi.ikji.mamoyenne;
 
+import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
@@ -81,12 +82,13 @@ public class MainActivity extends ActionBarActivity {
 
 			public void onClick(View v) {
 
-
 				getApplicationContext().deleteDatabase(MySQLiteHelper.DATABASE_NAME);
 				/**
 				 * Suppression en Base de donnees
 				 */
 				CharSequence str = "Delete all data";
+				ArrayAdapterMatiere.moygeneCoef = 0;
+				ArrayAdapterMatiere.moygeneValue = 0.00;
 				Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
 			}
 		});
@@ -114,10 +116,23 @@ public class MainActivity extends ActionBarActivity {
 						.show();
 				break;
 			case R.id.bymatiere:
+				Fragment f = new FormConsultFragment();
+				manager = getFragmentManager();
+				transaction = manager.beginTransaction();
+				transaction.replace(R.id.container,f);
+				transaction.commit();
+
+				f.getView().findViewById(R.id.listmatiere);
+
+
 				Toast.makeText(this, "Consultation par matiere", Toast.LENGTH_SHORT)
 						.show();
 				break;
 			case R.id.bynote:
+				manager = getFragmentManager();
+				transaction = manager.beginTransaction();
+				transaction.replace(R.id.container,new FormConsultFragment());
+				transaction.commit();
 				Toast.makeText(this, "Consultation par note", Toast.LENGTH_SHORT)
 						.show();
 				break;

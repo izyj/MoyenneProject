@@ -1,5 +1,6 @@
 package esgi.ikji.mamoyenne;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -11,12 +12,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
 import esgi.ikji.mamoyenne.DAO.MatiereDAO;
+import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
 import esgi.ikji.mamoyenne.Modele.Matiere;
 
 /**
@@ -28,6 +34,7 @@ public class FormConsultFragment extends Fragment {
     Context ct;
     FragmentManager manager;
     FragmentTransaction transaction;
+    ArrayAdapterMatiere adapter;
     public FormConsultFragment() {
     }
     @Override
@@ -35,6 +42,10 @@ public class FormConsultFragment extends Fragment {
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.layout_list_item, container, false);
         ct = getActivity().getApplicationContext();
+
+        ActionBar ab = getActivity().getActionBar();
+
+
         // Inflate the layout for this fragment
         final MatiereDAO tbMat = new MatiereDAO(getActivity());
         try {
@@ -44,16 +55,27 @@ public class FormConsultFragment extends Fragment {
             // Get the ListView by Id and instantiate the adapter with
             // matieres data and then set it the ListView
 
-            ArrayAdapterMatiere adapter = new ArrayAdapterMatiere(ct,R.layout.list_matiere, list);
+            adapter = new ArrayAdapterMatiere(ct, R.layout.list_matiere, list);
             listViewMatieres = (ListView) v.findViewById(R.id.lv_matiere);
             listViewMatieres.setAdapter(adapter);
             // Set the onItemClickListener on the ListView to listen for items clicks
             registerForContextMenu(listViewMatieres);
-        }catch(Exception e){
+
+            Button bt_calculate = (Button) v.findViewById(R.id.bt_calculate);
+            bt_calculate.setOnClickListener(new View.OnClickListener() {
+
+                public void onClick(View view) {
+                    LayoutInflater inflater = LayoutInflater.from(FormConsultFragment.this.getActivity().getApplicationContext());
+                    View root = inflater.inflate(R.layout.layout_list_item,null);
+                    TextView txt_moy_gene = (TextView) root.findViewById(R.id.txt_matiere_moy_general);
+                    txt_moy_gene.setText(String.valueOf(getAverageGeneral(adapter.getMoyenneGeneValue(), adapter.getMoyenneGeneCoef())));
+                    Toast.makeText(ct,String.valueOf(getAverageGeneral(adapter.getMoyenneGeneValue(), adapter.getMoyenneGeneCoef())), Toast.LENGTH_LONG).show();
+                }
+            });
+
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
-
         return v;
     }
 
@@ -103,5 +125,8 @@ public class FormConsultFragment extends Fragment {
             return false;
         }
         return true;
+    }
+    public double getAverageGeneral(double res,int coef){
+        return res/coef;
     }
 }

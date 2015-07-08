@@ -19,6 +19,7 @@
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">mamoyenne</string>
+    <string name="average">MOYENNE GENERALE</string>
     <string name="choose_matiere">Choisir une matière :</string>
     <string name="deleteall"><h2>Supprimer tout</h2></string>
     <string name="description_Application">
