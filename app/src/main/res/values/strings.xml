@@ -13,6 +13,7 @@
     <string name="titleNewMatiere"><h2>New Discipline</h2></string>
     <string name="titleNewNote"><h2>New Note</h2></string>
     <string name="save">Save</string>
+    <string name="average">GENERAL AVERAGE</string>
     <string name="title_table_update_coef">Coefficient</string>
     <string name="title_table_update_bt_update">Update</string>
     <string name="title_table_update_bt_delete">Delete</string>
