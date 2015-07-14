@@ -1,6 +1,6 @@
 package esgi.ikji.mamoyenne;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;

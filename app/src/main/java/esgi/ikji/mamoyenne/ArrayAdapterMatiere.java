@@ -2,12 +2,15 @@ package esgi.ikji.mamoyenne;
 
 import android.app.Activity;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.sql.SQLException;
 import java.text.DecimalFormat;
@@ -41,7 +44,7 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
     /**
      * Renvoie la vue
      */
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
         //Creation de la vue si elle existe pas
         if (convertView == null) {
@@ -50,7 +53,7 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         }
 
         // Recuparation de la matiere et des notes de la matiere
-        Matiere matiere = data.get(position);
+        final Matiere matiere = data.get(position);
         NoteDAO ndao = new NoteDAO(mContext);
 
         // Remplissage des textView avec les donnees des matieres.
@@ -61,6 +64,9 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         textViewCoef.setText(""+matiere.getCoeficient());
 
         TextView textViewNotes = (TextView) convertView.findViewById(R.id.txt_matiere_notes);
+
+        ImageButton bt_suppression = (ImageButton) convertView.findViewById(R.id.bt_del_mat);
+
 
 
         try {
@@ -87,6 +93,23 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         }else{
             textViewMoyenne.setText(df.format(matiere.getMoyenne()));
         }
+
+        bt_suppression.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try{
+                    Log.d("Matiere",matiere.getNomMatiere());
+                   /* nt.setValue(edittextValueNote.getText().toString());
+                    nt.setCoef(Integer.parseInt(edittextCoefNote.getText().toString()));
+                    dao.updateNote(nt);
+                    Toast.makeText(v.getContext(), "Note modifier", Toast.LENGTH_LONG).show();*/
+                }
+                catch(Exception e){
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
 
       //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
       //  textViewMoyenne.setText(""+matiere.getMoyenne());

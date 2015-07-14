@@ -1,6 +1,6 @@
 package esgi.ikji.mamoyenne;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -68,5 +68,22 @@ public class FormAddMatiereFragment extends Fragment {
         return true;
     }
 
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        if (savedInstanceState != null) {
+            nameMatFromForm.setText(savedInstanceState.getString("nomMatiere"));
+            coefMatFromForm.setText(coefMatFromForm.getText().toString());
+        }
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("nomMatiere", nameMatFromForm.getText().toString());
+        outState.putString("coef",coefMatFromForm.getText().toString());
+    }
 
 }
