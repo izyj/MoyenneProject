@@ -1550,11 +1550,7 @@ containing a value of this type.
         public static final int update=0x7f02003e;
     }
     public static final class id {
-<<<<<<< HEAD
-        public static final int action0=0x7f0b0079;
-=======
-        public static final int action0=0x7f0b007b;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int action0=0x7f0b007d;
         public static final int action_bar=0x7f0b0040;
         public static final int action_bar_activity_content=0x7f0b0000;
         public static final int action_bar_container=0x7f0b003f;
@@ -1563,53 +1559,35 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0b0024;
         public static final int action_bar_title=0x7f0b0023;
         public static final int action_context_bar=0x7f0b0041;
-<<<<<<< HEAD
-        public static final int action_divider=0x7f0b007d;
-=======
-        public static final int action_divider=0x7f0b007f;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int action_divider=0x7f0b0081;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b003d;
         public static final int action_mode_bar_stub=0x7f0b003c;
         public static final int action_mode_close_button=0x7f0b0025;
-<<<<<<< HEAD
-        public static final int action_settings=0x7f0b0086;
-=======
-        public static final int action_settings=0x7f0b0088;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int action_settings=0x7f0b008a;
         public static final int activity_chooser_view_content=0x7f0b0026;
         public static final int alertTitle=0x7f0b0030;
         public static final int always=0x7f0b0016;
         public static final int beginning=0x7f0b0013;
         public static final int btDeleteAll=0x7f0b0052;
+        public static final int btDeleteMatiere=0x7f0b0066;
         public static final int btNewMatiere=0x7f0b0051;
         public static final int btNewNote=0x7f0b0050;
         public static final int btSaveMatiere=0x7f0b005e;
         public static final int btSaveNote=0x7f0b0063;
-<<<<<<< HEAD
-        public static final int bt_del_mat=0x7f0b0074;
-        public static final int bt_del_note=0x7f0b0078;
-        public static final int bt_modif_note=0x7f0b0077;
+        public static final int bt_calculate=0x7f0b0071;
+        public static final int bt_del_mat=0x7f0b0078;
+        public static final int bt_del_note=0x7f0b007c;
+        public static final int bt_modif_note=0x7f0b007b;
         public static final int buttonPanel=0x7f0b0036;
-        public static final int bymatiere=0x7f0b0088;
-        public static final int bynote=0x7f0b0089;
-        public static final int cancel_action=0x7f0b007a;
+        public static final int bymatiere=0x7f0b008c;
+        public static final int bynote=0x7f0b008d;
+        public static final int cancel_action=0x7f0b007e;
         public static final int checkbox=0x7f0b0038;
-        public static final int chronometer=0x7f0b0080;
-=======
-        public static final int bt_calculate=0x7f0b0070;
-        public static final int bt_del_note=0x7f0b007a;
-        public static final int bt_modif_note=0x7f0b0079;
-        public static final int buttonPanel=0x7f0b0036;
-        public static final int bymatiere=0x7f0b008a;
-        public static final int bynote=0x7f0b008b;
-        public static final int cancel_action=0x7f0b007c;
-        public static final int checkbox=0x7f0b0038;
-        public static final int chronometer=0x7f0b0082;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int chronometer=0x7f0b0084;
         public static final int collapseActionView=0x7f0b0017;
-        public static final int consult=0x7f0b0069;
+        public static final int consult=0x7f0b006a;
         public static final int container=0x7f0b004f;
         public static final int contentPanel=0x7f0b0031;
         public static final int custom=0x7f0b0035;
@@ -1621,22 +1599,13 @@ containing a value of this type.
         public static final int dropdown=0x7f0b001c;
         public static final int edit_query=0x7f0b0042;
         public static final int end=0x7f0b0014;
-<<<<<<< HEAD
-        public static final int end_padder=0x7f0b0085;
-=======
-        public static final int end_padder=0x7f0b0087;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int end_padder=0x7f0b0089;
         public static final int et_coefMat=0x7f0b005d;
         public static final int et_coefNot=0x7f0b0062;
         public static final int et_nameMat=0x7f0b005c;
         public static final int et_nameNot=0x7f0b0061;
-<<<<<<< HEAD
-        public static final int et_note_coef=0x7f0b0076;
-        public static final int et_note_value=0x7f0b0075;
-=======
-        public static final int et_note_coef=0x7f0b0078;
-        public static final int et_note_value=0x7f0b0077;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int et_note_coef=0x7f0b007a;
+        public static final int et_note_value=0x7f0b0079;
         public static final int expand_activities_button=0x7f0b0027;
         public static final int expanded_menu=0x7f0b0037;
         public static final int fragment_formaddnotefragment=0x7f0b0060;
@@ -1646,43 +1615,27 @@ containing a value of this type.
         public static final int icon=0x7f0b002b;
         public static final int ifRoom=0x7f0b0018;
         public static final int image=0x7f0b0028;
-<<<<<<< HEAD
-        public static final int info=0x7f0b0084;
-=======
-        public static final int info=0x7f0b0086;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
-        public static final int layout_matiere_title=0x7f0b006a;
+        public static final int info=0x7f0b0088;
+        public static final int layout_matiere_title=0x7f0b006b;
         public static final int layout_note_title=0x7f0b0055;
-        public static final int lbl_matiere_coef=0x7f0b006c;
-        public static final int lbl_matiere_moy=0x7f0b006e;
-        public static final int lbl_matiere_moy_general=0x7f0b0071;
-        public static final int lbl_matiere_name=0x7f0b006b;
-        public static final int lbl_matiere_notes=0x7f0b006d;
+        public static final int lbl_matiere_coef=0x7f0b006d;
+        public static final int lbl_matiere_moy=0x7f0b006f;
+        public static final int lbl_matiere_moy_general=0x7f0b0072;
+        public static final int lbl_matiere_name=0x7f0b006c;
+        public static final int lbl_matiere_notes=0x7f0b006e;
         public static final int lbl_note_coef=0x7f0b0057;
         public static final int lbl_note_delete=0x7f0b0059;
         public static final int lbl_note_update=0x7f0b0058;
         public static final int lbl_note_value=0x7f0b0056;
-<<<<<<< HEAD
-        public static final int line1=0x7f0b007e;
-        public static final int line3=0x7f0b0082;
+        public static final int line1=0x7f0b0082;
+        public static final int line3=0x7f0b0086;
         public static final int listMode=0x7f0b0009;
         public static final int list_item=0x7f0b002a;
         public static final int listmatiere=0x7f0b0064;
-        public static final int logo=0x7f0b0087;
-        public static final int lv_matiere=0x7f0b006f;
+        public static final int logo=0x7f0b008b;
+        public static final int lv_matiere=0x7f0b0070;
         public static final int lv_note=0x7f0b005a;
-        public static final int media_actions=0x7f0b007c;
-=======
-        public static final int line1=0x7f0b0080;
-        public static final int line3=0x7f0b0084;
-        public static final int listMode=0x7f0b0009;
-        public static final int list_item=0x7f0b002a;
-        public static final int listmatiere=0x7f0b0064;
-        public static final int logo=0x7f0b0089;
-        public static final int lv_matiere=0x7f0b006f;
-        public static final int lv_note=0x7f0b005a;
-        public static final int media_actions=0x7f0b007e;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int media_actions=0x7f0b0080;
         public static final int middle=0x7f0b0015;
         public static final int modifnotes=0x7f0b0054;
         public static final int multiply=0x7f0b001e;
@@ -1690,7 +1643,7 @@ containing a value of this type.
         public static final int none=0x7f0b000e;
         public static final int normal=0x7f0b000a;
         public static final int parentPanel=0x7f0b002d;
-        public static final int presentationFragments=0x7f0b0066;
+        public static final int presentationFragments=0x7f0b0067;
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
         public static final int radio=0x7f0b003a;
@@ -1715,37 +1668,25 @@ containing a value of this type.
         public static final int src_atop=0x7f0b0020;
         public static final int src_in=0x7f0b0021;
         public static final int src_over=0x7f0b0022;
-<<<<<<< HEAD
-        public static final int status_bar_latest_event_content=0x7f0b007b;
+        public static final int status_bar_latest_event_content=0x7f0b007f;
         public static final int submit_area=0x7f0b004b;
         public static final int tabMode=0x7f0b000b;
-        public static final int text=0x7f0b0083;
-        public static final int text2=0x7f0b0081;
-=======
-        public static final int status_bar_latest_event_content=0x7f0b007d;
-        public static final int submit_area=0x7f0b004b;
-        public static final int tabMode=0x7f0b000b;
-        public static final int text=0x7f0b0085;
-        public static final int text2=0x7f0b0083;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int text=0x7f0b0087;
+        public static final int text2=0x7f0b0085;
         public static final int textSpacerNoButtons=0x7f0b0033;
-        public static final int textView=0x7f0b0067;
-        public static final int textView2=0x7f0b0068;
+        public static final int textView=0x7f0b0068;
+        public static final int textView2=0x7f0b0069;
         public static final int textView3=0x7f0b005f;
         public static final int textView4=0x7f0b0065;
-<<<<<<< HEAD
-        public static final int time=0x7f0b007f;
-=======
-        public static final int time=0x7f0b0081;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        public static final int time=0x7f0b0083;
         public static final int title=0x7f0b002c;
         public static final int title_template=0x7f0b002f;
         public static final int topPanel=0x7f0b002e;
-        public static final int txt_matiere_coef=0x7f0b0074;
-        public static final int txt_matiere_moy=0x7f0b0076;
-        public static final int txt_matiere_moy_general=0x7f0b0072;
-        public static final int txt_matiere_name=0x7f0b0073;
-        public static final int txt_matiere_notes=0x7f0b0075;
+        public static final int txt_matiere_coef=0x7f0b0075;
+        public static final int txt_matiere_moy=0x7f0b0077;
+        public static final int txt_matiere_moy_general=0x7f0b0073;
+        public static final int txt_matiere_name=0x7f0b0074;
+        public static final int txt_matiere_notes=0x7f0b0076;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
         public static final int view=0x7f0b0053;
@@ -1813,14 +1754,14 @@ containing a value of this type.
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f050000;
-        public static final int abc_action_bar_home_description_format=0x7f050021;
-        public static final int abc_action_bar_home_subtitle_description_format=0x7f050022;
+        public static final int abc_action_bar_home_description_format=0x7f050022;
+        public static final int abc_action_bar_home_subtitle_description_format=0x7f050023;
         public static final int abc_action_bar_up_description=0x7f050001;
         public static final int abc_action_menu_overflow_description=0x7f050002;
         public static final int abc_action_mode_done=0x7f050003;
         public static final int abc_activity_chooser_view_see_all=0x7f050004;
         public static final int abc_activitychooserview_choose_application=0x7f050005;
-        public static final int abc_search_hint=0x7f050023;
+        public static final int abc_search_hint=0x7f050024;
         public static final int abc_searchview_description_clear=0x7f050006;
         public static final int abc_searchview_description_query=0x7f050007;
         public static final int abc_searchview_description_search=0x7f050008;
@@ -1828,28 +1769,29 @@ containing a value of this type.
         public static final int abc_searchview_description_voice=0x7f05000a;
         public static final int abc_shareactionprovider_share_with=0x7f05000b;
         public static final int abc_shareactionprovider_share_with_application=0x7f05000c;
-        public static final int abc_toolbar_collapse_description=0x7f050024;
+        public static final int abc_toolbar_collapse_description=0x7f050025;
         public static final int action_settings=0x7f05000d;
         public static final int app_name=0x7f05000e;
         public static final int average=0x7f05000f;
         public static final int choose_matiere=0x7f050010;
-        public static final int deleteall=0x7f050011;
-        public static final int description_Application=0x7f050012;
-        public static final int interval_note=0x7f050013;
-        public static final int matiere=0x7f050014;
-        public static final int moy=0x7f050015;
-        public static final int name_matiere=0x7f050016;
-        public static final int notes=0x7f050017;
-        public static final int save=0x7f050018;
-        public static final int status_bar_notification_info_overflow=0x7f050025;
-        public static final int titleNewMatiere=0x7f050019;
-        public static final int titleNewNote=0x7f05001a;
-        public static final int title_Application=0x7f05001b;
-        public static final int title_table_update_bt_delete=0x7f05001c;
-        public static final int title_table_update_bt_update=0x7f05001d;
-        public static final int title_table_update_coef=0x7f05001e;
-        public static final int title_table_update_value_note=0x7f05001f;
-        public static final int update_matiere=0x7f050020;
+        public static final int delete=0x7f050011;
+        public static final int deleteall=0x7f050012;
+        public static final int description_Application=0x7f050013;
+        public static final int interval_note=0x7f050014;
+        public static final int matiere=0x7f050015;
+        public static final int moy=0x7f050016;
+        public static final int name_matiere=0x7f050017;
+        public static final int notes=0x7f050018;
+        public static final int save=0x7f050019;
+        public static final int status_bar_notification_info_overflow=0x7f050026;
+        public static final int titleNewMatiere=0x7f05001a;
+        public static final int titleNewNote=0x7f05001b;
+        public static final int title_Application=0x7f05001c;
+        public static final int title_table_update_bt_delete=0x7f05001d;
+        public static final int title_table_update_bt_update=0x7f05001e;
+        public static final int title_table_update_coef=0x7f05001f;
+        public static final int title_table_update_value_note=0x7f050020;
+        public static final int update_matiere=0x7f050021;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f070074;

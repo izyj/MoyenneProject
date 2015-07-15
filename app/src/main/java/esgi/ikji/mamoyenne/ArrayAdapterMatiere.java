@@ -62,17 +62,14 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
             convertView = inflater.inflate(layoutResourceId, parent, false);
         }
 
-<<<<<<< HEAD
-        // Recuparation de la matiere et des notes de la matiere
-        final Matiere matiere = data.get(position);
-=======
+
         // Recuperation de la matiere et des notes de la matiere
         if(position == 0){
             moygeneValue = 0;
             moygeneCoef = 0;
         }
-        Matiere matiere = data.get(position);
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+        final Matiere matiere = data.get(position);
+
         NoteDAO ndao = new NoteDAO(mContext);
 
 
@@ -85,13 +82,12 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
 
         TextView textViewNotes = (TextView) convertView.findViewById(R.id.txt_matiere_notes);
 
-<<<<<<< HEAD
-        ImageButton bt_suppression = (ImageButton) convertView.findViewById(R.id.bt_del_mat);
 
 
-=======
+
+
         // Rempli mon tableau
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+
 
         try {
             ArrayList<Note> list_notes = ndao.getAllNoteByMatiere(matiere);
@@ -117,31 +113,16 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         }else{
             textViewMoyenne.setText(df.format(matiere.getMoyenne()));
         }
-<<<<<<< HEAD
-
-        bt_suppression.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                try{
-                    Log.d("Matiere",matiere.getNomMatiere());
-                   /* nt.setValue(edittextValueNote.getText().toString());
-                    nt.setCoef(Integer.parseInt(edittextCoefNote.getText().toString()));
-                    dao.updateNote(nt);
-                    Toast.makeText(v.getContext(), "Note modifier", Toast.LENGTH_LONG).show();*/
-                }
-                catch(Exception e){
-                    e.printStackTrace();
-                }
 
 
-            }
-        });
+
 
       //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
       //  textViewMoyenne.setText(""+matiere.getMoyenne());
 
-=======
+
         addToGeneralAverage(matiere.getMoyenne(),matiere.getCoeficient());
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+
         return convertView;
 
     }

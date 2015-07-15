@@ -1,15 +1,9 @@
 package esgi.ikji.mamoyenne;
 
-<<<<<<< HEAD
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-=======
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
-import android.os.PersistableBundle;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.MenuInflater;
@@ -48,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
             current = new PresentationFragment();
             transaction.replace(R.id.container, current);
             transaction.commit();
-
+        }
 
             // CONFIGURE ACTION BAR
             getSupportActionBar().setIcon(R.drawable.ic_launcher);
@@ -58,7 +52,7 @@ public class MainActivity extends ActionBarActivity {
 
         /* RIGHT MENU --- BUTTONS CONTROLS */
         /* Traitement Ajout de matiere */
-<<<<<<< HEAD
+
             Button bt_matiere = (Button) findViewById(R.id.btNewMatiere);
             bt_matiere.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
@@ -106,67 +100,14 @@ public class MainActivity extends ActionBarActivity {
                     getApplicationContext().deleteDatabase(MySQLiteHelper.DATABASE_NAME);
                     /** Suppression en Base de donnees */
                     CharSequence str = "Delete all data";
+                    ArrayAdapterMatiere.moygeneCoef = 0;
+                    ArrayAdapterMatiere.moygeneValue = 0.00;
                     Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
                 }
             });
 
-        }
-=======
-		Button bt_matiere = (Button) findViewById(R.id.btNewMatiere);
-		bt_matiere.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				manager = getFragmentManager();
-				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,new FormAddMatiereFragment());
-				transaction.commit();
-                /* Ajout en Base de donnees */
-				CharSequence str = "Add new matiere";
-				Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
-			}
-		});
-
-		/**
-		 * Traitement Ajout de note
-		 */
-		Button bt_note = (Button) findViewById(R.id.btNewNote);
-		bt_note.setOnClickListener(new View.OnClickListener() {
-
-			public void onClick(View v) {
-				manager = getFragmentManager();
-				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,new FormAddNoteFragment());
-                transaction.addToBackStack("nouvellenote");
-				transaction.commit();
-
-				/**
-				 * Ajout en Base de donnees
-				 */
-				CharSequence str = "Add new note";
-				Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
-			}
-		});
-
-		/**
-		 * Traitement Suppression donnees
-		 */
-		Button bt_del = (Button) findViewById(R.id.btDeleteAll);
-		bt_del.setOnClickListener(new View.OnClickListener() {
-
-			public void onClick(View v) {
-
-				getApplicationContext().deleteDatabase(MySQLiteHelper.DATABASE_NAME);
-				/**
-				 * Suppression en Base de donnees
-				 */
-				CharSequence str = "Delete all data";
-				ArrayAdapterMatiere.moygeneCoef = 0;
-				ArrayAdapterMatiere.moygeneValue = 0.00;
-				Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
-			}
-		});
 
 
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
 
 	}
 	@Override
@@ -191,7 +132,7 @@ public class MainActivity extends ActionBarActivity {
 				break;
 			case R.id.bymatiere:
 				Fragment f = new FormConsultFragment();
-				manager = getFragmentManager();
+				manager = getSupportFragmentManager();
 				transaction = manager.beginTransaction();
 				transaction.replace(R.id.container,f);
 				transaction.commit();
@@ -203,7 +144,7 @@ public class MainActivity extends ActionBarActivity {
 						.show();
 				break;
 			case R.id.bynote:
-				manager = getFragmentManager();
+				manager = getSupportFragmentManager();
 				transaction = manager.beginTransaction();
 				transaction.replace(R.id.container,new FormConsultFragment());
 				transaction.commit();

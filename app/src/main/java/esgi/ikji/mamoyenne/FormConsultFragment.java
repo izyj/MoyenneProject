@@ -1,15 +1,10 @@
 package esgi.ikji.mamoyenne;
 
-<<<<<<< HEAD
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-=======
 import android.app.ActionBar;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
 import android.content.Context;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -22,13 +17,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
-
 import esgi.ikji.mamoyenne.DAO.MatiereDAO;
-import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
 import esgi.ikji.mamoyenne.Modele.Matiere;
 
 /**

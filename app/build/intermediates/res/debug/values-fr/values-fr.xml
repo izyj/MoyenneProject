@@ -21,6 +21,7 @@
     <string name="app_name">mamoyenne</string>
     <string name="average">MOYENNE GENERALE</string>
     <string name="choose_matiere">Choisir une matière :</string>
+    <string name="delete">Supprimer</string>
     <string name="deleteall"><h2>Supprimer tout</h2></string>
     <string name="description_Application">
         Moyenne Project est une application permettant la gestion des matières et notes d\'un utilisateur.\n\n

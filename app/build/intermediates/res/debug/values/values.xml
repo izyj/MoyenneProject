@@ -246,6 +246,7 @@
     <string name="app_name">mamoyenne</string>
     <string name="average">GENERAL AVERAGE</string>
     <string name="choose_matiere">Choose discipline :</string>
+    <string name="delete">Delete</string>
     <string name="deleteall"><h2>Delete all</h2></string>
     <string name="description_Application">
         Moyenne Project is an application who can manage your disciplines and notes.\n\n

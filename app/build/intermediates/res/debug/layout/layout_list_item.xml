@@ -78,9 +78,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-<<<<<<< HEAD
-    </RelativeLayout><!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/layout_list_item.xml -->
-=======
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
         <TextView
@@ -89,5 +86,4 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true" />
-    </RelativeLayout><!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/layout_list_item.xml -->
->>>>>>> af830add51dd1ffc49d41221941404a8ac1c7fab
+    </RelativeLayout><!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/layout_list_item.xml -->

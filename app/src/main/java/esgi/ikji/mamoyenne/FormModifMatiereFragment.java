@@ -1,8 +1,9 @@
 package esgi.ikji.mamoyenne;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -77,8 +78,51 @@ public class FormModifMatiereFragment extends Fragment {
 
             }
         });
+
+
+
+
+        Button bt_supprimer = (Button) v.findViewById(R.id.btDeleteMatiere);
+        bt_supprimer.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                try{
+                    Matiere mat2 = matDAO.getMatiere(e);
+                    mat2.setNomMatiere(nameMatFromForm.getText().toString());
+                    mat2.setCoeficient(Integer.parseInt(coefMatFromForm.getText().toString()));
+                    dao.deleteMatiere(mat2);
+                    Toast.makeText(getActivity().getApplicationContext(),"Matiere modifier",Toast.LENGTH_LONG).show();
+                    
+
+
+                }
+                catch(Exception e){
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
+
         return v;
 
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        if (savedInstanceState != null) {
+            nameMatFromForm.setText(savedInstanceState.getString("nomMatiere"));
+            coefMatFromForm.setText(coefMatFromForm.getText().toString());
+        }
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("nomMatiere", nameMatFromForm.getText().toString());
+        outState.putString("coef",coefMatFromForm.getText().toString());
     }
 
 }
