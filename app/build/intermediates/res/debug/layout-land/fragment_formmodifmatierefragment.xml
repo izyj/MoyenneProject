@@ -43,6 +43,16 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_alignLeft="@+id/et_coefMat"
             android:layout_alignStart="@+id/et_coefMat" />
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:id="@+id/btDeleteMatiere"
+            style="@style/custom_bt_save"
+            android:layout_below="@+id/et_coefMat"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,4 +66,4 @@ tools:context="navi.project.FormAddMatiereFragment">
 
     </RelativeLayout>
 </FrameLayout>
-<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout-land/fragment_formmodifmatierefragment.xml -->
+<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout-land/fragment_formmodifmatierefragment.xml -->

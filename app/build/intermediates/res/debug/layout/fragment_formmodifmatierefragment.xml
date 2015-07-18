@@ -41,10 +41,21 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:text="@string/save"
             android:id="@+id/btSaveMatiere"
             style="@style/custom_bt_save"
+            android:layout_marginTop="49dp"
             android:layout_below="@+id/et_coefMat"
             android:layout_alignLeft="@+id/et_coefMat"
-            android:layout_alignStart="@+id/et_coefMat"
-            android:layout_marginTop="112dp" />
+            android:layout_alignStart="@+id/et_coefMat" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:id="@+id/btDeleteMatiere"
+            style="@style/custom_bt_save"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/btSaveMatiere"
+            android:layout_alignLeft="@+id/btSaveMatiere"
+            android:layout_alignStart="@+id/btSaveMatiere" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -61,4 +72,4 @@ tools:context="navi.project.FormAddMatiereFragment">
 
     </RelativeLayout>
 </FrameLayout>
-<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/fragment_formmodifmatierefragment.xml -->
+<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/fragment_formmodifmatierefragment.xml -->

@@ -2,12 +2,15 @@ package esgi.ikji.mamoyenne;
 
 import android.app.Activity;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -51,7 +54,7 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
     /**
      * Renvoie la vue
      */
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
 
         //Creation de la vue si elle existe pas
         if (convertView == null) {
@@ -59,12 +62,14 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
             convertView = inflater.inflate(layoutResourceId, parent, false);
         }
 
+
         // Recuperation de la matiere et des notes de la matiere
         if(position == 0){
             moygeneValue = 0;
             moygeneCoef = 0;
         }
-        Matiere matiere = data.get(position);
+        final Matiere matiere = data.get(position);
+
         NoteDAO ndao = new NoteDAO(mContext);
 
 
@@ -77,7 +82,12 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
 
         TextView textViewNotes = (TextView) convertView.findViewById(R.id.txt_matiere_notes);
 
+
+
+
+
         // Rempli mon tableau
+
 
         try {
             ArrayList<Note> list_notes = ndao.getAllNoteByMatiere(matiere);
@@ -103,7 +113,16 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
         }else{
             textViewMoyenne.setText(df.format(matiere.getMoyenne()));
         }
+
+
+
+
+      //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
+      //  textViewMoyenne.setText(""+matiere.getMoyenne());
+
+
         addToGeneralAverage(matiere.getMoyenne(),matiere.getCoeficient());
+
         return convertView;
 
     }

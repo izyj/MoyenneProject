@@ -80,6 +80,8 @@ public class MatiereDAO {
         this.open();
         long id = matiere.getId();
         System.out.println("Comment deleted with id: " + id);
+        database.delete(MySQLiteHelper.TABLE_NOTE, MySQLiteHelper.NOTE_ID_MATIERE
+                + " = " + id, null);
         database.delete(MySQLiteHelper.TABLE_MATIERE, MySQLiteHelper.MATIERE_ID
                 + " = " + id, null);
         close();

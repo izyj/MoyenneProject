@@ -1,6 +1,6 @@
 package esgi.ikji.mamoyenne;
 
-        import android.app.Fragment;
+        import android.support.v4.app.Fragment;
         import android.os.Bundle;
         import android.view.LayoutInflater;
         import android.view.View;
@@ -112,6 +112,24 @@ public class FormAddNoteFragment extends Fragment {
 
         }
         return null;
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        if (savedInstanceState != null) {
+            nameNoteFromForm.setText(savedInstanceState.getString("nomMatiere"));
+            coefNoteFromForm.setText(coefNoteFromForm.getText().toString());
+        }
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("nomMatiere", nameNoteFromForm.getText().toString());
+        outState.putString("coef",coefNoteFromForm.getText().toString());
     }
 
 }

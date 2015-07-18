@@ -1,10 +1,10 @@
 package esgi.ikji.mamoyenne;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.content.Context;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -79,6 +79,25 @@ public class FormModifNoteFragment extends Fragment {
 
         return v;
     }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        if (savedInstanceState != null) {
+            valueNoteFromForm.setText(savedInstanceState.getString("nomNote"));
+            coefNoteFromForm.setText(coefNoteFromForm.getText().toString());
+        }
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("nomNote", valueNoteFromForm.getText().toString());
+        outState.putString("coef",coefNoteFromForm.getText().toString());
+    }
+
 
 
 

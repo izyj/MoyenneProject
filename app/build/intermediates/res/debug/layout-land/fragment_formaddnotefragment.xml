@@ -75,4 +75,8 @@ tools:context="navi.project.FormAddNoteFragment.xml">
 
     </RelativeLayout>
 </FrameLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout-land/fragment_formaddnotefragment.xml -->
+=======
+<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout-land/fragment_formaddnotefragment.xml -->
+>>>>>>> d4db782ec127f6ee5b9e127fb87c8d8db1750a30
