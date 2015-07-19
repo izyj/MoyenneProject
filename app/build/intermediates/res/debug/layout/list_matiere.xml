@@ -9,7 +9,8 @@
             android:id="@+id/txt_matiere_name"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            style="@style/txt_value_consult" />
+            style="@style/txt_value_consult"
+             />
         <TextView
             android:id="@+id/txt_matiere_coef"
             android:layout_width="100dp"
@@ -28,4 +29,4 @@
 
 
     </LinearLayout>
-<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/list_matiere.xml -->
+<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/list_matiere.xml -->

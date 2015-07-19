@@ -69,7 +69,7 @@ public class FormModifMatiereFragment extends Fragment {
                     mat2.setNomMatiere(nameMatFromForm.getText().toString());
                     mat2.setCoeficient(Integer.parseInt(coefMatFromForm.getText().toString()));
                     dao.updateMatiere(mat2);
-                    Toast.makeText(getActivity().getApplicationContext(),"Matiere modifier",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity().getApplicationContext(),"Matiere modifiee",Toast.LENGTH_LONG).show();
 
                 }
                 catch(Exception e){
@@ -91,7 +91,7 @@ public class FormModifMatiereFragment extends Fragment {
                     mat2.setNomMatiere(nameMatFromForm.getText().toString());
                     mat2.setCoeficient(Integer.parseInt(coefMatFromForm.getText().toString()));
                     dao.deleteMatiere(mat2);
-                    Toast.makeText(getActivity().getApplicationContext(),"Matiere modifier",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity().getApplicationContext(),"Matiere supprimee",Toast.LENGTH_LONG).show();
 
 
 

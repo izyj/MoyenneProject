@@ -70,7 +70,7 @@ public class ArrayAdapterNotes extends ArrayAdapter<Note> {
                     nt.setValue(edittextValueNote.getText().toString());
                     nt.setCoef(Integer.parseInt(edittextCoefNote.getText().toString()));
                     dao.updateNote(nt);
-                    Toast.makeText(v.getContext(), "Note modifier", Toast.LENGTH_LONG).show();
+                    Toast.makeText(v.getContext(), "Note modifiee", Toast.LENGTH_SHORT).show();
                 }
                 catch(Exception e){
                     e.printStackTrace();
@@ -88,20 +88,15 @@ public class ArrayAdapterNotes extends ArrayAdapter<Note> {
                     nt.setValue(edittextValueNote.getText().toString());
                     nt.setCoef(Integer.parseInt(edittextCoefNote.getText().toString()));
                     dao.deleteNote(nt);
-                    Toast.makeText(v.getContext(), "Note supprimer", Toast.LENGTH_LONG).show();
+                    Toast.makeText(v.getContext(), "Note supprimee", Toast.LENGTH_SHORT).show();
                     remove(nt);
                     notifyDataSetChanged();
                 }
                 catch(Exception e){
                     e.printStackTrace();
                 }
-
-
             }
         });
-      //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
-      //  textViewMoyenne.setText(""+matiere.getMoyenne());
-
         return convertView;
 
     }

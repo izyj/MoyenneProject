@@ -63,9 +63,15 @@ public class FormAddNoteFragment extends Fragment {
 
                     try {
                         String nameMatiere = listMat.getSelectedItem().toString();
-                        Note no = new Note(nameNoteFromForm.getText().toString(),handlerMatiere.getMatiereByName(nameMatiere),Integer.parseInt(coefNoteFromForm.getText().toString()));
-                        tbNote.addNote(no);
-                        Toast.makeText(getActivity().getApplicationContext(),"Note ajoutee",Toast.LENGTH_LONG).show();
+
+                        String tmpNote = nameNoteFromForm.getText().toString();
+                        if(Double.parseDouble(tmpNote) >= 0 && Double.parseDouble(tmpNote) <= 20) {
+                            Note no = new Note(tmpNote, handlerMatiere.getMatiereByName(nameMatiere), Integer.parseInt(coefNoteFromForm.getText().toString()));
+                            tbNote.addNote(no);
+                            Toast.makeText(getActivity().getApplicationContext(), "Note ajoutee", Toast.LENGTH_LONG).show();
+                        }else{
+                            Toast.makeText(getActivity().getApplicationContext(), "Note comprise entre 0 et 20", Toast.LENGTH_LONG).show();
+                        }
 
                     } catch (Exception e) {
                         e.printStackTrace();

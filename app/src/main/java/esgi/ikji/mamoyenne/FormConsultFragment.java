@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -65,7 +67,7 @@ public class FormConsultFragment extends Fragment {
                     View root = inflater.inflate(R.layout.layout_list_item,null);
                     TextView txt_moy_gene = (TextView) root.findViewById(R.id.txt_matiere_moy_general);
                     txt_moy_gene.setText(String.valueOf(getAverageGeneral(adapter.getMoyenneGeneValue(), adapter.getMoyenneGeneCoef())));
-                    Toast.makeText(ct,String.valueOf(getAverageGeneral(adapter.getMoyenneGeneValue(), adapter.getMoyenneGeneCoef())), Toast.LENGTH_LONG).show();
+                    Toast.makeText(ct, String.valueOf(getAverageGeneral(adapter.getMoyenneGeneValue(), adapter.getMoyenneGeneCoef())), Toast.LENGTH_LONG).show();
                 }
             });
 

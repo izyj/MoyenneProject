@@ -23,6 +23,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_marginEnd="41dp"
             android:layout_marginTop="93dp"
             android:width="100dp"
+            android:singleLine="true"
             android:hint="@string/name_matiere" />
 
         <EditText
@@ -32,6 +33,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:width="100dp"
             android:hint="@string/title_table_update_coef"
             android:layout_centerVertical="true"
+            android:singleLine="true"
             android:layout_alignLeft="@+id/et_nameMat"
             android:layout_alignStart="@+id/et_nameMat" />
 
@@ -51,11 +53,13 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_height="wrap_content"
             android:text="@string/delete"
             android:id="@+id/btDeleteMatiere"
-            style="@style/custom_bt_save"
+            style="@style/custom_bt_supr_red"
             android:layout_marginTop="45dp"
             android:layout_below="@+id/btSaveMatiere"
             android:layout_alignLeft="@+id/btSaveMatiere"
-            android:layout_alignStart="@+id/btSaveMatiere" />
+            android:layout_alignStart="@+id/btSaveMatiere"
+            android:layout_alignRight="@+id/btSaveMatiere"
+            android:layout_alignEnd="@+id/btSaveMatiere" />
 
         <TextView
             android:layout_width="wrap_content"

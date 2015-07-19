@@ -51,7 +51,7 @@ public class FormModifNoteFragment extends Fragment {
         }
         //si i a 600 alors on tombe en erreur
             if(i==600){
-               Toast.makeText(getActivity().getApplicationContext(),"Aucune valeur à modifier",Toast.LENGTH_LONG).show();
+               Toast.makeText(getActivity().getApplicationContext(),"Aucune valeur à modifier",Toast.LENGTH_SHORT).show();
                return v;
             }
         try {

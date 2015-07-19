@@ -18,9 +18,12 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:id="@+id/et_nameMat"
             android:width="100dp"
             android:hint="@string/name_matiere"
-            android:layout_above="@+id/et_coefMat"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="43dp"
             android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3" />
+            android:layout_alignStart="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -28,9 +31,11 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:id="@+id/et_coefMat"
             android:width="100dp"
             android:hint="@string/title_table_update_coef"
-            android:layout_above="@+id/btSaveMatiere"
+            android:layout_below="@+id/et_nameMat"
             android:layout_alignLeft="@+id/et_nameMat"
-            android:layout_alignStart="@+id/et_nameMat" />
+            android:layout_alignStart="@+id/et_nameMat"
+            android:layout_alignRight="@+id/et_nameMat"
+            android:layout_alignEnd="@+id/et_nameMat" />
 
         <Button
             android:layout_width="wrap_content"
@@ -38,22 +43,21 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:text="@string/save"
             android:id="@+id/btSaveMatiere"
             style="@style/custom_bt_save"
-            android:layout_marginBottom="39dp"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/et_coefMat"
             android:layout_alignLeft="@+id/et_coefMat"
-            android:layout_alignStart="@+id/et_coefMat" />
+            android:layout_alignStart="@+id/et_coefMat"
+            android:layout_marginTop="33dp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/delete"
             android:id="@+id/btDeleteMatiere"
-            style="@style/custom_bt_save"
-            android:layout_below="@+id/et_coefMat"
-            android:layout_toRightOf="@+id/et_coefMat"
-            android:layout_toEndOf="@+id/et_coefMat"
-            android:layout_marginLeft="65dp"
-            android:layout_marginStart="65dp" />
+            style="@style/custom_bt_supr_red"
+
+            android:layout_alignTop="@+id/btSaveMatiere"
+            android:layout_alignRight="@+id/et_coefMat"
+            android:layout_alignEnd="@+id/et_coefMat" />
 
         <TextView
             android:layout_width="wrap_content"
