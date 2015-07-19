@@ -50,8 +50,10 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:id="@+id/btDeleteMatiere"
             style="@style/custom_bt_save"
             android:layout_below="@+id/et_coefMat"
-            android:layout_alignRight="@+id/textView3"
-            android:layout_alignEnd="@+id/textView3" />
+            android:layout_toRightOf="@+id/et_coefMat"
+            android:layout_toEndOf="@+id/et_coefMat"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp" />
 
         <TextView
             android:layout_width="wrap_content"

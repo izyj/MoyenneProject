@@ -20,6 +20,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53668347d9c65dd7b619cf6aec5bac417115c52b
 import esgi.ikji.mamoyenne.DAO.MatiereDAO;
 import esgi.ikji.mamoyenne.Modele.Matiere;
 
@@ -124,6 +128,7 @@ public class FormConsultFragment extends Fragment {
     public double getAverageGeneral(double res,int coef){
         return res/coef;
     }
+<<<<<<< HEAD
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -133,4 +138,20 @@ public class FormConsultFragment extends Fragment {
         super.onSaveInstanceState(outState);
     }
 
+=======
+
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+    }
+>>>>>>> 53668347d9c65dd7b619cf6aec5bac417115c52b
 }

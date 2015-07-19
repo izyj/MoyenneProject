@@ -11,11 +11,11 @@ Créer le formulaire statique pour les notes : [![alt text](https://github.com/i
 
 Créer le tableau pour la consultation - Version Mobile : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
-Créer le tableau pour la consultation - Version Tablette : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)JONATHAN
+Créer le tableau pour la consultation - Version Tablette : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
 Créer le formulaire de modification d'une matière et des notes : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)JONATHAN
 
-Créer le tableau pour la consultation trié par matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
+Créer le tableau pour la consultation trié par matière : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)IVAN
 
 Créer le tableau pour la consultation trié par note : [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN CONSTRUCTION")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
 

@@ -37,11 +37,9 @@ tools:context="navi.project.FormAddNoteFragment.xml">
             android:text="@string/save"
             style="@style/custom_bt_save"
             android:id="@+id/btSaveNote"
-            android:layout_marginLeft="38dp"
-            android:layout_marginStart="38dp"
-            android:layout_alignTop="@+id/listmatiere"
-            android:layout_toRightOf="@+id/textView3"
-            android:layout_toEndOf="@+id/textView3" />
+            android:layout_alignBottom="@+id/listmatiere"
+            android:layout_toRightOf="@+id/listmatiere"
+            android:layout_toEndOf="@+id/listmatiere" />
 
         <TextView
             android:layout_width="wrap_content"

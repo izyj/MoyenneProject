@@ -26,4 +26,9 @@
             android:layout_height="wrap_content"
             style="@style/txt_value_consult" />
 
+<<<<<<< HEAD
 </LinearLayout>
+=======
+
+    </LinearLayout>
+>>>>>>> 53668347d9c65dd7b619cf6aec5bac417115c52b

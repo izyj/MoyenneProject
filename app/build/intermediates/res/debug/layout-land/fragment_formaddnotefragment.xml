@@ -37,11 +37,9 @@ tools:context="navi.project.FormAddNoteFragment.xml">
             android:text="@string/save"
             style="@style/custom_bt_save"
             android:id="@+id/btSaveNote"
-            android:layout_marginLeft="38dp"
-            android:layout_marginStart="38dp"
-            android:layout_alignTop="@+id/listmatiere"
-            android:layout_toRightOf="@+id/textView3"
-            android:layout_toEndOf="@+id/textView3" />
+            android:layout_alignBottom="@+id/listmatiere"
+            android:layout_toRightOf="@+id/listmatiere"
+            android:layout_toEndOf="@+id/listmatiere" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,4 +73,8 @@ tools:context="navi.project.FormAddNoteFragment.xml">
 
     </RelativeLayout>
 </FrameLayout>
+<<<<<<< HEAD
 <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout-land/fragment_formaddnotefragment.xml -->
+=======
+<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout-land/fragment_formaddnotefragment.xml -->
+>>>>>>> 53668347d9c65dd7b619cf6aec5bac417115c52b
