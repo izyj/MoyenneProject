@@ -125,4 +125,18 @@ public class FormConsultFragment extends Fragment {
     public double getAverageGeneral(double res,int coef){
         return res/coef;
     }
+
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+    }
 }

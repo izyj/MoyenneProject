@@ -91,7 +91,7 @@ public class FormModifMatiereFragment extends Fragment {
                     mat2.setCoeficient(Integer.parseInt(coefMatFromForm.getText().toString()));
                     dao.deleteMatiere(mat2);
                     Toast.makeText(getActivity().getApplicationContext(),"Matiere modifier",Toast.LENGTH_LONG).show();
-                    
+
 
 
                 }
