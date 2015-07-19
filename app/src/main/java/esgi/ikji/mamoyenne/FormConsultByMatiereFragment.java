@@ -18,12 +18,15 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
 import esgi.ikji.mamoyenne.DAO.MatiereDAO;
+import esgi.ikji.mamoyenne.DAO.NoteDAO;
 import esgi.ikji.mamoyenne.Modele.Matiere;
+import esgi.ikji.mamoyenne.Modele.Note;
 
 /**
  * Created by Navi on 25/06/2015.

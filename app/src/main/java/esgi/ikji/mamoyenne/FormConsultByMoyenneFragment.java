@@ -18,12 +18,15 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
 import esgi.ikji.mamoyenne.DAO.MatiereDAO;
+import esgi.ikji.mamoyenne.DAO.NoteDAO;
 import esgi.ikji.mamoyenne.Modele.Matiere;
+import esgi.ikji.mamoyenne.Modele.Note;
 
 /**
  * Created by Navi on 25/06/2015.
@@ -51,18 +54,28 @@ public class FormConsultByMoyenneFragment extends Fragment {
         try {
             ArrayList<Matiere> list = new ArrayList<Matiere>();
             list = tbMat.getAllMatieres();
-
-            // Get the ListView by Id and instantiate the adapter with
-            // matieres data and then set it the ListView
+            NoteDAO ndao = new NoteDAO(getActivity().getApplicationContext());
+            for(Matiere m : list){
+                try {
+                    ArrayList<Note> list_notes = ndao.getAllNoteByMatiere(m);
+                    m.setNotes(list_notes);
+                }catch(SQLException e){
+                    e.printStackTrace();
+                }
+            }
             Collections.sort(list, new Comparator<Matiere>() {
                 @Override
                 public int compare(Matiere lhs, Matiere rhs) {
-                    return lhs.getMoyenne().compareTo(rhs.getMoyenne());
+                    if (lhs.getMoyenne() > rhs.getMoyenne()) return -1;
+
+                    return 1;
                 }
             });
             adapter = new ArrayAdapterMatiere(ct, R.layout.list_matiere, list);
+
             listViewMatieres = (ListView) v.findViewById(R.id.lv_matiere);
             listViewMatieres.setAdapter(adapter);
+
             // Set the onItemClickListener on the ListView to listen for items clicks
             registerForContextMenu(listViewMatieres);
 
