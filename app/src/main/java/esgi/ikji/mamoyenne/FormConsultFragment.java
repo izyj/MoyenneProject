@@ -18,12 +18,9 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
-<<<<<<< HEAD
 import java.util.Collections;
 import java.util.Comparator;
 
-=======
->>>>>>> d4db782ec127f6ee5b9e127fb87c8d8db1750a30
 import esgi.ikji.mamoyenne.DAO.MatiereDAO;
 import esgi.ikji.mamoyenne.Modele.Matiere;
 
