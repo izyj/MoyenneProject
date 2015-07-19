@@ -82,8 +82,10 @@ public class FormAddMatiereFragment extends Fragment {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putString("nomMatiere", nameMatFromForm.getText().toString());
-        outState.putString("coef",coefMatFromForm.getText().toString());
+        if(nameMatFromForm != null) {
+            outState.putString("nomMatiere", nameMatFromForm.getText().toString());
+            outState.putString("coef", coefMatFromForm.getText().toString());
+        }
     }
 
 }

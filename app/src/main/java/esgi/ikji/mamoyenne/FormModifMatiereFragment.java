@@ -36,6 +36,7 @@ public class FormModifMatiereFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // INFLATER
         View v = inflater.inflate(R.layout.fragment_formmodifmatierefragment, container, false);
         final MatiereDAO dao = new MatiereDAO(getActivity());
@@ -102,7 +103,7 @@ public class FormModifMatiereFragment extends Fragment {
 
             }
         });
-
+        ((MainActivity)getActivity()).setCurrent(this);
         return v;
 
     }
@@ -124,5 +125,6 @@ public class FormModifMatiereFragment extends Fragment {
         outState.putString("nomMatiere", nameMatFromForm.getText().toString());
         outState.putString("coef",coefMatFromForm.getText().toString());
     }
+
 
 }

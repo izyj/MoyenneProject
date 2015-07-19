@@ -18,7 +18,7 @@ import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
 public class MainActivity extends ActionBarActivity {
 	FragmentManager manager;
 	FragmentTransaction transaction;
-    Fragment current;
+    public Fragment current;
 
     static final String STATE_TRANSACTION = "transaction";
 	// INITIALISE DATABASE
@@ -138,10 +138,10 @@ public class MainActivity extends ActionBarActivity {
 						.show();
 				break;
 			case R.id.bymatiere:
-				Fragment f = new FormConsultByMatiereFragment();
 				manager = getSupportFragmentManager();
 				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,f);
+                current = new FormConsultByMatiereFragment();
+                transaction.replace(R.id.container,current);
 				transaction.commit();
 				Toast.makeText(this, "Consultation par matiere", Toast.LENGTH_SHORT)
 						.show();
@@ -149,7 +149,8 @@ public class MainActivity extends ActionBarActivity {
 			case R.id.bynote:
 				manager = getSupportFragmentManager();
 				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,new FormConsultByMoyenneFragment());
+                current = new FormConsultByMoyenneFragment();
+                transaction.replace(R.id.container,current);
 				transaction.commit();
 				Toast.makeText(this, "Consultation par moyenne", Toast.LENGTH_SHORT)
 						.show();
@@ -192,5 +193,11 @@ public class MainActivity extends ActionBarActivity {
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         //current = getSupportFragmentManager().getFragment(savedInstanceState,"mContent");
+    }
+
+    public void setCurrent(Fragment f){
+
+            this.current = f;
+
     }
 }
