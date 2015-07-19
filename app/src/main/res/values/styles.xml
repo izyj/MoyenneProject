@@ -25,8 +25,9 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textSize">12dp</item>
+        <item name="android:padding">10dp</item>
     </style>
-
+    
     <style name="lbl_value_consult">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
@@ -53,8 +54,15 @@
     <style name="custom_bt_save">
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textSize">@dimen/h4</item>
         <item name="android:background">@color/green</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    <style name="custom_bt_supr_red">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/h4</item>
+        <item name="android:background">@color/red</item>
         <item name="android:padding">12dp</item>
     </style>
 </resources>

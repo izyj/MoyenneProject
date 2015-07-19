@@ -24,7 +24,7 @@
     <item
         app:showAsAction="always"
         android:id="@+id/bynote"
-        android:title="Par Notes"
+        android:title="Par Moyenne"
         android:orderInCategory="4">
     </item>
 </menu>

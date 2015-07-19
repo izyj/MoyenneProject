@@ -19,7 +19,7 @@
         android:layout_marginBottom="10dp"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
-        android:background="@color/turkish"
+        android:background="@color/blue"
         android:layout_marginLeft="12dp"
         android:textAlignment="center"
         android:paddingLeft="10dp">
@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/title_table_update_value_note"
                 android:textColor="@color/white"
-                android:singleLine="true" />
+                 />
             <TextView
                 android:id="@+id/lbl_note_coef"
                 style="@style/lbl_value_consult"
@@ -52,7 +52,7 @@
             <TextView
                 android:id="@+id/lbl_note_delete"
                 style="@style/lbl_value_consult"
-                android:layout_width="100dp"
+                android:layout_width="110dp"
                 android:layout_height="wrap_content"
                 android:text="@string/title_table_update_bt_delete"
                 android:textColor="@color/white" />
@@ -63,7 +63,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/layout_note_title"
-        android:background="@color/bluelist"
         android:divider="@color/orange"
         android:dividerHeight="1dp"
         android:layout_alignParentLeft="true"

@@ -192,12 +192,9 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-        //current = getSupportFragmentManager().getFragment(savedInstanceState,"mContent");
     }
 
     public void setCurrent(Fragment f){
-
             this.current = f;
-
     }
 }

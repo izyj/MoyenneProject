@@ -22,6 +22,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_marginRight="41dp"
             android:layout_marginEnd="41dp"
             android:layout_marginTop="93dp"
+            android:singleLine="true"
             android:width="150dp"
             android:hint="@string/name_matiere" />
 
@@ -32,6 +33,7 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_marginTop="41dp"
             android:width="150dp"
             android:hint="@string/title_table_update_coef"
+            android:singleLine="true"
             android:layout_below="@+id/et_nameMat"
             android:layout_alignLeft="@+id/et_nameMat"
             android:layout_alignStart="@+id/et_nameMat" />
@@ -64,4 +66,4 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:layout_marginLeft="-25dp" />
     </RelativeLayout>
 </FrameLayout>
-<!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/layout/fragment_formaddmatierefragment.xml -->
+<!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/layout/fragment_formaddmatierefragment.xml -->

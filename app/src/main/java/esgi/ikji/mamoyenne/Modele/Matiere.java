@@ -71,7 +71,6 @@ public class Matiere {
             res += Double.parseDouble(n.getValue()) * n.getCoef();
             cpt += n.getCoef();
         }
-
         return res/cpt;
     }
 }

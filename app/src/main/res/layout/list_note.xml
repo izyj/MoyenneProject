@@ -9,11 +9,13 @@
             android:id="@+id/et_note_value"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:singleLine="true"
             style="@style/txt_value_consult" />
         <EditText
             android:id="@+id/et_note_coef"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:singleLine="true"
             style="@style/txt_value_consult" />
         <ImageButton
             android:id="@+id/bt_modif_note"

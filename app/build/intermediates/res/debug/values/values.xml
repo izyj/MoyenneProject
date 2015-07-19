@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -23,13 +23,13 @@
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="black">#000</color>
     <color name="blue">#0083a9</color>
     <color name="bluebuttonpresentation">#1442ae</color>
     <color name="bluelist">#ff98d2ff</color>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -43,11 +43,11 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="green">#009966</color>
     <color name="grey">#8a8c8f</color>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
@@ -60,10 +60,10 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="orange">#F08C09</color>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -73,6 +73,11 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="red">#F00000</color>
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -83,7 +88,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="turkish">#2B9AE5</color>
     <color name="white">#FFF</color>
@@ -112,7 +117,7 @@
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -174,11 +179,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -186,7 +191,7 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="h1">28dp</dimen>
     <dimen name="h2">25dp</dimen>
@@ -194,19 +199,19 @@
     <dimen name="h4">10dp</dimen>
     <dimen name="large_bt_height">70dp</dimen>
     <dimen name="large_bt_width">700dp</dimen>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="simple_text">15dp</dimen>
     <dimen name="small_bt_height">50dp</dimen>
     <dimen name="small_bt_width">400dp</dimen>
     <dimen name="small_sp_height">50dp</dimen>
     <dimen name="small_sp_width">50dp</dimen>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -240,7 +245,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">mamoyenne</string>
@@ -260,10 +265,10 @@
     <string name="name_matiere">Name discipline</string>
     <string name="notes">Notes</string>
     <string name="save">Save</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="titleNewMatiere"><h2>New Discipline</h2></string>
     <string name="titleNewNote"><h2>New Note</h2></string>
@@ -273,13 +278,13 @@
     <string name="title_table_update_coef">Coefficient</string>
     <string name="title_table_update_value_note">Note</string>
     <string name="update_matiere">Update discipline</string>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!--
@@ -291,7 +296,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1533,7 +1538,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/D:/git/android/MoyenneProject/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Navi/Documents/GitHub/MoyenneProject/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="custom_bt">
         <item name="android:gravity">center</item>
@@ -1552,7 +1557,7 @@
     <style name="custom_bt_save">
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:textSize">@dimen/h4</item>
         <item name="android:background">@color/green</item>
         <item name="android:padding">12dp</item>
     </style>
@@ -1561,6 +1566,13 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/h3</item>
         <item name="android:background">@color/orange</item>
+    </style>
+    <style name="custom_bt_supr_red">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/h4</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:padding">12dp</item>
     </style>
     <style name="lbl_value_consult">
         <item name="android:layout_width">0dp</item>
@@ -1577,5 +1589,6 @@
         <item name="android:gravity">center</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textSize">12dp</item>
+        <item name="android:padding">10dp</item>
     </style>
 </resources>

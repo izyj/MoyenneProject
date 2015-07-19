@@ -68,7 +68,7 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
             moygeneValue = 0;
             moygeneCoef = 0;
         }
-        final Matiere matiere = data.get(position);
+        Matiere matiere = data.get(position);
 
         NoteDAO ndao = new NoteDAO(mContext);
 
@@ -119,9 +119,7 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
 
       //  TextView textViewMoyenne = (TextView) convertView.findViewById(R.id.moyenne);
       //  textViewMoyenne.setText(""+matiere.getMoyenne());
-
-
-        addToGeneralAverage(matiere.getMoyenne(),matiere.getCoeficient());
+        addToGeneralAverage(matiere.getMoyenne(), matiere.getCoeficient());
 
         return convertView;
 
@@ -134,11 +132,10 @@ public class ArrayAdapterMatiere extends ArrayAdapter<Matiere> {
             }
         });
     }
-    public void sortNote(){
 
-    }
     public void addToGeneralAverage(double moymatiere,int coefmatiere){
             this.moygeneValue += moymatiere * coefmatiere;
             this.moygeneCoef += coefmatiere;
     }
+
 }

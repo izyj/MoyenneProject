@@ -1327,19 +1327,19 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f080006;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a003c;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0a003d;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0a003d;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0a003e;
         public static final int abc_input_method_navigation_guard=0x7f0a0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0a003e;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0a003f;
-        public static final int abc_primary_text_material_dark=0x7f0a0040;
-        public static final int abc_primary_text_material_light=0x7f0a0041;
-        public static final int abc_search_url_text=0x7f0a0042;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0a003f;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0a0040;
+        public static final int abc_primary_text_material_dark=0x7f0a0041;
+        public static final int abc_primary_text_material_light=0x7f0a0042;
+        public static final int abc_search_url_text=0x7f0a0043;
         public static final int abc_search_url_text_normal=0x7f0a0001;
         public static final int abc_search_url_text_pressed=0x7f0a0002;
         public static final int abc_search_url_text_selected=0x7f0a0003;
-        public static final int abc_secondary_text_material_dark=0x7f0a0043;
-        public static final int abc_secondary_text_material_light=0x7f0a0044;
+        public static final int abc_secondary_text_material_dark=0x7f0a0044;
+        public static final int abc_secondary_text_material_light=0x7f0a0045;
         public static final int accent_material_dark=0x7f0a0004;
         public static final int accent_material_light=0x7f0a0005;
         public static final int background_floating_material_dark=0x7f0a0006;
@@ -1384,20 +1384,21 @@ containing a value of this type.
         public static final int primary_text_default_material_light=0x7f0a002d;
         public static final int primary_text_disabled_material_dark=0x7f0a002e;
         public static final int primary_text_disabled_material_light=0x7f0a002f;
-        public static final int ripple_material_dark=0x7f0a0030;
-        public static final int ripple_material_light=0x7f0a0031;
-        public static final int secondary_text_default_material_dark=0x7f0a0032;
-        public static final int secondary_text_default_material_light=0x7f0a0033;
-        public static final int secondary_text_disabled_material_dark=0x7f0a0034;
-        public static final int secondary_text_disabled_material_light=0x7f0a0035;
-        public static final int switch_thumb_disabled_material_dark=0x7f0a0036;
-        public static final int switch_thumb_disabled_material_light=0x7f0a0037;
-        public static final int switch_thumb_material_dark=0x7f0a0045;
-        public static final int switch_thumb_material_light=0x7f0a0046;
-        public static final int switch_thumb_normal_material_dark=0x7f0a0038;
-        public static final int switch_thumb_normal_material_light=0x7f0a0039;
-        public static final int turkish=0x7f0a003a;
-        public static final int white=0x7f0a003b;
+        public static final int red=0x7f0a0030;
+        public static final int ripple_material_dark=0x7f0a0031;
+        public static final int ripple_material_light=0x7f0a0032;
+        public static final int secondary_text_default_material_dark=0x7f0a0033;
+        public static final int secondary_text_default_material_light=0x7f0a0034;
+        public static final int secondary_text_disabled_material_dark=0x7f0a0035;
+        public static final int secondary_text_disabled_material_light=0x7f0a0036;
+        public static final int switch_thumb_disabled_material_dark=0x7f0a0037;
+        public static final int switch_thumb_disabled_material_light=0x7f0a0038;
+        public static final int switch_thumb_material_dark=0x7f0a0046;
+        public static final int switch_thumb_material_light=0x7f0a0047;
+        public static final int switch_thumb_normal_material_dark=0x7f0a0039;
+        public static final int switch_thumb_normal_material_light=0x7f0a003a;
+        public static final int turkish=0x7f0a003b;
+        public static final int white=0x7f0a003c;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f06000c;
@@ -1546,8 +1547,9 @@ containing a value of this type.
         public static final int background_paper=0x7f02003b;
         public static final int delete=0x7f02003c;
         public static final int ic_launcher=0x7f02003d;
-        public static final int notification_template_icon_bg=0x7f02003f;
-        public static final int update=0x7f02003e;
+        public static final int notification_template_icon_bg=0x7f020040;
+        public static final int separator=0x7f02003e;
+        public static final int update=0x7f02003f;
     }
     public static final class id {
         public static final int action0=0x7f0b007c;
@@ -2098,9 +2100,15 @@ containing a value of this type.
         public static final int Widget_AppCompat_Toolbar=0x7f070124;
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f070125;
         public static final int custom_bt=0x7f070126;
+<<<<<<< HEAD
         public static final int custom_bt_delete=0x7f070127;
         public static final int custom_bt_save=0x7f070128;
         public static final int custom_bt_supr=0x7f070129;
+=======
+        public static final int custom_bt_save=0x7f070127;
+        public static final int custom_bt_supr=0x7f070128;
+        public static final int custom_bt_supr_red=0x7f070129;
+>>>>>>> 9a7658fe216bb8d6f7a0b464282e90ecf1b21c98
         public static final int lbl_value_consult=0x7f07012a;
         public static final int txt_value_consult=0x7f07012b;
     }
