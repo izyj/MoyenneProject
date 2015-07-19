@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="D:\git\android\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="D:\git\android\MoyenneProject\app\build\intermediates\pre-dexed\debug\classes-4ee8f235dd3c02e7d502e919501b4f115ae2589b.jar" />
-    </item>
-    <item
-        jar="D:\git\android\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="D:\git\android\MoyenneProject\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-91c5df98811a0a985311f7181629b7428a25e45d.jar" />
-    </item>
-    <item
-        jar="D:\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="C:\Users\Navi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="D:\git\android\MoyenneProject\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-540674ac4330303f5f532910a5b51156be2fc910.jar" />
+        <dex dex="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-64053b1356615e1b85de152bffbc764a657d4711.jar" />
     </item>
     <item
-        jar="D:\git\android\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\pre-dexed\debug\classes-8ef9d37c6329bac3fba39c474f066f215628a76e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="D:\git\android\MoyenneProject\app\build\intermediates\pre-dexed\debug\classes-fc51f49175dfd0e2469514a93d8aa818f69cfa5e.jar" />
+        <dex dex="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\pre-dexed\debug\classes-e5a04e7c25b8e08d06337c7c20812fd6f4faba70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Navi\Documents\GitHub\MoyenneProject\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-2946c5953a4c5d6379b48843003161d49a4a2b01.jar" />
     </item>
 
 </items>

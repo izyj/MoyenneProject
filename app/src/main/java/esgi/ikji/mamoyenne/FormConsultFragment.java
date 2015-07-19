@@ -18,12 +18,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
-<<<<<<< HEAD
 import java.util.Collections;
 import java.util.Comparator;
-
-=======
->>>>>>> d4db782ec127f6ee5b9e127fb87c8d8db1750a30
 import esgi.ikji.mamoyenne.DAO.MatiereDAO;
 import esgi.ikji.mamoyenne.Modele.Matiere;
 
@@ -54,14 +50,7 @@ public class FormConsultFragment extends Fragment {
             ArrayList<Matiere> list = new ArrayList<Matiere>();
             list = tbMat.getAllMatieres();
 
-            // Get the ListView by Id and instantiate the adapter with
-            // matieres data and then set it the ListView
-            Collections.sort(list, new Comparator<Matiere>() {
-                @Override
-                public int compare(Matiere lhs, Matiere rhs) {
-                    return lhs.getNomMatiere().compareTo(rhs.getNomMatiere());
-                }
-            });
+
             adapter = new ArrayAdapterMatiere(ct, R.layout.list_matiere, list);
             listViewMatieres = (ListView) v.findViewById(R.id.lv_matiere);
             listViewMatieres.setAdapter(adapter);
@@ -135,4 +124,13 @@ public class FormConsultFragment extends Fragment {
     public double getAverageGeneral(double res,int coef){
         return res/coef;
     }
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
+
 }
