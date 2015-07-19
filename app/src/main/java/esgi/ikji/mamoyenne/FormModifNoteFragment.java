@@ -52,12 +52,10 @@ public class FormModifNoteFragment extends Fragment {
         //si i a 600 alors on tombe en erreur
             if(i==600){
                Toast.makeText(getActivity().getApplicationContext(),"Aucune valeur à modifier",Toast.LENGTH_LONG).show();
-                return v;
+               return v;
             }
         try {
-
             Matiere mat = matDAO.getMatiere(i);
-
             ArrayList<Note> list = new ArrayList<Note>();
             list = noteDAO.getAllNoteByMatiere(mat);
 
@@ -76,7 +74,7 @@ public class FormModifNoteFragment extends Fragment {
 
 
 
-
+        ((MainActivity)getActivity()).setCurrent(this);
         return v;
     }
 
@@ -84,18 +82,12 @@ public class FormModifNoteFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        if (savedInstanceState != null) {
-            valueNoteFromForm.setText(savedInstanceState.getString("nomNote"));
-            coefNoteFromForm.setText(coefNoteFromForm.getText().toString());
-        }
-
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putString("nomNote", valueNoteFromForm.getText().toString());
-        outState.putString("coef",coefNoteFromForm.getText().toString());
+
     }
 
 

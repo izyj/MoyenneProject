@@ -41,10 +41,10 @@ tools:context="navi.project.FormAddMatiereFragment">
             android:text="@string/save"
             android:id="@+id/btSaveMatiere"
             style="@style/custom_bt_save"
-            android:layout_marginTop="49dp"
+            android:layout_marginTop="61dp"
             android:layout_below="@+id/et_coefMat"
-            android:layout_alignLeft="@+id/et_coefMat"
-            android:layout_alignStart="@+id/et_coefMat" />
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3" />
 
         <Button
             android:layout_width="wrap_content"

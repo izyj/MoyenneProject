@@ -128,8 +128,10 @@ public class FormAddNoteFragment extends Fragment {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putString("nomMatiere", nameNoteFromForm.getText().toString());
-        outState.putString("coef",coefNoteFromForm.getText().toString());
+            if(nameNoteFromForm != null) {
+                outState.putString("nomMatiere", nameNoteFromForm.getText().toString());
+                outState.putString("coef", coefNoteFromForm.getText().toString());
+            }
     }
 
 }

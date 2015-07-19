@@ -18,7 +18,7 @@ import esgi.ikji.mamoyenne.DAO.MySQLiteHelper;
 public class MainActivity extends ActionBarActivity {
 	FragmentManager manager;
 	FragmentTransaction transaction;
-    Fragment current;
+    public Fragment current;
 
     static final String STATE_TRANSACTION = "transaction";
 	// INITIALISE DATABASE
@@ -121,6 +121,13 @@ public class MainActivity extends ActionBarActivity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
+            case R.id.logo:
+                manager = getSupportFragmentManager();
+                transaction = manager.beginTransaction();
+                current = new PresentationFragment();
+                transaction.replace(R.id.container, current);
+                transaction.commit();
+                break;
 			case R.id.consult:
                 manager = getSupportFragmentManager();
 				transaction = manager.beginTransaction();
@@ -131,24 +138,21 @@ public class MainActivity extends ActionBarActivity {
 						.show();
 				break;
 			case R.id.bymatiere:
-				Fragment f = new FormConsultFragment();
 				manager = getSupportFragmentManager();
 				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,f);
+                current = new FormConsultByMatiereFragment();
+                transaction.replace(R.id.container,current);
 				transaction.commit();
-
-				f.getView().findViewById(R.id.listmatiere);
-
-
 				Toast.makeText(this, "Consultation par matiere", Toast.LENGTH_SHORT)
 						.show();
 				break;
 			case R.id.bynote:
 				manager = getSupportFragmentManager();
 				transaction = manager.beginTransaction();
-				transaction.replace(R.id.container,new FormConsultFragment());
+                current = new FormConsultByMoyenneFragment();
+                transaction.replace(R.id.container,current);
 				transaction.commit();
-				Toast.makeText(this, "Consultation par note", Toast.LENGTH_SHORT)
+				Toast.makeText(this, "Consultation par moyenne", Toast.LENGTH_SHORT)
 						.show();
 				break;
 			default:
@@ -176,7 +180,6 @@ public class MainActivity extends ActionBarActivity {
 		}
 		return super.onMenuOpened(featureId, menu);
 	}
-
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
 
@@ -186,10 +189,15 @@ public class MainActivity extends ActionBarActivity {
         getSupportFragmentManager().putFragment(savedInstanceState, "mContent", current);
 
     }
-
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
         //current = getSupportFragmentManager().getFragment(savedInstanceState,"mContent");
+    }
+
+    public void setCurrent(Fragment f){
+
+            this.current = f;
+
     }
 }
