@@ -2098,10 +2098,11 @@ containing a value of this type.
         public static final int Widget_AppCompat_Toolbar=0x7f070124;
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f070125;
         public static final int custom_bt=0x7f070126;
-        public static final int custom_bt_save=0x7f070127;
-        public static final int custom_bt_supr=0x7f070128;
-        public static final int lbl_value_consult=0x7f070129;
-        public static final int txt_value_consult=0x7f07012a;
+        public static final int custom_bt_delete=0x7f070127;
+        public static final int custom_bt_save=0x7f070128;
+        public static final int custom_bt_supr=0x7f070129;
+        public static final int lbl_value_consult=0x7f07012a;
+        public static final int txt_value_consult=0x7f07012b;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

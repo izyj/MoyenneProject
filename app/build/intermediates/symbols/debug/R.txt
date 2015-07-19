@@ -961,10 +961,11 @@ int style Widget_AppCompat_TextView_SpinnerItem 0x7f070123
 int style Widget_AppCompat_Toolbar 0x7f070124
 int style Widget_AppCompat_Toolbar_Button_Navigation 0x7f070125
 int style custom_bt 0x7f070126
-int style custom_bt_save 0x7f070127
-int style custom_bt_supr 0x7f070128
-int style lbl_value_consult 0x7f070129
-int style txt_value_consult 0x7f07012a
+int style custom_bt_delete 0x7f070127
+int style custom_bt_save 0x7f070128
+int style custom_bt_supr 0x7f070129
+int style lbl_value_consult 0x7f07012a
+int style txt_value_consult 0x7f07012b
 int[] styleable ActionBar { 0x7f010001, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01007d }
 int styleable ActionBar_background 10
 int styleable ActionBar_backgroundSplit 12

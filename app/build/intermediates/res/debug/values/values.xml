@@ -1542,6 +1542,13 @@
         <item name="android:background">@color/blue</item>
         <item name="android:layout_marginTop">10dp</item>
     </style>
+    <style name="custom_bt_delete">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/h3</item>
+        <item name="android:background">@color/switch_thumb_normal_material_dark</item>
+        <item name="android:padding">12dp</item>
+    </style>
     <style name="custom_bt_save">
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/white</item>
